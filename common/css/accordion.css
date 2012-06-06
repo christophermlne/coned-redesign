@@ -1,0 +1,106 @@
+.accr-hidden {
+	display:none;
+}
+.accr-show {
+	display:visible;
+}
+.accr {
+	position:fixed;
+	left:0;
+	height:0;
+	z-index:500;
+}
+#accr1 { top: 210px;}
+#accr2 { top: 365px;}
+#accr3 { top: 520px;}
+.accr-item {
+	position:relative;
+	height:150px;
+	width:25px;
+	background:white;
+	box-shadow: 1px 1px 2px hsla(0,0%,0%,0.4);
+}
+.accr-content {
+	width:100%;
+}
+/* .accr-content ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.accr-content ul li a {
+	color: #444;
+	display:block;
+	padding:5px;
+	border-bottom: 1px dotted #cccccc;
+	font-size: 13px;
+	font-family: arial,helvetica,sans-serif;
+	font-weight: normal;
+	padding-left: 10px;
+	margin-bottom:0;
+}
+.accr-content ul li a:hover {
+	background: hsl(0,0%,94%);
+}*/
+/* added to give style like choose your path */
+.accr-content ul {
+    list-style: none outside url("http://cfprod.sheridaninstitute.ca/sitecore/onlinelearninglanding/list_img.png");
+    margin-left: 22px;
+    padding: 0;
+    width: 205px;
+}
+
+.accr-content ul li a {
+    border-bottom: 1px dotted #CCCCCC;
+    color: #2173AB;
+    display: block;
+    font-family: Verdana,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding: 5px 0px 5px 0px;
+    text-decoration: none;
+}
+
+
+.accr-content ul li a:hover {
+    background-color:#e2f0f7;
+    text-decoration:underline;
+}
+
+
+/* If the width of this button changes, it must 
+   also be updated in function.js / function 
+   homepageAccordion, or the accordion will break
+ */
+.accr-btn {
+	width:25px;
+	height:100%;
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	text-indent:-9999px;
+}
+.accr-btn-active {
+	background:darkgrey;
+}
+.accr-btn1-open {
+	background: url('../images/accr-images/bg-accr.jpg') no-repeat -14px 0;
+}
+.accr-btn1-closed {
+	background: url('../images/accr-images/bg-accr.jpg') no-repeat -53px 0;
+}
+.accr-btn2-open {
+	background: url('../images/accr-images/bg-accr.jpg') no-repeat -131px 0;
+}
+.accr-btn2-closed {
+	background: url('../images/accr-images/bg-accr.jpg') no-repeat -92px 0;
+}
+.accr-btn3-open {
+	background: url('../images/accr-images/bg-accr.jpg') no-repeat -170px 0;
+}
+.accr-btn3-closed {
+	background: url('../images/accr-images/bg-accr.jpg') no-repeat -209px 0;
+}
+

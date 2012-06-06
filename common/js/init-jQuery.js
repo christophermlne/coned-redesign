@@ -1,0 +1,1 @@
+$(document).ready(function(){	initjQuery();});function initjQuery(){	    createRoundCorners();	initTabs();	createLeftNavigationBg();}function checkMaxValue(num, maxnum){	if (num == maxnum)	{		return true;	}}function checkMinValue(num, minnum){	if (num == minnum)	{		return true;	}}
