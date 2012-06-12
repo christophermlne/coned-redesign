@@ -1,0 +1,105 @@
+/*---------------------------------------------------
+    LESS Elements 0.6
+  ---------------------------------------------------
+    A set of useful LESS mixins by Dmitry Fadeyev
+    Special thanks for mixin suggestions to:
+      Kris Van Herzeele,
+      Benoit Adam,
+      Portenart Emile-Victor,
+      Ryan Faerman
+
+    More info at: http://lesselements.com
+-----------------------------------------------------*/
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+#big-audience-nav {
+  /* this comment will show up */
+
+}
+#big-audience-nav nav ul li {
+  float: left;
+  text-align: center;
+}
+#big-audience-nav nav ul li a {
+  display: block;
+  background: grey;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+  font-size: 1.6em;
+  text-decoration: none;
+  display: inline;
+  float: left;
+  width: 308px;
+  margin: 0 6px;
+}
+#coned-messaging-area {
+  display: inline;
+  float: left;
+  width: 948px;
+  margin: 0 6px;
+  background: grey;
+  height: 400px;
+  margin-top: 1em;
+}
+#coned-search-bar {
+  display: inline;
+  float: left;
+  width: 948px;
+  margin: 0 6px;
+  background: grey;
+  height: 70px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#coned-landing-content {
+  min-height: 300px;
+  padding-top: 3em;
+}
+#coned-landing-content #coned-clusters {
+  background: grey;
+  display: inline;
+  float: left;
+  width: 628px;
+  margin: 0 6px;
+  height: 300px;
+}
+#coned-landing-content #coned-clusters .wrapper {
+  display: block;
+  width: 652px;
+  margin: 0 -6px;
+  *zoom: 1;
+}
+#coned-landing-content #coned-clusters .wrapper:before,
+#coned-landing-content #coned-clusters .wrapper:after {
+  content: "";
+  display: table;
+}
+#coned-landing-content #coned-clusters .wrapper:after {
+  clear: both;
+}
+#coned-landing-content #coned-clusters .box {
+  display: inline;
+  float: left;
+  width: 188px;
+  margin: 0 6px;
+  background: grey;
+}
+#coned-landing-content #coned-aside {
+  background: grey;
+  display: inline;
+  float: left;
+  width: 308px;
+  margin: 0 6px;
+  height: 300px;
+}
