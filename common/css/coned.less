@@ -8,6 +8,34 @@
 
 //@total-width: 100%;
 
+
+.clearfix {
+
+	&:after {
+		clear: both;
+		content: ' ';
+		display: block;
+		font-size: 0;
+		line-height: 0;
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+
+
+
 #big-audience-nav {
 
 	// this comment will not show up
@@ -71,75 +99,34 @@
 
 
 /* addition */
-
-
-	
-	#class_box_shadow{
-	width: 205px;
-	height: 205px;
-    margin:0px auto;
-	background: #eeeeee;
-	border: 5px solid white;
-	position:relative;
-	float:left;
-	margin-left:20px;
-	margin-top:20px;
-	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.20);
-	-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.20);
-	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.20);
-	font-family: Verdana, Geneva, sans-serif;
-}
-
-.last-block {
-		margin-right:0px;
-}
-	
-.cluster-icon {
-	display:block;
-	width:64px;
-	height:64px;
-	position: absolute;
-	left: 70px;
-	top: 50px;
+#coned-clusters {
+	ul {
+		
+		li {
+			float:left;
+			
+			h3 {
+				color: #333;
+				font-size:12px;
+				text-align: center;
+				text-transform: uppercase;
+				letter-spacing:.1em;
+			}
+			a {
+				width: 205px;
+				height: 205px;
+				background: #eeeeee;
+				border: 5px solid white;
+				margin-top:20px;
+				.box-shadow(1px 1px 2px rgba(0, 0, 0, 0.20);
+				text-decoration:none;
+				.clearfix;
+			}
+			img {
+				width:64px;
+				height:64px;
+				margin:0 auto;
+			}
+		}
 	}
-
-.cluster-name {
-	color: #333;
-	font-size:12px;
-	text-align: center;
-	display:block;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	text-transform: uppercase;
-	margin: 150px 0 0 0;
-	letter-spacing:.1em;
-	}
-	
-#cluster-area ul li h3{color:#333333;font-size:10px;}
-
-#cluster-area ul li img{
-	    display: block;
-		width:64px;
-		height:64px;
-		position: absolute;
-		left: 70px;
-		top: 50px;
-	}
-#cluster-area ul li a{
-	width: 205px;
-	height: 205px;
-    margin:0px auto;
-	background: #eeeeee;
-	border: 5px solid white;
-	position:relative;
-	float:left;
-	margin-left:20px;
-	margin-top:20px;
-	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.20);
-	-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.20);
-	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.20);
-	text-decoration:none;
-}
-#cluster-area ul li{
-	list-style: none;
-	margin: 0px;
 }
