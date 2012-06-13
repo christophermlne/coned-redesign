@@ -1,7 +1,7 @@
 <div id="big-audience-nav">
    <nav>
         <ul>
-            <li><a href="#">Prospective Students</a></li>
+            <li class="active-tab"><a href="#">Prospective Students</a></li>
             <li><a href="#">Newcomers</a></li>
             <li><a href="#">Current Students</a></li>
         </ul>
@@ -9,7 +9,13 @@
 </div>
 <div id="coned-messaging-area"><h1>hello world</h1></div>
 <div id="coned-search-bar">
-    <h1>Explore Continuing Education</h1>
+    <h1><span>Explore</span> &#124 Continuing Education</h1>
+    <form action="">
+        <fieldset>
+            <input type="text">
+            <input type="submit">
+        </fieldset>
+    </form>
 </div>
                         
 <div id="coned-landing-content">
@@ -93,14 +99,7 @@
     </section>
     <aside id="coned-aside">
         <ul>
-            <li>
-                <a href="#">What's New</a>
-                <ul>
-                    <li><a href="#">Item One</a></li>
-                    <li><a href="#">Item Two</a></li>
-                    <li><a href="#">Item Three</a></li>
-                </ul>
-            </li>
+            <li><a href="#">What's New</a></li>
             <li><a href="#">General Info</a></li>
             <li><a href="#">Fees</a></li>
             <li><a href="#">Important Dates</a></li>

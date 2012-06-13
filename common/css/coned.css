@@ -62,7 +62,7 @@ body:after {
 }
 #big-audience-nav nav ul li a {
   display: block;
-  background: grey;
+  background: darkgrey;
   padding-top: 1em;
   padding-bottom: 1em;
   color: white;
@@ -72,6 +72,12 @@ body:after {
   float: left;
   width: 308px;
   margin: 0 6px;
+}
+#big-audience-nav nav ul li a:hover {
+  background: grey;
+}
+#big-audience-nav nav ul li.active-tab a {
+  background: grey;
 }
 #coned-messaging-area {
   display: inline;
@@ -91,6 +97,26 @@ body:after {
   height: 70px;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+#coned-search-bar h1 {
+  font-size: 2em;
+  font-weight: normal;
+  padding-top: 1em;
+  margin-left: 2em;
+}
+#coned-search-bar h1 span {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#coned-search-bar form {
+  float: right;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  margin-right: 3em;
+}
+#coned-search-bar form fieldset {
+  float: right;
 }
 #coned-landing-content #coned-clusters {
   display: inline;
