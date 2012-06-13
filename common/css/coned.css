@@ -1,1 +1,209 @@
-body{width:100%;*zoom:1;display:inline-block;display:block}body:before,body:after{content:"";display:table}body:after{clear:both}body:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}.clearfix{display:inline-block}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix{height:1%}.clearfix{display:block}.hide{display:none}#big-audience-nav nav ul li{float:left;text-align:center}#big-audience-nav nav ul li a{display:block;background:grey;padding-top:1em;padding-bottom:1em;color:white;font-size:1.6em;text-decoration:none;display:inline;float:left;width:308px;margin:0 6px}#coned-messaging-area{display:inline;float:left;width:948px;margin:0 6px;background:grey;height:400px;margin-top:1em}#coned-search-bar{display:inline;float:left;width:948px;margin:0 6px;background:grey;height:70px;margin-top:1em;margin-bottom:1em}#coned-landing-content #coned-clusters{display:inline;float:left;width:708px;margin:0 6px}#coned-landing-content #coned-clusters .wrapper{display:block;width:732px;margin:0 -6px;*zoom:1;display:inline-block;display:block}#coned-landing-content #coned-clusters .wrapper:before,#coned-landing-content #coned-clusters .wrapper:after{content:"";display:table}#coned-landing-content #coned-clusters .wrapper:after{clear:both}#coned-landing-content #coned-clusters .wrapper:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}#coned-landing-content #coned-aside{background:grey;display:inline;float:left;width:228px;margin:0 6px}#coned-clusters ul li{float:left;display:inline;float:left;width:228px;margin:0 6px}#coned-clusters ul li h2{padding:3em 0;background:red}#coned-clusters ul li h3{color:#333;font-size:1em;text-align:center;text-transform:uppercase;letter-spacing:.1em;margin-top:60%}#coned-clusters ul li a{height:205px;border:5px solid white;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);box-shadow:1px 1px 2px rgba(0,0,0,0.2);text-decoration:none;margin-bottom:15px;*zoom:1;display:inline-block;display:block}#coned-clusters ul li a:before,#coned-clusters ul li a:after{content:"";display:table}#coned-clusters ul li a:after{clear:both}#coned-clusters ul li a:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}#coned-clusters ul li #arts-and-design{background:url('/common/coned_images/clusters/arts_design.png') #eee center 30% no-repeat}#coned-clusters ul li #business{background:url('/common/coned_images/clusters/business.png') #eee center 30% no-repeat}#coned-clusters ul li #communication-language{background:url('/common/coned_images/clusters/communication_language.png') #eee center 30% no-repeat}#coned-clusters ul li #computer-studies{background:url('/common/coned_images/clusters/computer_studies.png') #eee center 30% no-repeat}#coned-clusters ul li #education-liberal-studies{background:url('/common/coned_images/clusters/education_liberal_studies.png') #eee center 30% no-repeat}#coned-clusters ul li #environmental-studies{background:url('/common/coned_images/clusters/environmental_studies.png') #eee center 30% no-repeat}#coned-clusters ul li #health-wellness{background:url('/common/coned_images/clusters/health_wellness.png') #eee center 30% no-repeat}#coned-clusters ul li #justice-studies{background:url('/common/coned_images/clusters/justice_studies.png') #eee center 30% no-repeat}#coned-clusters ul li #manufacturing-tech-trades{background:url('/common/coned_images/clusters/manufacturing_tech_trades.png') #eee center 30% no-repeat}
+/*---------------------------------------------------
+    LESS Elements 0.6
+  ---------------------------------------------------
+    A set of useful LESS mixins by Dmitry Fadeyev
+    Special thanks for mixin suggestions to:
+      Kris Van Herzeele,
+      Benoit Adam,
+      Portenart Emile-Victor,
+      Ryan Faerman
+
+    More info at: http://lesselements.com
+-----------------------------------------------------*/
+body {
+  width: 100%;
+  *zoom: 1;
+  display: inline-block;
+  display: block;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+body:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.clearfix {
+  display: inline-block;
+}
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+.hide {
+  display: none;
+}
+#big-audience-nav nav ul li {
+  float: left;
+  text-align: center;
+}
+#big-audience-nav nav ul li a {
+  display: block;
+  background: grey;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+  font-size: 1.6em;
+  text-decoration: none;
+  display: inline;
+  float: left;
+  width: 308px;
+  margin: 0 6px;
+}
+#coned-messaging-area {
+  display: inline;
+  float: left;
+  width: 948px;
+  margin: 0 6px;
+  background: grey;
+  height: 400px;
+  margin-top: 1em;
+}
+#coned-search-bar {
+  display: inline;
+  float: left;
+  width: 948px;
+  margin: 0 6px;
+  background: grey;
+  height: 70px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#coned-landing-content #coned-clusters {
+  display: inline;
+  float: left;
+  width: 708px;
+  margin: 0 6px;
+}
+#coned-landing-content #coned-clusters .wrapper {
+  display: block;
+  width: 732px;
+  margin: 0 -6px;
+  *zoom: 1;
+  display: inline-block;
+  display: block;
+}
+#coned-landing-content #coned-clusters .wrapper:before,
+#coned-landing-content #coned-clusters .wrapper:after {
+  content: "";
+  display: table;
+}
+#coned-landing-content #coned-clusters .wrapper:after {
+  clear: both;
+}
+#coned-landing-content #coned-clusters .wrapper:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+#coned-landing-content #coned-aside {
+  background: grey;
+  display: inline;
+  float: left;
+  width: 228px;
+  margin: 0 6px;
+}
+#coned-clusters ul li {
+  float: left;
+  display: inline;
+  float: left;
+  width: 228px;
+  margin: 0 6px;
+}
+#coned-clusters ul li h2 {
+  padding: 3em 0;
+  background: red;
+}
+#coned-clusters ul li h3 {
+  color: #333;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 60%;
+}
+#coned-clusters ul li a {
+  height: 205px;
+  border: 5px solid white;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  margin-bottom: 15px;
+  *zoom: 1;
+  display: inline-block;
+  display: block;
+}
+#coned-clusters ul li a:before,
+#coned-clusters ul li a:after {
+  content: "";
+  display: table;
+}
+#coned-clusters ul li a:after {
+  clear: both;
+}
+#coned-clusters ul li a:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+#coned-clusters ul li #arts-and-design {
+  background: url('/common/coned_images/clusters/arts_design.png') #eeeeee center 30% no-repeat;
+}
+#coned-clusters ul li #business {
+  background: url('/common/coned_images/clusters/business.png') #eeeeee center 30% no-repeat;
+}
+#coned-clusters ul li #communication-language {
+  background: url('/common/coned_images/clusters/communication_language.png') #eeeeee center 30% no-repeat;
+}
+#coned-clusters ul li #computer-studies {
+  background: url('/common/coned_images/clusters/computer_studies.png') #eeeeee center 30% no-repeat;
+}
+#coned-clusters ul li #education-liberal-studies {
+  background: url('/common/coned_images/clusters/education_liberal_studies.png') #eeeeee center 30% no-repeat;
+}
+#coned-clusters ul li #environmental-studies {
+  background: url('/common/coned_images/clusters/environmental_studies.png') #eeeeee center 30% no-repeat;
+}
+#coned-clusters ul li #health-wellness {
+  background: url('/common/coned_images/clusters/health_wellness.png') #eeeeee center 30% no-repeat;
+}
+#coned-clusters ul li #justice-studies {
+  background: url('/common/coned_images/clusters/justice_studies.png') #eeeeee center 30% no-repeat;
+}
+#coned-clusters ul li #manufacturing-tech-trades {
+  background: url('/common/coned_images/clusters/manufacturing_tech_trades.png') #eeeeee center 30% no-repeat;
+}

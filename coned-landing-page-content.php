@@ -7,7 +7,7 @@
         </ul>
     </nav>
 </div>
-<div id="coned-messaging-area"></div>
+<div id="coned-messaging-area"><h1>hello world</h1></div>
 <div id="coned-search-bar">
     <h1>Explore Continuing Education</h1>
 </div>
