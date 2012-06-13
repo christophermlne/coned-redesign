@@ -92,6 +92,16 @@
         </div>
     </section>
     <aside id="coned-aside">
-        what up
+        <ul>
+            <li><a href="#">What's New</a></li>
+            <li><a href="#">General Info</a></li>
+            <li><a href="#">Fees</a></li>
+            <li><a href="#">Important Dates</a></li>
+            <li><a href="#">Information Sessions</a></li>
+            <li><a href="#">Policies</a></li>
+            <li><a href="#">How to Register</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">A-Z Course Listing</a></li>
+        </ul>
     </aside>
 </div>
