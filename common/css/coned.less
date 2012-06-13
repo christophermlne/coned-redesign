@@ -32,14 +32,10 @@
 .clearfix {
 	display: block;
 }
-
-
-
-
+.hide {
+	display:none;
+}
 #big-audience-nav {
-
-	// this comment will not show up
-	/* this comment will show up */
 	nav {
 		ul {
 			li {
@@ -74,58 +70,69 @@
 	margin-bottom:1em;
 }
 #coned-landing-content {		
-	min-height:300px;
-	padding-top:3em;
 	#coned-clusters {
-
 		.wrapper {
-			.row(8);
+			.row(9);
 		}
-		background:grey;
-		.column(8,8);
-		height:300px;
-		.box {
-			.column(2.5,8);
-			background:grey;
-		}
+		.column(9,9);
 	}
 	#coned-aside {
 		background:grey;
-		.column(4,12);
-		height:300px;
+		.column(3,12);
 	}
-
 }
-
-
-/* addition */
 #coned-clusters {
 	ul {
-		
 		li {
 			float:left;
-			
+			.column(3,9);
+			h2 {
+				padding:3em 0;
+				background:red;
+			}
 			h3 {
 				color: #333;
-				font-size:12px;
+				font-size:1em;
 				text-align: center;
 				text-transform: uppercase;
 				letter-spacing:.1em;
+				margin-top:60%;
 			}
 			a {
-				width: 205px;
 				height: 205px;
-				background: #eeeeee;
 				border: 5px solid white;
-				margin-top:20px;
 				.box-shadow(1px 1px 2px rgba(0, 0, 0, 0.20);
 				text-decoration:none;
+				margin-bottom:15px;
 				.clearfix;
 			}
-			img {
-				width:64px;
-				height:64px;
-				margin:0 auto;
+			@icon-position:#eee center 30% no-repeat;
+			#arts-and-design {
+				background:url('/common/coned_images/clusters/arts_design.png') @icon-position;
+			}
+			#business {
+				background:url('/common/coned_images/clusters/business.png') @icon-position;	
+			}
+			#communication-language {
+				background:url('/common/coned_images/clusters/communication_language.png') @icon-position;	
+			}
+			#computer-studies {
+				background:url('/common/coned_images/clusters/computer_studies.png') @icon-position;	
+			}
+			#education-liberal-studies {
+				background:url('/common/coned_images/clusters/education_liberal_studies.png') @icon-position;	
+			}
+			#environmental-studies {
+				background:url('/common/coned_images/clusters/environmental_studies.png') @icon-position;	
+			}
+			#health-wellness {
+				background:url('/common/coned_images/clusters/health_wellness.png') @icon-position;
+			}
+			#justice-studies {
+				background:url('/common/coned_images/clusters/justice_studies.png') @icon-position;
+			}
+			#manufacturing-tech-trades {
+				background:url('/common/coned_images/clusters/manufacturing_tech_trades.png') @icon-position;	
 			}
 		}
 	}

@@ -211,53 +211,7 @@
                                 <img src="common/images/social-icon.png" />
                                 </div>
                             </div>
-                            <div id="big-audience-nav">
-                                <nav>
-                                    <ul>
-                                        <li><a href="#">Prospective Students</a></li>
-                                        <li><a href="#">Newcomers</a></li>
-                                        <li><a href="#">Current Students</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <div id="coned-messaging-area"></div>
-                            <div id="coned-search-bar">
-                                <h1>Explore Continuing Education</h1>
-                            </div>
-                            
-
-
-
-
-                            <div id="coned-landing-content">
-                                <section id="coned-clusters">
-                                    <h1>Browse by Area of Interest</h1>
-                                    <div class="wrapper">
-                                        <div class="box">1</div>
-                                        <div class="box">2</div>
-                                        <div class="box">3</div>
-
-                                        <ul>
-                                            <li><a href href="#"><img src="common/coned_images/clusters/arts_design.png"/><h3>Arts &amp; Design</h3></a></li>
-                                            <li><a href href="#"><img src="common/coned_images/clusters/business.png"/><h3>Cluster Name</h3><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></a></li>
-                                            <li><a href href="#"><img src="common/coned_images/clusters/communication_language.png"/><h3>Cluster Name</h3><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></a></li>
-                                            <li><a href href="#"><img src="common/coned_images/clusters/computer_studies.png"/><h3>Cluster Name</h3><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></a></li>
-                                            <li><a href href="#"><img src="common/coned_images/clusters/education_liberal_studies.png"/><h3>Cluster Name</h3><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></a></li>
-                                            <li><a href href="#"><img src="common/coned_images/clusters/environmental_studies.png"/><h3>Cluster Name</h3><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></a></li>
-                                            <li><a href href="#"><img src="common/coned_images/clusters/health_wellness.png"/><h3>Cluster Name</h3><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></a></li>
-                                            <li><a href href="#"><img src="common/coned_images/clusters/justice_studies.png"/><h3>Cluster Name</h3><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></a></li>
-                                            <li><a href href="#"><img src="common/coned_images/clusters/environmental_studies.png"/><h3>Cluster Name</h3><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></a></li>
-                                            <li><a href href="#"><img src="common/coned_images/clusters/manufacturing_tech_trades.png"/><h3>Cluster Name</h3><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></a></li>
-
-                                            <li><a href href="#"><img src="common/coned_images/clusters/manufacturing_tech_trades.png"/><h3>Cluster Name</h3><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></a></li>
-                                        </ul>
-
-                                    </div>
-                                </section>
-                                <aside id="coned-aside">
-                                    what up
-                                </aside>
-                            </div>
+                            <?php include('coned-landing-page-content.php'); ?>
                             
                         
                 </div>
