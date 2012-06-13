@@ -93,7 +93,14 @@
     </section>
     <aside id="coned-aside">
         <ul>
-            <li><a href="#">What's New</a></li>
+            <li>
+                <a href="#">What's New</a>
+                <ul>
+                    <li><a href="#">Item One</a></li>
+                    <li><a href="#">Item Two</a></li>
+                    <li><a href="#">Item Three</a></li>
+                </ul>
+            </li>
             <li><a href="#">General Info</a></li>
             <li><a href="#">Fees</a></li>
             <li><a href="#">Important Dates</a></li>
