@@ -146,7 +146,7 @@
 <div id="coned-layerslider">
 <div id="dim">
 
-            <div id="layerslider" style="width: 80%;">
+            <div id="layerslider">
                 
                 <div class="ls-layer" rel="slidedelay: 3000; slidedirection: top;" style="background: url('common/layerslider/gallery/bgr2.jpg') center center">
                     <img class="ls-s3" src="common/layerslider/gallery/l16.png" alt="sublayer" style="left: 50%; top: 50%">
