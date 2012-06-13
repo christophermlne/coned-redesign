@@ -99,10 +99,12 @@ body:after {
   margin-bottom: 1em;
 }
 #coned-search-bar h1 {
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: normal;
-  padding-top: 1em;
+  margin-top: 1.25em;
   margin-left: 2em;
+  width: 43%;
+  float: left;
 }
 #coned-search-bar h1 span {
   font-size: 1.2em;
@@ -110,13 +112,59 @@ body:after {
 }
 #coned-search-bar form {
   float: right;
-  width: 50%;
-  margin: 0;
-  padding: 0;
+  width: 46%;
   margin-right: 3em;
+  margin-top: 1.4em;
 }
 #coned-search-bar form fieldset {
-  float: right;
+  *zoom: 1;
+  display: inline-block;
+  display: block;
+}
+#coned-search-bar form fieldset:before,
+#coned-search-bar form fieldset:after {
+  content: "";
+  display: table;
+}
+#coned-search-bar form fieldset:after {
+  clear: both;
+}
+#coned-search-bar form fieldset:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+#coned-search-bar form fieldset input.coned-search-field {
+  width: 53%;
+  border: none;
+  background: white;
+  padding: 1em 2em;
+  margin-right: .5em;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#coned-search-bar form fieldset input.coned-search-submit {
+  width: 34%;
+  background: orange;
+  padding: 1em 2em;
+  border: none;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 #coned-landing-content #coned-clusters {
   display: inline;
