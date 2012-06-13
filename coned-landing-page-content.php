@@ -1,4 +1,4 @@
-<h1>Hello World</h1>
+<h1>Hello World </h1>
 <link rel="stylesheet" href="../layerslider/css/layerslider.css" type="text/css">
 <link rel="stylesheet" href="common/layerslider/assets/css/style.css" type="text/css">
 <div id="big-audience-nav">
