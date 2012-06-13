@@ -79,6 +79,38 @@
 	#coned-aside {
 		background:grey;
 		.column(3,12);
+			ul { margin-bottom:0;
+				li { 
+					a { 
+						text-decoration: none;
+						color: #eee;
+						display: block;
+						padding: 10px 5px 10px 15px;
+						border-bottom:solid #eeeeee 1px;
+						&:hover {
+							//background:#646464;
+							.gradient(#00a7fd, #0087f0, #00a7fd);
+						}
+					}
+					&:last-child a {
+							border-bottom:0px;
+					}
+					ul {
+						li {
+							a{
+								color:#333333;
+								text-indent: 20px;
+								background:#d4d4d4;
+								&:hover{
+									//background:#eeeeee;
+									.gradient(#000, #eee, #fff);
+								}
+
+							}
+						}
+					}
+				}
+			}
 	}
 }
 #coned-clusters {
@@ -137,3 +169,4 @@
 		}
 	}
 }
+				

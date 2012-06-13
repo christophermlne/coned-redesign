@@ -131,6 +131,36 @@ body:after {
   width: 228px;
   margin: 0 6px;
 }
+#coned-landing-content #coned-aside ul {
+  margin-bottom: 0;
+}
+#coned-landing-content #coned-aside ul li a {
+  text-decoration: none;
+  color: #eee;
+  display: block;
+  padding: 10px 5px 10px 15px;
+  border-bottom: solid #eeeeee 1px;
+}
+#coned-landing-content #coned-aside ul li a:hover {
+  background: #00a7fd;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0087f0), color-stop(1, #00a7fd));
+  background: -ms-linear-gradient(bottom, #0087f0, #00a7fd);
+  background: -moz-linear-gradient(center bottom, #0087f0 0%, #00a7fd 100%);
+}
+#coned-landing-content #coned-aside ul li:last-child a {
+  border-bottom: 0px;
+}
+#coned-landing-content #coned-aside ul li ul li a {
+  color: #333333;
+  text-indent: 20px;
+  background: #d4d4d4;
+}
+#coned-landing-content #coned-aside ul li ul li a:hover {
+  background: #000000;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eeeeee), color-stop(1, #ffffff));
+  background: -ms-linear-gradient(bottom, #eeeeee, #ffffff);
+  background: -moz-linear-gradient(center bottom, #eeeeee 0%, #ffffff 100%);
+}
 #coned-clusters ul li {
   float: left;
   display: inline;
