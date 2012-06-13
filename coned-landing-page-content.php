@@ -1,4 +1,3 @@
-<h1>Hello World </h1>
 <link rel="stylesheet" href="../layerslider/css/layerslider.css" type="text/css">
 <link rel="stylesheet" href="common/layerslider/assets/css/style.css" type="text/css">
 <div id="big-audience-nav">
@@ -21,7 +20,20 @@
         </fieldset>
     </form>
 </div>
-                        
+
+<div id="coned-search-results">
+    
+    <section id="coned-search-results-display">
+        <header>
+            <p>Search Results for &ldquo;<span>Busine</span>&rdquo;</p>
+        </header>    
+    </section>
+    <section id="coned-faceted-nav">
+        <!-- faceted nav goes here -->
+    </section>
+
+</div>                        
+
 <div id="coned-landing-content">
     <section id="coned-clusters">
         <h2>Browse by Area of Interest</h2>
