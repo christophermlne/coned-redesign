@@ -45,7 +45,7 @@
 </div>
 
 <div id="coned-search-bar">
-    <h1><span>Explore</span> &#124 Continuing Education</h1>
+    <h1><span>Explore</span> Continuing Education</h1>
     <form action="">
         <fieldset>
             <input type="text" placeholder="hello" class="coned-search-field">
