@@ -49,7 +49,7 @@
     <form action="">
         <fieldset>
             <input type="text" placeholder="hello" class="coned-search-field">
-            <input type="submit" class="coned-search-submit">
+            <button type="button" name="Submit" class="coned-search-submit"><span>Search</span></button>
         </fieldset>
     </form>
 </div>
@@ -59,10 +59,90 @@
     <section id="coned-search-results-display">
         <header>
             <p>Search Results for &ldquo;<span>Busine</span>&rdquo;</p>
-        </header>    
+        </header>
+        <section class="results programs">
+            <h2>Showing Search Results <br>in "<span>Programs</span>"</h2>
+            <ul class="list">
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+                <li><a href="#">Item 5</a></li>
+                <li><a href="#">Item 6</a></li>
+                <li><a href="#">Item 7</a></li>
+                <li><a href="#">Item 8</a></li>
+                <li><a href="#">Item 9</a></li>
+                <li><a href="#">Item 10</a></li>
+                <li><a href="#">Item 11</a></li>
+                <li><a href="#">Item 12</a></li>
+                <li><a href="#">Item 13</a></li>
+                <li><a href="#">Item 14</a></li>
+                <li><a href="#">Item 15</a></li>
+                <li><a href="#">Item 16</a></li>
+                <li><a href="#">Item 17</a></li>
+                <li><a href="#">Item 18</a></li>
+                <li><a href="#">Item 19</a></li>
+                <li><a href="#">Item 20</a></li>
+                
+            </ul>
+        </section>
+        <section class="results courses">
+            <h2>Showing Search Results <br>in "<span>Courses</span>"</h2>
+            <ul class="list">
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+                <li><a href="#">Item 5</a></li>
+                <li><a href="#">Item 6</a></li>
+                <li><a href="#">Item 7</a></li>
+                <li><a href="#">Item 8</a></li>
+                <li><a href="#">Item 9</a></li>
+                <li><a href="#">Item 10</a></li>
+                <li><a href="#">Item 11</a></li>
+                <li><a href="#">Item 12</a></li>
+                <li><a href="#">Item 13</a></li>
+                <li><a href="#">Item 14</a></li>
+                <li><a href="#">Item 15</a></li>
+                <li><a href="#">Item 16</a></li>
+                <li><a href="#">Item 17</a></li>
+                <li><a href="#">Item 18</a></li>
+                <li><a href="#">Item 19</a></li>
+                <li><a href="#">Item 20</a></li>
+            </ul>
+        </section>
     </section>
     <section id="coned-faceted-nav">
-        <!-- faceted nav goes here -->
+         <div id="days">
+                
+                <b>DAYS</b>
+                <ul>
+                    <li>
+                        <input type="radio" value="MON" name="rbDays" id="rbDays_0"><label for="rbDays_0">MONDAY</label>
+                    </li>
+                    <li>
+                        <input type="radio" value="TUE" name="rbDays" id="rbDays_1"><label for="rbDays_1">TUESDAY</label>
+                    </li>
+                    <li>
+                        <input type="radio" value="WED" name="rbDays" id="rbDays_2"><label for="rbDays_2">WEDNESDAY</label>
+                    </li>
+                    <li>
+                        <input type="radio" value="THU" name="rbDays" id="rbDays_3"><label for="rbDays_3">THURSDAY</label>
+                    </li>
+                    <li>
+                        <input type="radio" value="FRI" name="rbDays" id="rbDays_4"><label for="rbDays_4">FRIDAY</label>
+                    </li>
+                    <li>
+                        <input type="radio" value="SAT" name="rbDays" id="rbDays_5"><label for="rbDays_5">SATDAY</label>
+                    </li>
+                    <li>
+                        <input type="radio" value="SUN" name="rbDays" id="rbDays_6"><label for="rbDays_6">SUNDAY</label>
+                    </li>
+                    <li>
+                        <input type="radio" value="DLY" name="rbDays" id="rbDays_7"><label for="rbDays_7">DAILY</label>
+                    </li>
+                </ul>
+        </div>
     </section>
 
 </div>                        

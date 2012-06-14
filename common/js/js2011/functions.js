@@ -23,5 +23,7 @@ var sheridan={homeInit:function(){
     		$('#big-audience-nav').fadeIn(1250);
     	});
 
+        $('.list li:odd').css('background','#eee');
+
     });
 }};

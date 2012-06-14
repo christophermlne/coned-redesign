@@ -114,14 +114,17 @@
 				float:left;
 				.rounded(3px);
 			}
-			input.coned-search-submit {
+			.coned-search-submit {
 				width:34%;
 				.gradient(#0087f0, #0087f0, #00a7fd);
-				//background:orange;
 				padding:1em 2em;
 				border:none;
 				float:left;
 				.rounded(3px);
+				span {
+					font-weight:bold;
+					color:white;
+				}
 			}
 		}
 	}
@@ -146,7 +149,9 @@
 	}
 	#coned-search-results-display {
 		background:#D8D8D8;
-		min-height:400px;
+		padding:0 3% 3% 3%;
+		.rounded(8px);
+		.clearfix;
 		header {
 			text-align:center;
 			padding-top:2em;
@@ -158,6 +163,44 @@
 				}
 			}
 		}
+		.results {
+			width:49%;
+			min-height:400px;
+			background:white;
+			float:left;
+			h2 {
+				font-size:1.1em;
+				font-weight:normal;
+				text-align:center;
+				span {
+					font-weight:bold;
+				}
+			}
+			.list {
+				padding:0 3%;
+				li {
+					a {
+						text-decoration:none;
+						padding:.5em 1em;
+						display:block;
+					}
+					&:hover {
+						text-decoration:underline;
+					}
+				}
+			}
+		}
+		.programs {
+			width:37%;
+		}
+		.courses {
+			width:61%;
+			float:right;
+			.list {
+				width:50%;
+			}
+		}
+
 	}
 	#coned-faceted-nav {
 
