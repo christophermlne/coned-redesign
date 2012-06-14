@@ -93,7 +93,7 @@ body:after {
   float: left;
   width: 948px;
   margin: 0 6px;
-  background: grey;
+  background: #3a3a3a;
   height: 70px;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -105,10 +105,21 @@ body:after {
   margin-left: 2em;
   width: 43%;
   float: left;
+  color: #B0B0B0;
 }
 #coned-search-bar h1 span {
   font-size: 1.2em;
   font-weight: bold;
+  color: #f1f1f1;
+}
+#coned-search-bar h1 span:after {
+  content: " ";
+  display: inline-block;
+  background: #4c4c4c;
+  margin-left: 10px;
+  width: 1px;
+  height: 1em;
+  margin-bottom: -0.2em;
 }
 #coned-search-bar form {
   float: right;
@@ -155,7 +166,10 @@ body:after {
 }
 #coned-search-bar form fieldset input.coned-search-submit {
   width: 34%;
-  background: orange;
+  background: #0087f0;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0087f0), color-stop(1, #00a7fd));
+  background: -ms-linear-gradient(bottom, #0087f0, #00a7fd);
+  background: -moz-linear-gradient(center bottom, #0087f0 0%, #00a7fd 100%);
   padding: 1em 2em;
   border: none;
   float: left;
@@ -216,7 +230,7 @@ body:after {
   border-bottom: solid #eeeeee 1px;
 }
 #coned-landing-content #coned-aside ul li a:hover {
-  background: #00a7fd;
+  background: #0087f0;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0087f0), color-stop(1, #00a7fd));
   background: -ms-linear-gradient(bottom, #0087f0, #00a7fd);
   background: -moz-linear-gradient(center bottom, #0087f0 0%, #00a7fd 100%);
@@ -230,7 +244,7 @@ body:after {
   background: #d4d4d4;
 }
 #coned-landing-content #coned-aside ul li ul li a:hover {
-  background: #000000;
+  background: #eeeeee;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eeeeee), color-stop(1, #ffffff));
   background: -ms-linear-gradient(bottom, #eeeeee, #ffffff);
   background: -moz-linear-gradient(center bottom, #eeeeee 0%, #ffffff 100%);

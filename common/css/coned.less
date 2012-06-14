@@ -70,7 +70,8 @@
 }
 #coned-search-bar {
 	.column(12);
-	background:grey;
+	//.gradient(#0b0b0b, #0b0b0b, #424242);
+	background:#3a3a3a;
 	height:70px;
 	margin-top:1em;
 	margin-bottom:1em;
@@ -81,9 +82,21 @@
 		margin-left:2em;
 		width:43%;
 		float:left;
+		color:#B0B0B0;
 		span {
 			font-size:1.2em;
 			font-weight:bold;
+			color:#f1f1f1;
+			&:after {
+				content:" ";
+				display:inline-block;
+				background: #4c4c4c;
+				margin-left: 10px;
+				width:1px;
+				height:1em;
+				margin-bottom:-.2em;
+
+			}
 		}
 	}
 	form {
@@ -105,7 +118,8 @@
 			}
 			input.coned-search-submit {
 				width:34%;
-				background:orange;
+				.gradient(#0087f0, #0087f0, #00a7fd);
+				//background:orange;
 				padding:1em 2em;
 				border:none;
 				float:left;
@@ -122,6 +136,7 @@
 		.column(9,9);
 	}
 	#coned-aside {
+
 		background:grey;
 		.column(3,12);
 			ul { margin-bottom:0;
@@ -134,8 +149,8 @@
 						border-bottom:solid #eeeeee 1px;
 						&:hover {
 							//background:#646464;
-							.gradient(#00a7fd, #0087f0, #00a7fd);
-						}
+							.gradient(#0087f0, #0087f0, #00a7fd);
+							}
 					}
 					&:last-child a {
 							border-bottom:0px;
@@ -148,8 +163,8 @@
 								background:#d4d4d4;
 								&:hover{
 									//background:#eeeeee;
-									.gradient(#000, #eee, #fff);
-								}
+									.gradient(#eee, #eee, #fff);
+									}
 
 							}
 						}
