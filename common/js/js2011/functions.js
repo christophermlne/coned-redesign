@@ -10,7 +10,7 @@ var sheridan={homeInit:function(){
     			$('#big-audience-nav').hide();
     			$('#coned-messaging-area').hide();
 				$('#coned-landing-content').hide();
-				$('#coned-search-results').delay(750).fadeIn(1250);
+				$('#coned-search-results').delay(450).fadeIn(1250);
 				return;
     		});
 
