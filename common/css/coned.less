@@ -43,8 +43,8 @@
 				a {
 					display:block;
 					background:darkgrey;
-					padding-top:1em;
-					padding-bottom:1em;
+					padding-top:.65em;
+					padding-bottom:.65em;
 					color:white;
 					font-size:1.6em;
 					text-decoration:none;
@@ -110,6 +110,40 @@
 				.rounded(3px);
 			}
 		}
+	}
+}
+.triangle-up {
+    width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 15px 15px 15px;
+	border-color: transparent transparent #808080 transparent;
+}
+#coned-search-results {
+	background:none;
+	.column(12);
+	margin-bottom:12px;
+	margin-top:-5px;
+	&:before {
+		content:' ';
+		display:block;
+		margin:0 auto;
+		text-align:center;
+		.triangle-up;
+	}
+	#coned-search-results-display {
+		background:grey;
+		min-height:400px;
+		header {
+			p {
+				span {
+
+				}
+			}
+		}
+	}
+	#coned-faceted-nav {
+
 	}
 }
 #coned-landing-content {		
