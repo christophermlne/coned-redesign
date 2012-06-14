@@ -115,7 +115,6 @@
   padding-top: 50px;
 }
 #coned-layerslider #dim {
-  min-width: 1000px;
   overflow: hidden;
 }
 #coned-layerslider header {
@@ -294,7 +293,7 @@
 #coned-layerslider #layerslider,
 #coned-layerslider #layerslider2 {
   width: 1000px;
-  height: 500px;
+  height: 400px;
   margin: 0px auto 50px auto;
 }
 #coned-layerslider #leaf1 {
@@ -354,9 +353,6 @@
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
-}
-#coned-layerslider #dim {
-  padding-top: 50px;
 }
 #coned-layerslider .ls-layer div {
   width: 250px;
