@@ -39,11 +39,11 @@
                                    rgb(@start,@start,@start) 0%,
                                    rgb(@stop,@stop,@stop) 100%);
 }
-.bordered(@top-color: #EEE, @right-color: #EEE, @bottom-color: #EEE, @left-color: #EEE) {
-  border-top: solid 1px @top-color;
-  border-left: solid 1px @left-color;
-  border-right: solid 1px @right-color;
-  border-bottom: solid 1px @bottom-color;
+.bordered(@width: 1px, @top-color: #EEE, @right-color: #EEE, @bottom-color: #EEE, @left-color: #EEE) {
+ border-top: solid @width @top-color;
+ border-left: solid @width @left-color;
+ border-right: solid @width @right-color;
+ border-bottom: solid @width @bottom-color;
 }
 .drop-shadow(@x-axis: 0, @y-axis: 1px, @blur: 2px, @alpha: 0.1) {
   -webkit-box-shadow: @x-axis @y-axis @blur rgba(0, 0, 0, @alpha);
