@@ -52,6 +52,7 @@
             <button type="button" name="Submit" class="coned-search-submit"><span>Search</span></button>
         </fieldset>
     </form>
+    <a href="#" id="close-search">Close</a>
 </div>
 
 <div id="coned-search-results">
