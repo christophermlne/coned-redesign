@@ -34,6 +34,18 @@
 .hide {
 	display:none;
 }
+
+// FONTS
+
+.adelleNormal() {
+	font-family:"Adelle";
+	font-weight:400;
+}
+.adelleHeavy() {
+	font-family:"Adelle";
+	font-weight:700;
+}
+// END FONTS
 #big-audience-nav {
 	nav {
 		ul {
@@ -42,13 +54,14 @@
 				float:left;
 				text-align:center;
 				a {
-					display:block;
-					background:darkgrey;
-					padding-top:.65em;
-					padding-bottom:.65em;
-					color:white;
+					.adelleNormal();
 					font-size:1.6em;
 					text-decoration:none;
+					color:white;
+					background:darkgrey;
+					display:block;
+					padding-top:.65em;
+					padding-bottom:.65em;
 					.column(4);
 					&:hover {
 						background:grey;
@@ -56,7 +69,8 @@
 				}
 			}
 			li.active-tab a {
-				background:grey;
+				.adelleHeavy();
+				background:#0092F5;
 			}
 		}
 	}
@@ -347,13 +361,19 @@
 	}
 }
 #coned-clusters { background:#ededed;
+	h2 {
+		width:100%;
+		display:block;
+		padding:1em 0 1em .5em;
+		.adelleNormal();
+		font-size:1.8em;
+	}
 	ul {
 		li {
 			float:left;
 			.column(3,9);
 			h2 {
 				padding:3em 0;
-				background:red;
 			}
 			h3 {
 				color: #333;
