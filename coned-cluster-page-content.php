@@ -12,11 +12,18 @@
 
 <div id="coned-landing-content">
     
-    <section id="coned-cluster-page-list">
-        <div></div>
-    </section>
+    <div id="look-at-me">
+        <section id="coned-cluster-featured">hello world</section>
+        <section id="coned-cluster-listing">
+            <div class="coned-column first">
+                Column 1
+                <div class="cluster"></div>
+            </div>
+            <div class="coned-column last"> Column 2</div>
+        </section>
+    </div>
 
-    <aside id="coned-aside">
+    <aside id="coned-aside" class="not-landing">
         <ul id="coned-sidebar-accr">
              <li>
                 <a href="#">What's New</a>

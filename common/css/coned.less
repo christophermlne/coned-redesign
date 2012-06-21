@@ -37,6 +37,7 @@
 #big-audience-nav {
 	nav {
 		ul {
+			.clearfix;
 			li {
 				float:left;
 				text-align:center;
@@ -353,8 +354,8 @@
 		font-size:1.3em;
 		line-height:2.0em;
 		border-bottom:solid #3d3d3d 2px;
-	}
-       ul#coned-sidebar-accr { 
+		}
+		ul#coned-sidebar-accr { 
        		margin-bottom:0;
 			li { 
 				margin-bottom:10px;
@@ -469,3 +470,31 @@
 		}
 	}
 }
+#coned-cluster-listing {
+	
+	.coned-column {
+		background:grey;
+		.column(4,12);
+	}
+	.coned-column.first {
+		background:orange;
+		clear:left;
+		
+	}
+	.coned-column.last {
+		background:green;
+		
+	}
+}
+
+#coned-landing-content #coned-aside.not-landing {
+   .column(4,12);
+}
+
+#coned-cluster-featured {
+	.column(8,12);
+	background:purple;
+	min-height:600px;
+}
+
+
