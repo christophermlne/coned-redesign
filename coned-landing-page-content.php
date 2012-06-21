@@ -312,20 +312,20 @@
     </section>
     <aside id="coned-aside">
         <ul id="coned-sidebar-accr">
-            <li>
-                <a href="#">What's New</a>
-            </li>
-            <li>
-                <a href="#">What's New</a>
-            </li>
-            <li>
+             <li>
                 <a href="#">What's New</a>
                 <ul>
-                    <li><a href="#">sub - content</a>
-                    <li><a href="#">sub - content</a>
-                    <li><a href="#">sub - content</a>
-                    <li><a href="#">sub - content</a>                                        
+                    <li><span>Title of News</span><p>Pellentesque habitant morbi</p><a href="#">read more</a>
+                    <li><span>Title of News</span><p>Pellentesque habitant morbi</p><a href="#">read more</a>
+                    <li><span>Title of News</span><p>Pellentesque habitant morbi</p><a href="#">read more</a>
+                    <li><span>Title of News</span><p>Pellentesque habitant morbi</p><a href="#">read more</a>                                    
                 </ul>
+            </li>
+            <li>
+                <a href="#">What's New</a>
+            </li>
+            <li>
+                <a href="#">What's New</a>
             </li>
         </ul>
         <h3>See Also</h3>
