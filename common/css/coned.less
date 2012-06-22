@@ -6,7 +6,7 @@
 @gutter-width: 12;
 @columns: 12;
 
-//@total-width: 100%;
+@total-width: 100%;
 
 .clearfix {
 
@@ -34,7 +34,6 @@
 .hide {
 	display:none;
 }
-
 // FONTS
 
 .adelleNormal() {
@@ -47,12 +46,14 @@
 }
 // END FONTS
 #big-audience-nav {
+	.row(12);
 	nav {
 		ul {
 			.clearfix;
 			li {
-				float:left;
+				//float:left;
 				text-align:center;
+				.column(4,12);
 				a {
 					.adelleNormal();
 					font-size:1.6em;
@@ -62,7 +63,7 @@
 					display:block;
 					padding-top:.65em;
 					padding-bottom:.65em;
-					.column(4);
+					width:100%;
 					&:hover {
 						background:grey;
 					}
@@ -163,6 +164,7 @@
 	border-color: transparent transparent #D8D8D8 transparent;
 }
 #coned-search-results {
+	.row(12);
 	margin-bottom:12px;
 	margin-top:-5px;
 	.clearfix;
@@ -175,7 +177,7 @@
 	}
 	#coned-search-results-display {
 		background:#D8D8D8;
-		.column(12);
+		.column(12,12);
 		header {
 			p {
 				font-size:1.4em;
@@ -207,8 +209,9 @@
 			}
 			.list {
 				li {
-					border-bottom:1px solid #CEEDF3;
+					border-bottom:1px solid #ECECEC;
 					a {
+						color:#333;
 						text-decoration:none;
 						padding-top:.5em;
 						padding-bottom:.5em;
@@ -233,7 +236,7 @@
 					&:hover {
 						background:#F7FBFF;
 						a {
-							color:orange;
+							color:#0096F6;
 						}
 					}
 					&:last-child {
@@ -243,11 +246,11 @@
 			}
 		}
 		.programs {
-			.column(3,12);
+			.column(12,12);
 			clear:left;
 		}
 		.courses {
-			.column(9,12);
+			.column(6,12);
 			.list {
 			}
 			#coned-faceted-nav {
@@ -255,7 +258,7 @@
 				.clearfix;
 				form {
 					fieldset {
-						.column(3,9);
+						.column(4,12);
 						margin-bottom:1em;
 						legend {
 							color:purple;
@@ -277,11 +280,13 @@
 	}
 }
 #coned-landing-content {
+   .row(12);
    #coned-clusters {
 	   .wrapper {
-           .row(9);
+           width:98%;
+           margin-left:1.5%;
 	   }
-	   .column(9,9);
+	   .column(9,12);
    }
 }
 #coned-sidebar-see-also {
