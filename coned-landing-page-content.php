@@ -58,11 +58,9 @@
 <div id="coned-search-results">
     
     <section id="coned-search-results-display">
-        <header>
-            <p>Searching for &ldquo;<span>Busine</span>&rdquo;</p>
-        </header>
         <section class="results programs">
-            <h2>Results in <span>Programs</span></h2>
+            <h1>Programs</h1>
+            <p>Showing 20 Results for &ldquo;<span>Busine</span>&rdquo;</p>
             <ul class="list">
                 <li>
                     <a target="_blank" href="http://sculptor.sheridanc.on.ca/webapp/wcs/stores/servlet/InterestItemDisplayView?storeId=10051&amp;catalogId=10051&amp;progId=126">Business</a>
@@ -89,7 +87,8 @@
             </ul>
         </section>
         <section class="results courses">
-            <h2>Results in <span>Courses</span></h2>
+            <h1>Courses</h1>
+            <p>Showing 20 Results for &ldquo;<span>Busine</span>&rdquo;</p>
             <section id="coned-faceted-nav">
                 <h4>Refine Results: </h4>
 

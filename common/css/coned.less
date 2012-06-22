@@ -45,6 +45,13 @@
 	font-weight:700;
 }
 // END FONTS
+//////////////////////////////////////////////////////
+//                                                  //
+//                                                  //
+//                     BIG NAV                      //
+//                                                  //
+//                                                  //
+//////////////////////////////////////////////////////
 #big-audience-nav {
 	.row(12);
 	nav {
@@ -70,19 +77,31 @@
 				}
 			}
 			li.active-tab a {
-				.adelleHeavy();
 				background:#0092F5;
 			}
 		}
 	}
 }
-
+//////////////////////////////////////////////////////
+//                                                  //
+//                                                  //
+//               LANDING PAGE SLIDER                //
+//                                                  //
+//                                                  //
+//////////////////////////////////////////////////////
 #coned-messaging-area {
 	.column(12);
-	background:grey;
+	//background:grey;
 	height:400px;
 	margin-top:1em;
 }
+//////////////////////////////////////////////////////
+//                                                  //
+//                                                  //
+//                     CONED SEARCH                 //
+//                                                  //
+//                                                  //
+//////////////////////////////////////////////////////
 #coned-search-bar {
 	.column(12);
 	//.gradient(#0b0b0b, #0b0b0b, #424242);
@@ -156,13 +175,14 @@
 		margin-right: 2em;
 	}
 }
+/*
 .triangle-up {
     width: 0px;
 	height: 0px;
 	border-style: solid;
 	border-width: 0 15px 15px 15px;
 	border-color: transparent transparent #D8D8D8 transparent;
-}
+}*/
 #coned-search-results {
 	.row(12);
 	margin-bottom:12px;
@@ -173,36 +193,38 @@
 		display:block;
 		margin:0 auto;
 		text-align:center;
-		.triangle-up;
+		//.triangle-up;
 	}
 	#coned-search-results-display {
-		background:#D8D8D8;
+		background:white;
 		.column(12,12);
-		header {
-			p {
-				font-size:1.4em;
-				text-align:center;
-				padding:.25em 0;
-				background:#FFFFC8;
-				border:1px solid #F0DF63;
-				span {
-					font-weight:bold;
-					color:#FFA500;
-				}
-			}
-		}
 		.results {
 			min-height:200px;
 			background:white;
 			margin-top: 35px;
-			h2 {
-				font-size: 1.4em;
+			h1 {
+				.adelleNormal;
+				color:white;
+				font-size:1.6em;
+				text-align:center;
+				display:block;
+				width:100%;
+				padding:1em 0;
+				background: #0094F5;
+				border: 1px solid #0094F5;
+
+			}
+			p {
+				font-size: 1em;
 				font-weight: normal;
-				text-align: left;
+				text-align: center;
 				display: block;
 				width: 100%;
-				margin-top: 1.2em;
+				margin-top:0.5em;
 				margin-bottom:1em;
+				padding:.5em 0;
+				background: #FFFFC8;
+				border: 1px solid #F0DF63;
 				span {
 					font-weight:bold;
 				}
@@ -213,10 +235,10 @@
 					a {
 						color:#333;
 						text-decoration:none;
-						padding-top:.5em;
-						padding-bottom:.5em;
 						display:block;
 						font-size:1.2em;
+						line-height:1em;
+						padding:1em 0 1em 2%;
 					}
 					span.code {
 						font-size:0.75em;
@@ -230,8 +252,8 @@
 						font-size: .65em;
 						padding: .05em .75em;
 						border: 1px solid #81D595;
-						float:right;
 						.rounded(3px);
+						margin-left:5%;
 					}
 					&:hover {
 						background:#F7FBFF;
@@ -246,17 +268,22 @@
 			}
 		}
 		.programs {
-			.column(12,12);
+			.column(4,12);
 			clear:left;
 		}
 		.courses {
-			.column(6,12);
+			.column(8,12);
 			.list {
 			}
 			#coned-faceted-nav {
 				background:whiteSmoke;
 				.clearfix;
+				h4 {
+					text-align:center;
+					font-size:1.2em;
+				}
 				form {
+					display:none;
 					fieldset {
 						.column(4,12);
 						margin-bottom:1em;
@@ -361,7 +388,13 @@
 		}
 	}
 }
-
+//////////////////////////////////////////////////////
+//                                                  //
+//                                                  //
+//                     CONED ASIDE                  //
+//                                                  //
+//                                                  //
+//////////////////////////////////////////////////////
 #coned-aside {
    .column(3,12);
    h3 {
