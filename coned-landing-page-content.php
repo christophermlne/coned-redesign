@@ -61,22 +61,6 @@
         <header>
             <p>Searching for &ldquo;<span>Busine</span>&rdquo;</p>
         </header>
-        <!--
-        <nav class="togglenav">
-            <p>Show:</p>
-            <ul>
-                <li>
-                    <a class="first-child active" href="#" onclick="">Courses</a>
-                </li>
-                <li>
-                    <a href="#">Middle</a>
-                </li>
-                <li>
-                    <a class="last-child" href="#" onclick="">Programs</a>
-                </li>
-            </ul>
-        </nav>
-        -->
         <section class="results programs">
             <h2>Results in <span>Programs</span></h2>
             <ul class="list">

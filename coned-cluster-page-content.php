@@ -12,7 +12,7 @@
 
 <div id="coned-landing-content">
     
-    <div id="look-at-me">
+    <div>
         <section id="coned-cluster-featured">hello world</section>
         <section id="coned-cluster-listing">
             <div class="coned-column first">
