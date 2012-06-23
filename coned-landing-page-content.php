@@ -48,7 +48,7 @@
     <h1><span>Explore</span> Continuing Education</h1>
     <form action="">
         <fieldset>
-            <input type="text" placeholder="hello" class="coned-search-field">
+            <input type="text" placeholder="Find Programs &amp; Courses" class="coned-search-field">
             <button type="button" name="Submit" class="coned-search-submit"><span>Search</span></button>
         </fieldset>
     </form>
@@ -60,7 +60,7 @@
     <section id="coned-search-results-display">
         <section class="results programs">
             <h1>Programs</h1>
-            <p>Showing 20 Results for &ldquo;<span>Busine</span>&rdquo;</p>
+            <p>Showing 7 Results for &ldquo;<span>Busine</span>&rdquo;</p>
             <ul class="list">
                 <li>
                     <a target="_blank" href="http://sculptor.sheridanc.on.ca/webapp/wcs/stores/servlet/InterestItemDisplayView?storeId=10051&amp;catalogId=10051&amp;progId=126">Business</a>
@@ -91,7 +91,6 @@
             <p>Showing 20 Results for &ldquo;<span>Busine</span>&rdquo;</p>
             <section id="coned-faceted-nav">
                 <h4>Refine Results: </h4>
-
                 
                 <form>
              

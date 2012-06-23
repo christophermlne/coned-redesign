@@ -151,7 +151,7 @@
 			.coned-search-submit {
 				width:34%;
 				.gradient(#0087f0, #0087f0, #00a7fd);
-				//background:orange;
+				cursor:pointer;
 				padding:1em 2em;
 				color:whitesmoke;
 				border:none;
@@ -223,8 +223,8 @@
 				margin-top:0.5em;
 				margin-bottom:1em;
 				padding:.5em 0;
-				background: #FFFFC8;
-				border: 1px solid #F0DF63;
+				//background: #FFFFC8;
+				//border: 1px solid #F0DF63;
 				span {
 					font-weight:bold;
 				}
@@ -239,6 +239,7 @@
 						font-size:1.2em;
 						line-height:1em;
 						padding:1em 0 1em 2%;
+						border-left:10px solid white;
 					}
 					span.code {
 						font-size:0.75em;
@@ -257,8 +258,13 @@
 					}
 					&:hover {
 						background:#F7FBFF;
+						cursor:pointer;
 						a {
 							color:#0096F6;
+							border-left:10px solid #0094F5;
+						}
+						span.code {
+							color:#333;
 						}
 					}
 					&:last-child {
@@ -276,6 +282,7 @@
 			.list {
 			}
 			#coned-faceted-nav {
+
 				background:whiteSmoke;
 				.clearfix;
 				h4 {
@@ -283,12 +290,17 @@
 					font-size:1.2em;
 				}
 				form {
-					display:none;
+					//display:none;
 					fieldset {
-						.column(4,12);
+						.column(4,8);
 						margin-bottom:1em;
+						background:white;
+						.rounded(6px);
 						legend {
-							color:purple;
+							//color:white;
+							//background:#3A3A3A;
+							display:block;
+							width:100%;
 						}
 						label {
 							margin-left:.5em;

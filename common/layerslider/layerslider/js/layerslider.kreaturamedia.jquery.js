@@ -839,13 +839,13 @@
 		autoStart			: true,						// If true, slideshow will automatically start after loading the page.
 		firstLayer			: 1,						// LayerSlider will begin with this layer.
 		twoWaySlideshow		: false,					// If true, slideshow will go backwards if you click the prev button.
-		keybNav				: true,						// Keyboard navigation. You can navigate with the left and right arrow keys.
+		keybNav				: false,						// Keyboard navigation. You can navigate with the left and right arrow keys.
 		imgPreload			: true,						// Image preload. Preloads all images and background-images of the next layer.
-		navPrevNext			: true,						// If false, Prev and Next buttons will be invisible.
-		navStartStop		: true,						// If false, Start and Stop buttons will be invisible.
-		navButtons			: true,						// If false, slide buttons will be invisible.
-		skin				: 'lightskin',				// You can change the skin of the Slider, use 'noskin' to hide skin and buttons.
-		skinsPath			: '/layerslider/skins/',	// You can change the default path of the skins folder. Note, that you must use the slash at the end of the path.
+		navPrevNext			: false,						// If false, Prev and Next buttons will be invisible.
+		navStartStop		: false,						// If false, Start and Stop buttons will be invisible.
+		navButtons			: false,						// If false, slide buttons will be invisible.
+		skin				: 'noskin',				// You can change the skin of the Slider, use 'noskin' to hide skin and buttons.
+		//skinsPath			: '/foobar/',	            // You can change the default path of the skins folder. Note, that you must use the slash at the end of the path.
 		pauseOnHover		: true,						// SlideShow will pause when mouse pointer is over LayerSlider.
 
 		// NEW FEATURE v1.6 optional global background color / image
