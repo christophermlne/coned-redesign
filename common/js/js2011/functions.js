@@ -4,11 +4,15 @@ var sheridan={homeInit:function(){
 
         $('#coned-search-results').hide();
         $('#close-search').hide();
-        //temp
-        //$('#big-audience-nav').hide();
-        //$('#coned-messaging-area').hide();
-        //$('#coned-landing-content').hide();
-        //$('#coned-search-results').delay(450).fadeIn(1250);
+        
+        function goDirectlyToSearchForm(){
+            $('#big-audience-nav').hide();
+            $('#coned-messaging-area').hide();
+            $('#coned-landing-content').hide();
+            $('#coned-search-results').delay(450).fadeIn(1250);    
+        };
+        // uncomment/comment this line to have the landing page go immediately into search mode
+        goDirectlyToSearchForm();
 
         $('.coned-search-field').focusin(function(){
             
@@ -36,6 +40,13 @@ var sheridan={homeInit:function(){
         });
 
         //$('.list li:odd').css('background','#eee');
+        $('.expanded-li').hide();
+        $('.list > li > a').click(function(){
+            event.preventDefault();
+            e.stopPropagation();
+            $(this).children().show();    
+        });
+        
 
     });
 }};
