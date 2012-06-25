@@ -53,31 +53,36 @@
 //                                                  //
 //////////////////////////////////////////////////////
 #big-audience-nav {
-	.row(12);
+	//.row(12);
 	nav {
+		//.column(12,12);
 		ul {
 			.clearfix;
+			background:url('../coned_images/nav/coned-big-nav-bg.jpg') #efefef 0 0 repeat-x;
 			li {
 				//float:left;
 				text-align:center;
 				.column(4,12);
 				a {
+					//.column(4,12);
 					.adelleNormal();
 					font-size:1.6em;
 					text-decoration:none;
-					color:white;
-					background:darkgrey;
+					color:#333;
 					display:block;
 					padding-top:.65em;
 					padding-bottom:.65em;
 					width:100%;
+					border-top:1px solid #ebebeb;
+					border-bottom:1px solid #ebebeb;
 					&:hover {
-						background:grey;
+						color:#0092F5;
 					}
 				}
 			}
 			li.active-tab a {
 				background:#0092F5;
+				color:white;
 			}
 		}
 	}

@@ -12,7 +12,7 @@ var sheridan={homeInit:function(){
             $('#coned-search-results').delay(450).fadeIn(1250);    
         };
         // uncomment/comment this line to have the landing page go immediately into search mode
-        goDirectlyToSearchForm();
+        //goDirectlyToSearchForm();
 
         $('.coned-search-field').focusin(function(){
             
