@@ -333,16 +333,7 @@
 	   .column(9,12);
    }
 }
-#coned-sidebar-see-also {
-	li { border-bottom: solid 1px #e6e6e6;
-		a {
-			color:#3a3a3a;
-			padding: 10px 5px 10px	15px;
-			display:block;
-			text-decoration:none;
-		}
-	}
-}
+
 #coned-clusters { background:#ededed;
 	h2 {
 		width:100%;
@@ -414,57 +405,39 @@
 //////////////////////////////////////////////////////
 #coned-aside {
    .column(3,12);
-   h3 {
-	   	padding:10px 5px 0px 10px;
-		color:#3d3d3d;
-		font-size:1.3em;
-		line-height:2.0em;
-		border-bottom:solid #3d3d3d 2px;
-	}
-	ul#coned-sidebar-accr { 
-   		margin-bottom:0;
-		li { 
-			margin-bottom:10px;
-		    background: url(../coned_images/nav/opentab.png) no-repeat 16px 12px;
-			&:hover {
-				.gradient(#0087f0, #0087f0, #00a7fd);
+   #news-hightlight {
+		border:1px solid #dfdfdf;
+		margin:0;
+		padding:0;
+		h3 {
+			background:#393939;
+			margin:0;
+			padding:.5em 0;
+
+		}
+		.news-item {
+			padding:0 10px;
+			border:none;
+			padding-top:.5em;
+			padding-bottom:.5em;
+			border-bottom:1px solid #dfdfdf;
+
+			h4 {
+				color:#333;
+			}
+			p {
+				font-size:11px;
+				margin:0;
+				padding:0;
 			}
 			a {
-				font-weight:bold;
-				border:solid #eee 1px;
-				text-decoration: none;
-			    color: #666;
-			    display: block;
-			    padding: 15px 20px 15px 50px;
-			    &:hover {
-					color:#fff;
-				    background: url(../coned_images/nav/opentab.png) no-repeat 16px 12px;
-				}
+				display:inline-block;
+				color:#007ac3;
+				padding:0;
+				margin:0;
 			}
 		}
-		&:last-child a {
-	       border-bottom:0px;
-		}
-		ul { 
-			.bordered(1px, #eee, #eee, #eee, #eee);
-			border-top:0px;
-			background:white;
-
-	       li { margin:5px 20px 5px 20px; background:white; border-bottom:1px solid black;
-	       	span {color:blue; font-weight:bold;}
-               a {
-                   color:#333333;
-                   border:0px;
-                   background:white;
-                   padding: 5px;
-                   &:hover{
-                       color:#00a1f7;
-                       background:white;
-                   }
-               }
-	       }
-		}
-    }
+	}
 }
 #coned-cluster-listing {
 	
@@ -496,3 +469,16 @@
 	width:100%;
 }
 
+
+
+#coned-sidebar-see-also {
+	li { border-bottom: solid 1px #e6e6e6;
+		padding:10px 0;
+		a {
+			color:#3a3a3a;
+			
+			//display:block;
+			text-decoration:none;
+		}
+	}
+}
