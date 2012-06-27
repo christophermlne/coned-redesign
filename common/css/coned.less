@@ -232,68 +232,7 @@
 					}
 				}
 			}
-			.list {
-				li:hover {
-					.goto-estore {
-						color:#0096F6;
-						visibility: visible;
-					}
-				}
-				li {
-					border-bottom:1px solid #ECECEC;
-					.clearfix;
-					position: relative;
-					.goto-estore {
-						position:absolute;
-						right:0;
-						top:35%;
-						visibility:hidden;
-						margin-right:3%;
-						font-weight:normal;
-						font-size:.85em;
-					}
-					a {
-						color:#333;
-						text-decoration:none;
-						display:block;
-						font-size:1.2em;
-						line-height:1em;
-						padding:1em 0 1em 2%;
-						border-left:10px solid white;
-						width:80%;
-						float:left;
-					}
-					span.code {
-						font-size:0.75em;
-						color:#C0BFBF;
-					}
-					span.online {
-						background: #EAFFC3;
-						display: inline-block;
-						color: #0F5727;
-						font-weight:normal;
-						font-size: .65em;
-						padding: .05em .75em;
-						border: 1px solid #81D595;
-						.rounded(3px);
-						margin-left:5%;
-					}
-					&:hover {
-						background:#F7FBFF;
-						cursor:pointer;
-						a {
-							color:#0096F6;
-							border-left:10px solid #0094F5;
-						}
-						span.code {
-							color:#333;
-						}
-					}
-					&:last-child {
-						border-bottom:none;
-					}
-				}
-			}
+			
 		}
 		.programs {
 			.column(4,12);
@@ -336,6 +275,68 @@
 					}
 				}
 			}
+		}
+	}
+}
+.list {
+	li:hover {
+		.goto-estore {
+			color:#0096F6;
+			visibility: visible;
+		}
+	}
+	li {
+		border-bottom:1px solid #ECECEC;
+		.clearfix;
+		position: relative;
+		.goto-estore {
+			position:absolute;
+			right:0;
+			top:35%;
+			visibility:hidden;
+			margin-right:3%;
+			font-weight:normal;
+			font-size:.85em;
+		}
+		a {
+			color:#333;
+			text-decoration:none;
+			display:block;
+			font-size:1.2em;
+			line-height:1em;
+			padding:1em 0 1em 2%;
+			border-left:10px solid white;
+			width:80%;
+			float:left;
+		}
+		span.code {
+			font-size:0.75em;
+			color:#C0BFBF;
+		}
+		span.online {
+			background: #EAFFC3;
+			display: inline-block;
+			color: #0F5727;
+			font-weight:normal;
+			font-size: .65em;
+			padding: .05em .75em;
+			border: 1px solid #81D595;
+			.rounded(3px);
+			margin-left:5%;
+		}
+		&:hover {
+			background:#F7FBFF;
+			cursor:pointer;
+			a {
+				color:#0096F6;
+				border-left:10px solid #0094F5;
+			}
+			span.code {
+				color:#333;
+			}
+		}
+		&:last-child {
+			border-bottom:none;
 		}
 	}
 }
@@ -533,67 +534,6 @@
 			padding:10px;
 			//background: #007fc0 url(../coned_images/deco/subtitle-bar-geo.png) no-repeat right;
 		}
-		.list {
-				li:hover {
-					.goto-estore {
-						color:#0096F6;
-						visibility: visible;
-					}
-				}
-				li {
-					border-bottom:1px solid #ECECEC;
-					.clearfix;
-					position: relative;
-					.goto-estore {
-						position:absolute;
-						right:0;
-						top:35%;
-						visibility:hidden;
-						margin-right:3%;
-						font-weight:normal;
-						font-size:.85em;
-					}
-					a {
-						color:#333;
-						text-decoration:none;
-						display:block;
-						font-size:1.2em;
-						line-height:1em;
-						padding:1em 0 1em 2%;
-						border-left:10px solid white;
-						width:80%;
-						float:left;
-					}
-					span.code {
-						font-size:0.75em;
-						color:#C0BFBF;
-					}
-					span.online {
-						background: #EAFFC3;
-						display: inline-block;
-						color: #0F5727;
-						font-weight:normal;
-						font-size: .65em;
-						padding: .05em .75em;
-						border: 1px solid #81D595;
-						.rounded(3px);
-						margin-left:5%;
-					}
-					&:hover {
-						background:#F7FBFF;
-						cursor:pointer;
-						a {
-							color:#0096F6;
-							border-left:10px solid #0094F5;
-						}
-						span.code {
-							color:#333;
-						}
-					}
-					&:last-child {
-						border-bottom:none;
-					}
-				}
-		}
+		
 	}
 }
