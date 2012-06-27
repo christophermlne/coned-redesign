@@ -243,7 +243,7 @@
                         <img src="/common/coned_images/clusters/communication_language.png" alt="Communications and Language">
                         <h3>Cluster Name</h3>
                         <p class="cluster-description">
-                            Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.
+                            Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore.
                         </p>
                     </a>
                 </li>
