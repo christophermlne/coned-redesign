@@ -53,18 +53,20 @@
 //                                                  //
 //////////////////////////////////////////////////////
 #big-audience-nav {
-	//.row(12);
 	nav {
-		//.column(12,12);
+		height: 50px;
+		overflow: visible;
+		border-bottom: 1px solid #B9B9B9;
+		border-bottom: 1px solid #B9B9B9;
 		ul {
 			.clearfix;
-			background:url('../coned_images/nav/coned-big-nav-bg.jpg') #efefef 0 0 repeat-x;
+			background:url('../coned_images/nav/coned-big-nav-bg.jpg') 0 0 repeat-x;
+			margin-bottom:0;
 			li {
-				//float:left;
 				text-align:center;
 				.column(4,12);
+				height:59px;
 				a {
-					//.column(4,12);
 					.adelleNormal();
 					font-size:1.6em;
 					text-decoration:none;
@@ -73,16 +75,17 @@
 					padding-top:.65em;
 					padding-bottom:.65em;
 					width:100%;
-					border-top:1px solid #ebebeb;
-					border-bottom:1px solid #ebebeb;
 					&:hover {
 						color:#0092F5;
 					}
 				}
 			}
-			li.active-tab a {
-				background:#0092F5;
-				color:white;
+			li.active-tab {
+				background:url('../coned_images/deco/local-global-nav-selected.png') no-repeat center bottom;
+				a {
+					background:#0092F5;
+					color:white;
+				}
 			}
 		}
 	}
@@ -174,7 +177,7 @@
 		}
 	}
 	#close-search {
-		color:yellow;
+		color:#9B9B9B;
 		float:right;
 		margin-top: 24px;
 		margin-right: 2em;
@@ -182,6 +185,7 @@
 		width:65px;
 		padding:.5em 0;
 		background:url('../coned_images/deco/close.png') right no-repeat;
+		.no-select;
 	}
 }
 #coned-search-results {
@@ -202,29 +206,30 @@
 			min-height:200px;
 			background:white;
 			margin-top: 35px;
-			h1 {
-				.adelleNormal;
-				color:white;
-				font-size:1.6em;
-				text-align:center;
-				display:block;
-				width:100%;
-				padding:1em 0;
+			header {
 				background: #0094F5;
-				border: 1px solid #0094F5;
-
-			}
-			p {
-				font-size: 1em;
-				font-weight: normal;
-				text-align: center;
-				display: block;
-				width: 100%;
-				margin-top:0.5em;
-				margin-bottom:1em;
-				padding:.5em 0;
-				span {
-					font-weight:bold;
+				width:100%;
+				padding:1em 0 1em 0;
+				h1 {
+					.adelleNormal;
+					color:white;
+					font-size:1.6em;
+					text-align:center;
+					display:block;
+					padding:0 0 0.15em 0;
+				}
+				p {
+					font-size: 1em;
+					font-weight: normal;
+					text-align: center;
+					display: block;
+					width: 100%;
+					color:white;
+					margin:0.25em 0 0 0;
+					padding:0;
+					span {
+						font-weight:bold;
+					}
 				}
 			}
 			.list {
