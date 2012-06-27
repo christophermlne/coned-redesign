@@ -375,6 +375,10 @@
 				text-align: center;
 				letter-spacing:.05em;
 			}
+			p.cluster-description {
+				display:none;
+				color:white;
+			}
 			a {
 				height: 205px;
 				.box-shadow(0px 1px 1px rgba(0, 0, 0, 0.1);
@@ -382,9 +386,22 @@
 				margin-bottom:15px;
 				.clearfix;
 				background:white;
+				overflow:hidden;
 				img {
 					margin-left:40%;
 					margin-top:30%;
+				}
+				&:hover {
+					background:#0092F5;
+					h3 {
+						color:white;
+					}
+					p.cluster-description {
+						display:inline-block;
+					}
+					img {
+						display:none;
+					}
 				}
 			}
 			#arts-and-design {
