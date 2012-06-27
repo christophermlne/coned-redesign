@@ -139,7 +139,7 @@
                 <li>
                     <a target="_blank" href="http://sculptor.sheridanc.on.ca/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10051&amp;storeId=10051&amp;productId=47306">
                     Business Communication<br /><span class="code">COMM12423</span></a>
-                    <div class="expanded-li">hello world</div>
+                    <!-- <div class="expanded-li">hello world</div> -->
                 </li>
                 <li>
                     <a target="_blank" href="http://sculptor.sheridanc.on.ca/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10051&amp;storeId=10051&amp;productId=79312">

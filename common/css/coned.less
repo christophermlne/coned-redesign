@@ -235,8 +235,25 @@
 				}
 			}
 			.list {
+				li:hover {
+					.goto-estore {
+						color:#0096F6;
+						visibility: visible;
+					}
+				}
 				li {
 					border-bottom:1px solid #ECECEC;
+					.clearfix;
+					position: relative;
+					.goto-estore {
+						position:absolute;
+						right:0;
+						top:35%;
+						visibility:hidden;
+						margin-right:3%;
+						font-weight:normal;
+						font-size:.85em;
+					}
 					a {
 						color:#333;
 						text-decoration:none;
@@ -245,6 +262,8 @@
 						line-height:1em;
 						padding:1em 0 1em 2%;
 						border-left:10px solid white;
+						width:80%;
+						float:left;
 					}
 					span.code {
 						font-size:0.75em;

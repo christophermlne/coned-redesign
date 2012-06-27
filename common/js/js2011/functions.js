@@ -39,13 +39,11 @@ var sheridan={homeInit:function(){
             $(this).hide();
         });
 
-        //$('.list li:odd').css('background','#eee');
-        $('.expanded-li').hide();
-        $('.list > li > a').click(function(){
-            event.preventDefault();
-            e.stopPropagation();
-            $(this).children().show();    
-        });
+        
+        $('.list > li > a').parent().append('<div class="goto-estore"><b>Go to e-store&nbsp;&rarr;<b></div>');
+            
+              
+       
         
 
     });
