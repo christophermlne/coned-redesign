@@ -11,51 +11,58 @@
     </nav>
 </div>-->
 
-<div id="coned-landing-content">
+<div id="coned-landing-content" class="not-landing">
     
     
         <section id="coned-cluster-featured">hello world</section>
         
         <section id="coned-cluster-listing">
-            <div class="coned-column first">
-                Column 1
-                <div class="cluster"></div>
-            </div>
-            <div class="coned-column last"> Column 2</div>
+            
         </section>
     
 </div>
 
 
-    <aside id="coned-aside" class="not-landing">
-    <ul id="coned-sidebar-accr">
-         <li>
-            <a href="#">What's New</a>
-            <ul>
-                <li><span>Title of News</span><p>Pellentesque habitant morbi</p><a href="#">read more</a>
-                <li><span>Title of News</span><p>Pellentesque habitant morbi</p><a href="#">read more</a>
-                <li><span>Title of News</span><p>Pellentesque habitant morbi</p><a href="#">read more</a>
-                <li><span>Title of News</span><p>Pellentesque habitant morbi</p><a href="#">read more</a>                                    
+<aside id="coned-aside" class="not-landing">
+    
+            <ul id="coned-sidebar-see-also">
+                <li id="news-hightlight">
+                    <h3>What's New</h3>
+                    <ul>
+                        <li class="news-item">
+                            <h4>New coned clusters announced!</h4>
+                            <p>
+                                Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                            </p>
+                            <a href="#">read more</a>
+                        </li>
+                        <li class="news-item">
+                            <h4>New coned clusters announced!</h4>
+                            <p>
+                                Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                            </p>
+                            <a href="#">read more</a>
+                        </li>
+                        <li class="news-item">
+                            <h4>New coned clusters announced!</h4>
+                            <p>
+                                Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                            </p>
+                            <a href="#">read more</a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li><a href="#">General Info</a></li>
+                <li><a href="#">Fees</a></li>
+                <li><a href="#">Important Dates</a></li>
+                <li><a href="#">Information Sessions</a></li>
+                <li><a href="#">Policies</a></li>
+                <li><a href="#">How to Register</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">A-Z Course Listing</a></li>
             </ul>
-        </li>
-        <li>
-            <a href="#">What's New</a>
-        </li>
-        <li>
-            <a href="#">What's New</a>
-        </li>
-    </ul>
-    <h3>See Also</h3>
-    <ul id="coned-sidebar-see-also">
-        <li><a href="#">General Info</a></li>
-        <li><a href="#">Fees</a></li>
-        <li><a href="#">Important Dates</a></li>
-        <li><a href="#">Information Sessions</a></li>
-        <li><a href="#">Policies</a></li>
-        <li><a href="#">How to Register</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">A-Z Course Listing</a></li>
-    </ul>
+
 </aside>
 
 

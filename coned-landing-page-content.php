@@ -221,7 +221,7 @@
 
             <ul>
                 <li>
-                    <a href href="#" id="arts-and-design">
+                    <a href="#" id="arts-and-design">
                         <img src="/common/coned_images/clusters/arts_design.png" alt="Arts and Design">
                         <h3>Arts &amp; Design</h3>
                         <p class="cluster-description">
@@ -230,7 +230,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href href="#" id="business">
+                    <a href="coned-cluster-page.php" id="business">
                         <img src="/common/coned_images/clusters/business.png" alt="Business">
                         <h3>Business</h3>
                         <p class="cluster-description">
@@ -239,7 +239,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href href="#" id="communication-language">
+                    <a href="#" id="communication-language">
                         <img src="/common/coned_images/clusters/communication_language.png" alt="Communications and Language">
                         <h3>Cluster Name</h3>
                         <p class="cluster-description">
@@ -248,7 +248,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href href="#" id="computer-studies">
+                    <a href="#" id="computer-studies">
                         <img src="/common/coned_images/clusters/computer_studies.png" alt="Computer Studies">
                         <h3>Cluster Name</h3>
                         <p class="cluster-description">
@@ -257,7 +257,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href href="#" id="education-liberal-studies">
+                    <a href="#" id="education-liberal-studies">
                         <img src="/common/coned_images/clusters/education_liberal_studies.png" alt="Education and Liberal Studies">
                         <h3>Cluster Name</h3>
                         <p class="cluster-description">
@@ -266,7 +266,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href href="#" id="environmental-studies">
+                    <a href="#" id="environmental-studies">
                         <img src="/common/coned_images/clusters/environmental_studies.png" alt="Environmental Studies">
                         <h3>Cluster Name</h3>
                         <p class="cluster-description">
@@ -275,7 +275,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href href="#" id="health-wellness">
+                    <a href="#" id="health-wellness">
                         <img src="/common/coned_images/clusters/health_wellness.png" alt="Health and Wellness">
                         <h3>Cluster Name</h3>
                         <p class="cluster-description">
@@ -284,7 +284,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href href="#" id="justice-studies">
+                    <a href="#" id="justice-studies">
                         <img src="/common/coned_images/clusters/justice_studies.png" alt="Justice Studies">
                         <h3>Cluster Name</h3>
                         <p class="cluster-description">
@@ -293,7 +293,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href href="#" id="manufacturing-tech-trades">
+                    <a href="#" id="manufacturing-tech-trades">
                         <img src="/common/coned_images/clusters/manufacturing_tech_trades.png" alt="Manufacturing and Technical Trades">
                         <h3>Cluster Name</h3>
                         <p class="cluster-description">
@@ -335,7 +335,6 @@
                         </li>
                         
                     </ul>
-                    
                 </li>
                 <li><a href="#">General Info</a></li>
                 <li><a href="#">Fees</a></li>
@@ -346,7 +345,7 @@
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">A-Z Course Listing</a></li>
             </ul>
-        </div>
+        
     </aside>
 
 <div class="clearfix"></div>

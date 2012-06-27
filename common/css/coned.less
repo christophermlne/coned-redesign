@@ -112,7 +112,7 @@
 	//.gradient(#0b0b0b, #0b0b0b, #424242);
 	background:#3a3a3a;
 	height:70px;
-	margin-top:1em;
+	margin-top:0.9em;
 	margin-bottom:1em;
 	h1 {
 		font-size:1.75em;
@@ -180,14 +180,6 @@
 		margin-right: 2em;
 	}
 }
-/*
-.triangle-up {
-    width: 0px;
-	height: 0px;
-	border-style: solid;
-	border-width: 0 15px 15px 15px;
-	border-color: transparent transparent #D8D8D8 transparent;
-}*/
 #coned-search-results {
 	.row(12);
 	margin-bottom:12px;
@@ -198,7 +190,6 @@
 		display:block;
 		margin:0 auto;
 		text-align:center;
-		//.triangle-up;
 	}
 	#coned-search-results-display {
 		background:white;
@@ -228,8 +219,6 @@
 				margin-top:0.5em;
 				margin-bottom:1em;
 				padding:.5em 0;
-				//background: #FFFFC8;
-				//border: 1px solid #F0DF63;
 				span {
 					font-weight:bold;
 				}
@@ -306,7 +295,6 @@
 			.list {
 			}
 			#coned-faceted-nav {
-
 				background:whiteSmoke;
 				.clearfix;
 				h4 {
@@ -353,11 +341,13 @@
    }
 }
 
-#coned-clusters { background:#ededed;
+#coned-clusters { 
+	background:#ededed;
+	padding-bottom:2em;
 	h2 {
 		width:100%;
 		display:block;
-		padding:1em 0 1em .5em;
+		padding: 1.4em 0 0.5em 2.2em;
 		.adelleNormal();
 		font-size:1.8em;
 	}
@@ -369,12 +359,12 @@
 				padding:3em 0;
 			}
 			h3 {
-				.adelleHeavy();
+				.adelleNormal();
 				color: #5D5D5D;
-				font-size:1.4em;
+				font-size: 1.5em;
 				text-align: center;
-				letter-spacing:0.05em;
-				margin-top:0.5em;
+				letter-spacing: 0.05em;
+				margin-top: 0.5em;
 			}
 			p.cluster-description {
 				display:none;
@@ -487,47 +477,39 @@
 		}
 	}
 }
-#coned-cluster-listing {
-	
-	.coned-column {
-		background:grey;
-		.column(4,12);
-		min-height:400px;
-	}
-	.coned-column.first {
-		background:orange;
-		clear:left;
-	}
-	.coned-column.last {
-		background:green;
-	}
-}
-#coned-aside.not-landing {
-   .column(4,12);
-}
-
-#coned-cluster-featured {
-	.column(8,12);
-	background:purple;
-	min-height:200px;
-}
-.expanded-li{
-	height:3em;
-	background:gray;
-	width:100%;
-}
-
-
 
 #coned-sidebar-see-also {
 	li { border-bottom: solid 1px #e6e6e6;
-		padding:10px 0; background: url(../coned_images/deco/aside-nav-arrow.png) no-repeat 213px 12px;
+		padding:10px 0; 
+		background: url(../coned_images/deco/aside-nav-arrow.png) no-repeat right;
 		a {
 			color:#3a3a3a;
 
 			
-			//display:block;
 			text-decoration:none;
 		}
 	}
+}
+//////////////////////////////////////////////////////
+//                                                  //
+//                                                  //
+//                CLUSTER PAGE STYLES               //
+//                                                  //
+//                                                  //
+//////////////////////////////////////////////////////
+
+#coned-aside.not-landing {
+   .column(4,12);
+}
+#coned-landing-content.not-landing {
+	.column(8,12);
+}
+#coned-cluster-featured {
+	background:purple;
+	min-height:200px;
+}
+#coned-cluster-listing {
+	
+	min-height:500px;
+	background:goldenrod;
 }
