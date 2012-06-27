@@ -222,70 +222,82 @@
             <ul>
                 <li>
                     <a href href="#" id="arts-and-design">
+                        <img src="/common/coned_images/clusters/arts_design.png" alt="Arts and Design">
                         <h3>Arts &amp; Design</h3>
+                        <p class="cluster-description">
+                            Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur
+                        </p>
                     </a>
                 </li>
                 <li>
                     <a href href="#" id="business">
+                        <img src="/common/coned_images/clusters/business.png" alt="Business">
                         <h3>Business</h3>
-                        <p class="hide">
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        <p class="cluster-description">
+                            Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur
                         </p>
                     </a>
                 </li>
                 <li>
                     <a href href="#" id="communication-language">
+                        <img src="/common/coned_images/clusters/communication_language.png" alt="Communications and Language">
                         <h3>Cluster Name</h3>
-                        <p class="hide">
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        <p class="cluster-description">
+                            Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur
                         </p>
                     </a>
                 </li>
                 <li>
                     <a href href="#" id="computer-studies">
+                        <img src="/common/coned_images/clusters/computer_studies.png" alt="Computer Studies">
                         <h3>Cluster Name</h3>
-                        <p class="hide">
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        <p class="cluster-description">
+                            Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur
                         </p>
                     </a>
                 </li>
                 <li>
                     <a href href="#" id="education-liberal-studies">
+                        <img src="/common/coned_images/clusters/education_liberal_studies.png" alt="Education and Liberal Studies">
                         <h3>Cluster Name</h3>
-                        <p class="hide">
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        <p class="cluster-description">
+                            Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur
                         </p>
                     </a>
                 </li>
                 <li>
                     <a href href="#" id="environmental-studies">
+                        <img src="/common/coned_images/clusters/environmental_studies.png" alt="Environmental Studies">
                         <h3>Cluster Name</h3>
-                        <p class="hide">
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        <p class="cluster-description">
+                            Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur
                         </p>
                     </a>
                 </li>
                 <li>
                     <a href href="#" id="health-wellness">
+                        <img src="/common/coned_images/clusters/health_wellness.png" alt="Health and Wellness">
                         <h3>Cluster Name</h3>
-                        <p class="hide">
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        <p class="cluster-description">
+                            Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur
                         </p>
                     </a>
                 </li>
                 <li>
                     <a href href="#" id="justice-studies">
+                        <img src="/common/coned_images/clusters/justice_studies.png" alt="Justice Studies">
                         <h3>Cluster Name</h3>
-                        <p class="hide">
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        <p class="cluster-description">
+                            Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur
                         </p>
                     </a>
                 </li>
                 <li>
                     <a href href="#" id="manufacturing-tech-trades">
+                        <img src="/common/coned_images/clusters/manufacturing_tech_trades.png" alt="Manufacturing and Technical Trades">
                         <h3>Cluster Name</h3>
-                        <p class="hide">
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        <p class="cluster-description">
+                            Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur
                         </p>
                     </a>
                 </li>
