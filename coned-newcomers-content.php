@@ -15,16 +15,13 @@
         <section id="coned-secondary-featured"><!--Imagery to come--></section>
         <section id="intro">
             <h1>Welcome to Canada</h1>
-            <div class="intro-text"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada 
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada 
             fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p><p>Pellentesque habitant morbi tristique senectus et netus et malesuada 
-            est. Mauris placerat eleifend leo.</p></div>
-            <div class="call-out-session"><h4>Information Session</h4><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <br /><br /><a href="#">Register Today</a></p></div>
-        </section>
-
-         <section id="way-find">
+            est. Mauris placerat eleifend leo.</p>
+            <section id="way-find">
             <section id="way-find-item">
+                <h2>Improve Your English</h2>
                 <div class="way-find-desc">
-                    <h2>Improve Your English</h2>
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
                     <p>Pellentesque habitant morbi tricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
                     </div>
@@ -38,8 +35,8 @@
                  </ul></div>
             </section>
             <section id="way-find-item">
+                <h2>Improve Your English</h2>
                 <div class="way-find-desc">
-                    <h2>Improve Your English</h2>
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
                     <p>Pellenstas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
                     </div>
