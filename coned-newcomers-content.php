@@ -66,6 +66,7 @@
                 </form>
                 <a href="#" id="close-search">Close</a>
             </div>
+             <div class="clearfix"></div>
             <ul id="coned-sidebar-see-also">
                 <li id="news-hightlight">
                     <h3>What's New</h3>
