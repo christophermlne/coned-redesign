@@ -12,13 +12,24 @@
 </div>-->
 
 <div id="coned-landing-content" class="not-landing">
-    
-    
-        <section id="coned-cluster-featured"><h1>Business</h1></section>
-        
-        <section id="coned-cluster-listing">
+
+    <section id="coned-title">
+    <div class="crumbs">
+        <ul>
+            <li><a href="#">Home</a></li>/
+            <li><a href="#">Programs and Courses</a></li>/
+            <li><a href="#">Programs</a></li>
+        </ul>
+    </div>
+    <h1>Programs | <span>Business</span></h1>
+    </section>
+     <section id="coned-cluster-featured">
+        <!--image/campaign for cluster here</h1>--></section>
+        <section id="coned-intro"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p></section>
+         <section id="coned-cluster-listing">
+            <h2>Choose a program:</h2>
             <section class="cluster-items">
-                <h2>Accounting and Finance</h2>
+                <h3>Accounting and Finance</h3>
                 <ul class="list">
                     <li><a href="#">Canadian Securities</a></li>
                     <li><a href="#">Financial Planning</a></li>
@@ -32,7 +43,7 @@
                  
             </section>
             <section class="cluster-items">
-                <h2>Accounting and Finance</h2>
+                <h3>Accounting and Finance</h3>
                 <ul class="list">
                     <li><a href="#">Canadian Securities</a></li>
                     <li><a href="#">Financial Planning</a></li>
@@ -43,7 +54,7 @@
                  
             </section>
             <section class="cluster-items">
-                <h2>Accounting and Finance</h2>
+                <h3>Accounting and Finance</h3>
                 <ul class="list">
                     <li><a href="#">Canadian Securities</a></li>
                     <li><a href="#">Financial Planning</a></li>
@@ -54,7 +65,7 @@
                  
             </section>
             <section class="cluster-items">
-                <h2>Accounting and Finance</h2>
+                <h3>Accounting and Finance</h3>
                 <ul class="list">
                     <li><a href="#">Canadian Securities</a></li>
                     <li><a href="#">Financial Planning</a></li>
@@ -70,8 +81,18 @@
 
 
 <aside id="coned-aside" class="not-landing">
-    
-            <ul id="coned-sidebar-see-also">
+    <div id="coned-sidebar-search">
+            <h1><span>Explore</span> Continuing Education</h1>
+            <form action="">
+            <fieldset>
+                <input type="text" placeholder="Find Programs &amp; Courses" class="coned-search-field">
+                 <button type="button" name="Submit" class="coned-search-submit"><span>Search</span></button>
+            </fieldset>
+            </form>
+            <a href="#" id="close-search">Close</a>
+     </div>
+     <div class="clearfix"></div>
+       <ul id="coned-sidebar-see-also">
                 <li id="news-hightlight">
                     <h3>What's New</h3>
                     <ul>
@@ -108,6 +129,7 @@
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">A-Z Course Listing</a></li>
             </ul>
+
 
 </aside>
 
