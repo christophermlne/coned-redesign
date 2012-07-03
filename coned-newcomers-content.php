@@ -50,14 +50,25 @@
                     <li><a href="#">Accounting and Finance - Other Related<br /><span class="code">this is the small text</span></a></li>
                     <li><a href="#">Canadian Payroll Association - Payroll Certification Programs<br /><span class="code">this is the small text</span></a></li>
                     <li><a href="#">Tax Accounting<br /><span class="code">this is the small text</span></a></li>
-                 </ul></div>
+                    <li><a href="#">Accounting and Finance - Other Related<br /><span class="code">this is the small text</span></a></li>
+                </ul></div>
             </section>
       </section>
 </div>
 
 
 <aside id="coned-aside" class="not-landing">
-    
+
+            <div id="coned-sidebar-search">
+                <h1><span>Explore</span> Continuing Education</h1>
+                <form action="">
+                <fieldset>
+                    <input type="text" placeholder="Find Programs &amp; Courses" class="coned-search-field">
+                     <button type="button" name="Submit" class="coned-search-submit"><span>Search</span></button>
+                </fieldset>
+    </form>
+    <a href="#" id="close-search">Close</a>
+            </div>
             <ul id="coned-sidebar-see-also">
                 <li id="news-hightlight">
                     <h3>What's New</h3>
