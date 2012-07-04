@@ -61,7 +61,7 @@
         <section class="results programs">
             <header>
                 <h1>Programs</h1>
-                <p>Showing 7 Results for &ldquo;<span>Busine</span>&rdquo;</p>
+                <!-- <p>Showing 7 Results for &ldquo;<span>Busine</span>&rdquo;</p> -->
             </header>
             <ul class="list">
                 <li>
@@ -91,7 +91,7 @@
         <section class="results courses">
             <header>
                 <h1>Courses</h1>
-                <p>Showing 20 Results for &ldquo;<span>Busine</span>&rdquo;</p>
+                <!-- <p>Showing 20 Results for &ldquo;<span>Busine</span>&rdquo;</p> -->
             </header>
             <section id="coned-faceted-nav">
                 <h4>Refine Results: </h4>
@@ -100,8 +100,8 @@
              
                     <fieldset id="delMode">
                         <legend>Method</legend>
-                        <label for="cblDelMode_0"><input type="checkbox" name="cblDelMode$0" id="cblDelMode_0">Online (ONT LEARN)</label>
-                        <label for="cblDelMode_1"><input type="checkbox" name="cblDelMode$1" id="cblDelMode_1">Online (SHERIDAN)</label>
+                        <label for="cblDelMode_0"><input type="checkbox" name="cblDelMode$0" id="cblDelMode_0">Online</label>
+                        <!-- <label for="cblDelMode_1"><input type="checkbox" name="cblDelMode$1" id="cblDelMode_1">Online (SHERIDAN)</label> -->
                         <label for="cblDelMode_2"><input type="checkbox" name="cblDelMode$2" id="cblDelMode_2">In Class</label>
                     </fieldset>
 

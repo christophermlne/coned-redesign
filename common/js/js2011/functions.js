@@ -47,7 +47,16 @@ var sheridan={homeInit:function(){
         //
         //  * coned form functions *
         //
-        
-        
+        $('#days > label').click(function(event) { 
+
+            if (! $(this).hasClass('btn-selected')) {
+                $(this).addClass('btn-selected');
+                //return false
+            } else {
+                $(this).removeClass('btn-selected');
+                //return true
+            };
+        });
+
     });
 }};
