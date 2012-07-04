@@ -409,9 +409,11 @@ div#content {
 				}
 				p.cluster-description {
 					-webkit-transition:top 0.25s, opacity 0.25s;
+					-moz-transition:top 0.25s, opacity 0.25s;
 					transition:top 0.25s, opacity 0.25s;
-					//-webkit-transition-delay:0.25s;
-					//transition-delay:0.25s;
+					-webkit-transition-delay:0.15s;
+					-moz-transition-delay:0.15s;
+					transition-delay:0.15s;
 					visibility: hidden;
 					color:#86dff2;
 					padding:1em 10% 10% 10%;
@@ -421,7 +423,8 @@ div#content {
 				}
 				&:hover {
 					-webkit-transition:background-color 0.5s;
-				transition:background-color 0.5s;
+					-moz-transition:background-color 0.5s;
+					transition:background-color 0.5s;
 					background:url('/common/coned_images/deco/roll-over-cluster-arrow.png') #007ac3 bottom right no-repeat;
 					h3 {
 						color:white;
