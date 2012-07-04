@@ -51,10 +51,10 @@ var sheridan={homeInit:function(){
 
             if (! $(this).hasClass('btn-selected')) {
                 $(this).addClass('btn-selected');
-                //return false
+                return false
             } else {
                 $(this).removeClass('btn-selected');
-                //return true
+                return true
             };
         });
 

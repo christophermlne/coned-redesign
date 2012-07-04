@@ -219,11 +219,11 @@ div#content {
 			header {
 				background: #0094F5;
 				width:100%;
-				padding:1em 0 1em 0;
+				padding:.5em 0;
 				h1 {
 					.adelleNormal;
 					color:white;
-					font-size:1.6em;
+					font-size:1.4em;
 					text-align:center;
 					display:block;
 					padding:0 0 0.15em 0;
@@ -252,44 +252,50 @@ div#content {
 			.column(8,12);
 			.list {
 			}
-			#coned-faceted-nav {
-				background:whiteSmoke;
-				.clearfix;
-				h4 {
-					text-align:center;
-					font-size:1.2em;
-				}
-				form {
-					fieldset {
-						.column(4,8);
-						margin-bottom:1em;
-						background:white;
-						.rounded(6px);
-						legend {
-							display:block;
-							width:100%;
-						}
-						&#days {
-							.column(8,8);
-							margin-bottom:1em;
-							label {
-								float:left;
-								input {
-									display:none;
-								}
-							}
-						}
-						label {
-							margin-left:.5em;
-							display:block;
-							input {
-								margin-right:1em;
-							}
-							&:hover {
-								background:#E2E1E1;
-							}
-						}
+		}
+	}
+}
+#coned-faceted-nav {
+	background:whiteSmoke;
+	.clearfix;
+	h4 {
+		text-align:center;
+		font-size:1.2em;
+	}
+	form {
+		fieldset {
+			.column(4,8);
+			margin-bottom:1em;
+			background:white;
+			.rounded(6px);
+			legend {
+				display:block;
+				width:100%;
+			}
+			&#days {
+				.column(8,8);
+				margin-bottom:1em;
+				label {
+					float:left;
+					display:block;
+					background:#C5C5C5;
+					padding:0.25em 0.5em;
+					margin:0;
+					&:hover {
+						background:#dddddd;
 					}
+					input {
+						display:none;
+					}
+				}
+			}
+			label {
+				margin-left:.5em;
+				input {
+					margin-right:1em;
+				}
+				&:hover {
+					background:#E2E1E1;
 				}
 			}
 		}
@@ -408,9 +414,9 @@ div#content {
 					margin-top:30%;
 				}
 				p.cluster-description {
-					-webkit-transition:top 0.25s, opacity 0.25s;
-					-moz-transition:top 0.25s, opacity 0.25s;
-					transition:top 0.25s, opacity 0.25s;
+					-webkit-transition:top 0.25s ease-out, opacity 0.25s ease-out;
+					-moz-transition:top 0.25s ease-out, opacity 0.25s ease-out;
+					transition:top 0.25s ease-out, opacity 0.25s ease-out;
 					-webkit-transition-delay:0.15s;
 					-moz-transition-delay:0.15s;
 					transition-delay:0.15s;
@@ -422,9 +428,9 @@ div#content {
 					opacity:0;
 				}
 				&:hover {
-					-webkit-transition:background-color 0.5s;
-					-moz-transition:background-color 0.5s;
-					transition:background-color 0.5s;
+					-webkit-transition:background-color 0.75s;
+					-moz-transition:background-color 0.75s;
+					transition:background-color 0.75s;
 					background:url('/common/coned_images/deco/roll-over-cluster-arrow.png') #007ac3 bottom right no-repeat;
 					h3 {
 						color:white;

@@ -99,7 +99,7 @@
                 <form>
              
                     <fieldset id="delMode">
-                        <legend>Method</legend>
+                        <!-- <legend>Method</legend> -->
                         <label for="cblDelMode_0"><input type="checkbox" name="cblDelMode$0" id="cblDelMode_0">Online</label>
                         <!-- <label for="cblDelMode_1"><input type="checkbox" name="cblDelMode$1" id="cblDelMode_1">Online (SHERIDAN)</label> -->
                         <label for="cblDelMode_2"><input type="checkbox" name="cblDelMode$2" id="cblDelMode_2">In Class</label>
@@ -122,7 +122,6 @@
                         <label for="rbDays_4"><input type="radio" value="FRI" name="rbDays" id="rbDays_4">Friday</label>
                         <label for="rbDays_5"><input type="radio" value="SAT" name="rbDays" id="rbDays_5">Saturday</label>
                         <label for="rbDays_6"><input type="radio" value="SUN" name="rbDays" id="rbDays_6">Sunday</label>
-                        <label for="rbDays_7"><input type="radio" value="DLY" name="rbDays" id="rbDays_7">Any</label>
                     </fieldset>
                     
                 </form>
