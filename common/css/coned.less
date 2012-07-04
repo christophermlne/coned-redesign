@@ -1,3 +1,6 @@
+// 
+// * GRID *
+//
 @import "elements.less";
 @import "grid.less";
 
@@ -13,9 +16,9 @@ div#content {
 	width: 973px;
 	margin-left: -6px;
 }
-
-
-
+// 
+// * CLEARFIX *
+//
 .clearfix {
 
 	&:after {
@@ -42,8 +45,9 @@ div#content {
 .hide {
 	display:none;
 }
-// FONTS
-
+// 
+// * FONTS *
+//
 .adelleNormal() {
 	font-family:"Adelle";
 	font-weight:400;
@@ -52,7 +56,6 @@ div#content {
 	font-family:"Adelle";
 	font-weight:700;
 }
-// END FONTS
 //////////////////////////////////////////////////////
 //                                                  //
 //                                                  //
@@ -107,7 +110,6 @@ div#content {
 //////////////////////////////////////////////////////
 #coned-messaging-area {
 	.column(12);
-	//background:grey;
 	height:400px;
 	margin-top:1em;
 }
@@ -120,7 +122,6 @@ div#content {
 //////////////////////////////////////////////////////
 #coned-search-bar {
 	.column(12);
-	//.gradient(#0b0b0b, #0b0b0b, #424242);
 	background:#3a3a3a;
 	height:70px;
 	margin-top:0.9em;
@@ -258,17 +259,24 @@ div#content {
 					font-size:1.2em;
 				}
 				form {
-					//display:none;
 					fieldset {
 						.column(4,8);
 						margin-bottom:1em;
 						background:white;
 						.rounded(6px);
 						legend {
-							//color:white;
-							//background:#3A3A3A;
 							display:block;
 							width:100%;
+						}
+						&#days {
+							.column(8,8);
+							margin-bottom:1em;
+							label {
+								float:left;
+								input {
+									display:none;
+								}
+							}
 						}
 						label {
 							margin-left:.5em;
@@ -595,7 +603,12 @@ div#content {
 		}
 	}
 }
-
+#coned-sidebar-search { 
+	background:#3a3a3a; display:block; padding:10px; height:30px; margin-bottom:1em;
+	h1 {
+		color:white;
+	}
+}
 //////////////////////////////////////////////////////
 //                                                  //
 //                                                  //
@@ -700,18 +713,24 @@ div#content {
 	//image will be in-box
 	background:#333;
 	min-height:200px;
+	h1 {
+		display:block;
+		padding: 160px 10px 10px 30px;
+		.adelleHeavy();
+		font-size:3em;
+		color:#ffffff;
+	}
 }
-#intro{
-	//.row(12);
+#intro {
+	.row(12);
 	background:white;
-    //.box-shadow(0px 1px 1px rgba(0, 0, 0, 0.1);
-		h1 {
+	.box-shadow(0px 1px 1px rgba(0, 0, 0, 0.1);
+	h1 {
 		.adelleHeavy();
 		font-size:2.5em;
 		color:#333333;
-		margin-bottom:.5em;
-		padding:1em 0 .2em 1em;
-		}
+		padding:30px;
+	}
 	p {
 		color:#3A3A3A;
 		margin-left:2em;
