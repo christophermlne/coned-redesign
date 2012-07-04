@@ -12,7 +12,7 @@ var sheridan={homeInit:function(){
             $('#coned-search-results').delay(450).fadeIn(1250);    
         };
         // uncomment/comment this line to have the landing page go immediately into search mode
-        //goDirectlyToSearchForm();
+        goDirectlyToSearchForm();
 
         $('.coned-search-field').focusin(function(){
             
@@ -47,14 +47,14 @@ var sheridan={homeInit:function(){
         //
         //  * coned form functions *
         //
-        $('#days > label').click(function(event) { 
+        $('#days > label, #campus > label').click(function(event) { 
 
             if (! $(this).hasClass('btn-selected')) {
                 $(this).addClass('btn-selected');
                 return false
             } else {
                 $(this).removeClass('btn-selected');
-                return true
+                return false
             };
         });
 

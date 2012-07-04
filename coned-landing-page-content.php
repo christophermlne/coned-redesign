@@ -95,36 +95,37 @@
             </header>
             <section id="coned-faceted-nav">
                 <h4>Refine Results: </h4>
-                
-                <form>
-             
-                    <fieldset id="delMode">
-                        <!-- <legend>Method</legend> -->
-                        <label for="cblDelMode_0"><input type="checkbox" name="cblDelMode$0" id="cblDelMode_0">Online</label>
-                        <!-- <label for="cblDelMode_1"><input type="checkbox" name="cblDelMode$1" id="cblDelMode_1">Online (SHERIDAN)</label> -->
-                        <label for="cblDelMode_2"><input type="checkbox" name="cblDelMode$2" id="cblDelMode_2">In Class</label>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>Campus</legend>
-                        <label for=""><input type="checkbox" id="DAVIS (BRAM)"      class="clsLoc">Davis (BRAM)</label>
-                        <label for=""><input type="checkbox" id="STC (OAK)"         class="clsLoc">STC (OAK)</label>
-                        <label for=""><input type="checkbox" id="TRAFALGAR (OAK)"   class="clsLoc">Trafalgar Road (OAK)</label>
-                        <label for=""><input type="checkbox" id="ST. JOSEPH (MISS)" class="clsLoc">St. Joseph (MISS)</label>
-                    </fieldset>
-
-                    <fieldset id="days">
-                        <legend>Day</legend>
-                        <label for="rbDays_0"><input type="radio" value="MON" name="rbDays" id="rbDays_0">Monday</label>
-                        <label for="rbDays_1"><input type="radio" value="TUE" name="rbDays" id="rbDays_1">Tuesday</label>
-                        <label for="rbDays_2"><input type="radio" value="WED" name="rbDays" id="rbDays_2">Wednesday</label>
-                        <label for="rbDays_3"><input type="radio" value="THU" name="rbDays" id="rbDays_3">Thursday</label>
-                        <label for="rbDays_4"><input type="radio" value="FRI" name="rbDays" id="rbDays_4">Friday</label>
-                        <label for="rbDays_5"><input type="radio" value="SAT" name="rbDays" id="rbDays_5">Saturday</label>
-                        <label for="rbDays_6"><input type="radio" value="SUN" name="rbDays" id="rbDays_6">Sunday</label>
-                    </fieldset>
-                    
-                </form>
+                <div class="form-wrapper">
+                    <form>
+                 
+                        <fieldset id="delMode">
+                            <!-- <legend>Method</legend> -->
+                            <label for="cblDelMode_0"><input type="checkbox" name="cblDelMode$0" id="cblDelMode_0">Online</label>
+                            <!-- <label for="cblDelMode_1"><input type="checkbox" name="cblDelMode$1" id="cblDelMode_1">Online (SHERIDAN)</label> -->
+                            <label for="cblDelMode_2"><input type="checkbox" name="cblDelMode$2" id="cblDelMode_2">In Class</label>
+                        </fieldset>
+                        
+                        <fieldset id="campus">
+                            <legend>Campus</legend>
+                            <label for=""><input type="checkbox" id="DAVIS (BRAM)"      class="clsLoc">Davis (BRAM)</label>
+                            <label for=""><input type="checkbox" id="STC (OAK)"         class="clsLoc">STC (OAK)</label>
+                            <label for=""><input type="checkbox" id="TRAFALGAR (OAK)"   class="clsLoc">Trafalgar Road (OAK)</label>
+                            <label for=""><input type="checkbox" id="ST. JOSEPH (MISS)" class="clsLoc">St. Joseph (MISS)</label>
+                        </fieldset>
+                        
+                        <fieldset id="days">
+                            <legend>Days</legend>
+                            <label for="rbDays_0"><input type="radio" value="MON" name="rbDays" id="rbDays_0">Monday</label>
+                            <label for="rbDays_1"><input type="radio" value="TUE" name="rbDays" id="rbDays_1">Tuesday</label>
+                            <label for="rbDays_2"><input type="radio" value="WED" name="rbDays" id="rbDays_2">Wednesday</label>
+                            <label for="rbDays_3"><input type="radio" value="THU" name="rbDays" id="rbDays_3">Thursday</label>
+                            <label for="rbDays_4"><input type="radio" value="FRI" name="rbDays" id="rbDays_4">Friday</label>
+                            <label for="rbDays_5"><input type="radio" value="SAT" name="rbDays" id="rbDays_5">Saturday</label>
+                            <label for="rbDays_6"><input type="radio" value="SUN" name="rbDays" id="rbDays_6">Sunday</label>
+                        </fieldset>
+                        
+                    </form>
+                </div>
             </section>
             <ul class="list">
                 <li>

@@ -56,6 +56,17 @@ div#content {
 	font-family:"Adelle";
 	font-weight:700;
 }
+//
+// * MIXINS *
+//
+.disable-text-select { // does work anymore?
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
 //////////////////////////////////////////////////////
 //                                                  //
 //                                                  //
@@ -198,7 +209,6 @@ div#content {
 	}
 }
 #coned-search-results {
-	.row(12);
 	margin-bottom:12px;
 	margin-top:-5px;
 	.clearfix;
@@ -255,39 +265,76 @@ div#content {
 		}
 	}
 }
+//
+// * Faceted Nav *
+//
 #coned-faceted-nav {
-	background:whiteSmoke;
+	background:#EBEBEB;
+	width:95%;
+	margin:2.5%;
 	.clearfix;
+	.rounded(6px);
 	h4 {
 		text-align:center;
-		font-size:1.2em;
+		font-size:1em;
+		font-weight:normal;
+		display:block;
+		padding:0.5em 0;
+		border-bottom:1px solid grey;
+		background:url('../coned_images/faceted-nav-header-noise.jpeg');
+		.border-radius(6px 6px 0 0);
+	}
+	.form-wrapper {
+		border-top:1px solid white;
+		
+		.clearfix;
+		height:100%;
 	}
 	form {
+		background:url('../coned_images/faceted-nav-body-noise.jpeg');
 		fieldset {
-			.column(4,8);
+			width:50%;
+			float:left;
 			margin-bottom:1em;
-			background:white;
 			.rounded(6px);
+			.clearfix;
+			padding-bottom:.5em;
 			legend {
 				display:block;
 				width:100%;
+				.disable-text-select;
+				float:left;
 			}
-			&#days {
+			&#days , &#campus {
 				.column(8,8);
 				margin-bottom:1em;
+				.clearfix;
 				label {
 					float:left;
 					display:block;
 					background:#C5C5C5;
-					padding:0.25em 0.5em;
+					padding:0.25em 1em;
 					margin:0;
+					margin-left:2px;
+					.rounded(3px);
+					&.btn-selected {
+						background: #07972F;
+						color: white;
+						&:hover {
+							background: #07972F;
+						}
+					}
 					&:hover {
 						background:#dddddd;
+						cursor:pointer;
 					}
 					input {
 						display:none;
 					}
 				}
+			}
+			&#campus {
+
 			}
 			label {
 				margin-left:.5em;
