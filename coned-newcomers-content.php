@@ -29,12 +29,11 @@
                  </div>
                 <div class="way-find-links">
                     <h3>Title for the links</h3>
+                    <p>this is the description</p>
                 <ul class="list-2">
                     <li><a href="#">Canadian Securities<br /><span class="desc">this is the small text</span></a></li>
                     <li><a href="#">Financial Planning<br /><span class="desc">this is the small text</span></a></li>
                     <li><a href="#">Accounting and Finance - Other Related<br /><span class="desc">this is the small text</span></a></li>
-                    <li><a href="#">Canadian Payroll Association - Payroll Certification Programs<br /><span class="desc">this is the small text</span></a></li>
-                    <li><a href="#">Tax Accounting<br /><span class="desc">this is the small text</span></a></li>
                  </ul></div>
             </section>
             <section id="way-find-item">
@@ -104,7 +103,6 @@
                 <li><a href="#">Policies</a></li>
                 <li><a href="#">How to Register</a></li>
                 <li><a href="#">Contact Us</a></li>
-                <li><a href="#">A-Z Course Listing</a></li>
             </ul>
 
 </aside>
