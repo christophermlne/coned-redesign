@@ -538,6 +538,7 @@ div#content {
 			background:#3a3a3a;
 			min-height:110px;
 			margin-bottom:0.9em;
+			padding:0;
 			//margin-bottom:1em;
 			h1 {
 				font-size:1.25em;
@@ -675,12 +676,12 @@ div#content {
 		}
 	}
 }
-#coned-sidebar-search { 
-	background:#3a3a3a; display:block; padding:10px; height:30px; margin-bottom:1em;
-	h1 {
-		color:white;
-	}
-}
+//#coned-sidebar-search { 
+//	background:#3a3a3a; display:block; padding:10px; height:30px; margin-bottom:1em;
+//	h1 {
+//		color:white;
+//	}
+//}
 //////////////////////////////////////////////////////
 //                                                  //
 //                                                  //
@@ -801,20 +802,21 @@ div#content {
 	h1{
 		.adelleHeavy();
 		font-size:3em;
-		padding:.5em;
+		//padding:.5em;
+		margin:0.5em 0 0.7em;
 	}
 	.intro-text{
 		display:block;
 		//background:#eee;
 		float:left;
-		padding:1em;
-		width:60%;
+		//padding:1em;
+		width:58%;
 	}
 	.call-out{
 		display:block;
 		background:#f0f0f0;
 		float:left;
-		width:32%;
+		width:39%;
 		margin-left:1em;
 		.box-shadow(0px 1px 1px rgba(0, 0, 0, 0.1);
 		h3{
@@ -832,11 +834,8 @@ div#content {
 	}
 }
 #way-find { .clearfix;
-	//.row(12);
-	background:#f7f7f7;
 	min-height:800px;	
-//	margin:0px;
-//	padding:0px;
+	padding:1em;
 }
 #way-find-item { 
 	margin-top:2em;
@@ -844,46 +843,53 @@ div#content {
 	margin-left:2%;
 	background:white;
 	display:block;
-	.box-shadow(0px 1px 1px rgba(0, 0, 0, 0.1);
+	.box-shadow(0px 1px 1px rgba(0, 0, 0, 0.3);
+	//border:solid #efefef 1px;
 	h2 {
 		display: block;
 		background:#3a3a3a;
 		color:white;
 		margin:0px;
-		padding:10px;
+		padding:.5em;
 		.adelleHeavy();
 		font-size:1.5em;
 		}
 	.clearfix;
-			.way-find-desc {border-right:solid #dddddd 1px;
-				.column(4,8);
+			.way-find-desc {
+				//border-right:solid #dddddd 1px;
+				float:left;
+				width:47%;
+				background:white;
 				margin:0px;
+				padding:1.5em;
 				display:block;
 				p {
-					margin:20px;
 					color:#333;
 					}
 				}
 				.way-find-links {
-					.column(4,8);
+					background:#f0f0f0;
+					float:right;
+					display:block;
+					padding:1.5em;
+					width:40%;
 					margin:0px;
 					h3{
 						color:#333;
-						//padding:0.2em;
 						.adelleHeavy();
-						font-size:1.5em;
+						font-size:1.2em;
+						
 					}
-					.list-2{margin-left:2em; margin-top:1em;
-						li{ padding:0.5em; 
-								a{
-									color:#017ec0;
-									text-decoration:none;
-								}
-								&:hover {
-									text-decoration: underline;
-								}
-								.desc{color:#333;}
-
+					.list-2{
+						li{
+							a{
+								color:#017ec0;
+								text-decoration:none;
+							}
+							&:hover {
+								text-decoration: underline;
+							}
+							.desc{color:#333;}
 						}
 					}
 				}
