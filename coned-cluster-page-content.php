@@ -1,28 +1,20 @@
 <link rel="stylesheet" href="../layerslider/css/layerslider.css" type="text/css">
 <link rel="stylesheet" href="common/layerslider/assets/css/style.css" type="text/css">
 
-<!--<div id="big-audience-nav">
-   <nav>
-        <ul>
-            <li class="active-tab"><a href="#">Prospective Students</a></li>
-            <li><a href="#">Newcomers</a></li>
-            <li><a href="#">Current Students</a></li>
-        </ul>
-    </nav>
-</div>-->
 
-<div id="coned-landing-content" class="not-landing">
-
-    <section id="coned-title">
+<section id="coned-title">
     <div class="crumbs">
         <ul>
-            <li><a href="#">Home</a></li>/
-            <li><a href="#">Programs and Courses</a></li>/
-            <li><a href="#">Programs</a></li>
+            <li><a href="#">Home <span>/</span></a></li>
+            <li><a href="#">Programs and Courses <span>/</span> </a></li>
+            <li><a href="#">Programs </a></li>
         </ul>
     </div>
-    <h1>Programs | <span>Business</span></h1>
-    </section>
+    <h1>Continuing Education - Business Programs</h1>
+</section>
+
+
+<div id="coned-landing-content" class="not-landing">
      <section id="coned-cluster-featured">
         <!--image/campaign for cluster here</h1>--></section>
         <section id="coned-intro"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p></section>
@@ -93,33 +85,6 @@
      </div>
      <div class="clearfix"></div>
        <ul id="coned-sidebar-see-also">
-                <li id="news-hightlight">
-                    <h3>What's New</h3>
-                    <ul>
-                        <li class="news-item">
-                            <h4>New coned clusters announced!</h4>
-                            <p>
-                                Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                            </p>
-                            <a href="#">read more</a>
-                        </li>
-                        <li class="news-item">
-                            <h4>New coned clusters announced!</h4>
-                            <p>
-                                Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                            </p>
-                            <a href="#">read more</a>
-                        </li>
-                        <li class="news-item">
-                            <h4>New coned clusters announced!</h4>
-                            <p>
-                                Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                            </p>
-                            <a href="#">read more</a>
-                        </li>
-                        
-                    </ul>
-                </li>
                 <li><a href="#">General Info</a></li>
                 <li><a href="#">Fees</a></li>
                 <li><a href="#">Important Dates</a></li>
