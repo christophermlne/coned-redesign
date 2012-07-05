@@ -160,7 +160,7 @@
 						$(".tweet").tweet({
 								join_text: "auto",
 								username: "sheridancollege",
-                                avatar_size: 28,
+                                avatar_size: 0,
 								count: 3,
 								auto_join_text_default: "",
 								auto_join_text_ed: "",
