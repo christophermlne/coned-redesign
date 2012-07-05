@@ -616,9 +616,129 @@ div#content {
 			}
 		}
 	}
+	#coin-news{
+		margin:0;
+		padding:0;
+		h3 {
+			background:#0079c2;
+			margin:0;
+			color:white;
+			//margin-top:1em;
+			padding:0.8em;
+			text-indent: 0.75em;
+		}
+		.coin-news-item {
+			padding:1.5em;
+			border:none;
+			border-bottom:1px solid #dfdfdf;
+			background: white;
+
+			h4 {
+				color:#333;
+			}
+			p {
+				font-size:11px;
+				margin:0;
+				padding:0;
+			}
+			a {
+				display:inline-block;
+				color:#007ac3;
+				padding:0;
+				margin:0;
+				padding-left:10px;
+				background: url(../coned_images/deco/arrow-link-read.png) 0 5px no-repeat;
+			}
+			&:last-child {
+				border-bottom:none;
+			}
+		}
+	}
 }
 
 #coned-sidebar-see-also {
+	li { border-bottom: solid 1px #e6e6e6;
+		padding:10px 0; 
+		background: url(../coned_images/deco/aside-nav-arrow.png) no-repeat right;
+		a {
+			margin-left:1em;
+			color:#3a3a3a;
+			text-decoration:none;
+		}
+	}
+}
+
+#coned-sidebar-twitter {
+	h3 {
+		color:#404040;
+		.adelleHeavy();
+		font-size:1.2em;
+		background:#f7f7f7;
+		padding:0.8em;
+	}
+	ul { border-top:1px solid #fff;
+		li.tweet{
+			padding:0.8em 2em 0.1em;
+			border:none;
+			border-bottom:1px solid #dfdfdf;
+			background: #fff;
+				h4 {
+					color:#333;
+					}
+					p {
+						a {
+							color:#007ac3;
+							padding:0;
+							margin:0;
+						}
+					}
+				.tweet-date {
+					color:#7a7a7a;
+					font-size: .8em;
+				}
+		}
+	}
+	.tweet {
+		border-top:1px solid #fff;
+		//margin:0;
+		//padding:0;
+		h3 {
+			color:#404040;
+			.adelleHeavy();
+			font-size:1.2em;
+			background:#f7f7f7;
+		//	margin:0;
+			//padding:0.8em;
+			//text-indent: 0.75em;
+		}
+		.tweet-item {
+			//padding:0.8em 2em;
+			border:none;
+			border-bottom:1px solid #dfdfdf;
+			background: #fff;
+			h4 {
+				color:#333;
+			}
+			p {
+				a {
+					color:#007ac3;
+					padding:0;
+					margin:0;
+				}
+			}
+			&:last-child {
+				border-bottom:none;
+			}
+			.tweet-date {
+				color:#7a7a7a;
+		//		padding:0em;
+				font-size: .8em;
+			}
+		}
+	}
+	h3 {
+		
+		}
 	li { border-bottom: solid 1px #e6e6e6;
 		padding:10px 0; 
 		background: url(../coned_images/deco/aside-nav-arrow.png) no-repeat right;

@@ -68,7 +68,7 @@
                 <a href="#" id="close-search">Close</a>
             </div>
              <div class="clearfix"></div> 
-            <ul id="coned-sidebar-see-also">
+           <!-- <ul id="coned-sidebar-see-also">
                 <li id="news-hightlight">
                     <h3>What's New</h3>
                     <ul>
@@ -103,7 +103,58 @@
                 <li><a href="#">Policies</a></li>
                 <li><a href="#">How to Register</a></li>
                 <li><a href="#">Contact Us</a></li>
+            </ul>-->
+
+            <section id="coin-news">
+                <h3>What's New</h3>
+                <ul>
+                    <li class="coin-news-item">
+                        <h4>New coned clusters announced!</h4>
+                            <p>
+                                Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                            </p>
+                            <a href="#">read more</a>
+                    </li>
+                </ul>
+          </section>
+          <section id="coned-sidebar-twitter">
+            <h3>From our Twitter Feed</h3>
+             <ul>
+                <li class="tweet">
+                    <h4>name</h4>
+                            <p>
+                                Omnis iste natus error sit <a href="#">read more</a> voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                            </p>
+                            <p class="tweet-date">18 hours ago</p>
+                        </li>
+                        <li class="tweet">
+                            <h4>name</h4>
+                            <p>
+                                Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. <a href="#">read more</a>
+                            </p>
+                            <p class="tweet-date">18 hours ago</p>
+                        </li>
+                        <li class="tweet">
+                            <h4>name</h4>
+                            <p>
+                                Omnis iste natus error sit <a href="#">read more</a> voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                            </p>
+                            <p class="tweet-date">18 hours ago</p>
+                       </li>
             </ul>
+    </section>
+
+
+            <ul id="coned-sidebar-see-also">
+                <li><a href="#">General Info</a></li>
+                <li><a href="#">Fees</a></li>
+                <li><a href="#">Important Dates</a></li>
+                <li><a href="#">Information Sessions</a></li>
+                <li><a href="#">Policies</a></li>
+                <li><a href="#">How to Register</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
 
 </aside>
 
