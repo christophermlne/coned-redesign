@@ -317,21 +317,6 @@
 
     <aside id="coned-aside">
 
-         <?php include('news.php'); ?>
-            
-          <script>
-            $(document).ready(function() {
-                $('#news_slider').bjqs({
-                  'animation' : 'slide',
-                  'width' : 200,
-                  'height' : 210
-                });
-              });
-        </script>
-
-        <?php include('twitter.php'); ?>
-
-
         <ul id="coned-sidebar-see-also">
         
             <li><a href="#">General Info</a></li>
@@ -343,7 +328,21 @@
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">A-Z Course Listing</a></li>
         </ul>
-        
+
+         <?php include('news.php'); ?>
+            
+          <script>
+            $(document).ready(function() {
+                $('#news_slider').bjqs({
+                  'animation' : 'slide',
+                  'width' : 200,
+                  'height' : 185
+                });
+              });
+        </script>
+
+        <?php include('twitter.php'); ?>
+  
     </aside>
 
 <div class="clearfix"></div>

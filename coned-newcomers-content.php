@@ -106,7 +106,7 @@
                 $('#news_slider').bjqs({
                   'animation' : 'slide',
                   'width' : 280,
-                  'height' : 180
+                  'height' : 160
                 });
               });
         </script>

@@ -703,7 +703,7 @@ div#content {
 	}
 	 ol.bjqs-markers{
 		position:absolute;
-		bottom: 20px;
+		bottom: 12px;
 	}
 	 ol.bjqs-markers li{
 		float:left;
@@ -711,8 +711,8 @@ div#content {
 	}
 	 ol.bjqs-markers li a{
 		display:block;
-		height: 10px;
-		width: 10px;
+		height: 8px;
+		width: 8px;
 		//border: 2px solid #999;
 		overflow:hidden;
 		text-indent:-9999px;
@@ -721,7 +721,8 @@ div#content {
 		//box-shadow:0 0 1px rgba(0,0,0,0.5);
 	}
 	ol.bjqs-markers li.active-marker a{
-		background: #0079c2;
+		//background: #0079c2;
+		background: #999;
 	}
 	/* end slider */
 
@@ -732,8 +733,7 @@ div#content {
 		//margin-top:1em;
 		padding:0.8em;
 		text-indent: 0.5em;
-		.adelleHeavy();
-		font-size: 1.2em;
+		//font-size: 1.2em;
 	}
 	li.coin-news-item {
 		padding: 1.5em 0;
@@ -760,10 +760,13 @@ div#content {
 
 
 #coned-sidebar-see-also {
-	margin-bottom: 3em;
+	margin-bottom: 0;
 	li { border-bottom: solid 1px #e6e6e6;
 		padding:10px 0; 
 		background: url(../coned_images/deco/aside-nav-arrow.png) no-repeat right;
+		&:last-child {
+			border-bottom: 0;
+		}
 		a {
 			margin-left:1em;
 			color:#3a3a3a;
@@ -785,9 +788,10 @@ div#content {
 		padding: 0;
 		overflow-y: hidden;
 		li {
+			font-size: 0.9em;
 			overflow-y: auto;
 			overflow-x: hidden;
-			padding: 1.5em 0;
+			padding: 1em 0;
 			list-style-type: none;
 			background: none;
 			border-bottom: solid 1px #e6e6e6;
@@ -797,6 +801,7 @@ div#content {
 			a {
 				color: #0079c2;
 				text-decoration: none;
+				font-size: 0.9em;
 			}
 		}
 		li:before {
@@ -816,9 +821,8 @@ div#content {
 	/* end sea of clouds twitter plugin */
 	h3 {
 		color:#404040;
-		.adelleHeavy();
 		text-indent: 0.5em;
-		font-size:1.2em;
+		//font-size:1.2em;
 		background:#f7f7f7;
 		padding:0.8em;
 		border-top: 1px solid #fff;
