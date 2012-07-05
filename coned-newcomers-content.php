@@ -1,9 +1,7 @@
 <link rel="stylesheet" href="../layerslider/css/layerslider.css" type="text/css">
 <link rel="stylesheet" href="common/layerslider/assets/css/style.css" type="text/css">
 
-<?php // REQUIRED SCRIPT FOR NEWS SLIDER AND TWITTER ?>
-<script type="text/javascript" src="common/js/bjqs.js"></script>
-<script type="text/javascript" src="common/js/tweet.js"></script>
+<?php include('incs.php'); ?>
 
 <!--<div id="big-audience-nav">
    <nav>
@@ -101,79 +99,19 @@
                 <li><a href="#">Contact Us</a></li>
             </ul>-->
 
-            <?php // SCRIPT REQUIRED ON LINE 5 ?>
-            <section id="coin-news">
-                <h3>What's New</h3>
-                <div id="slider_container">
-                    <div id="news_slider">
-                        <ul class="bjqs">
-                            <li class="coin-news-item">
-                                <h4>First item: New coned clusters announced!</h4>
-                                <p>
-                                    Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                                </p>
-                                <a href="#">read more</a>
-                            </li>
+            <?php include('news.php'); ?>
 
-                            <li class="coin-news-item">
-                                <h4>Second: New coned clusters announced!</h4>
-                                <p>
-                                    Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                                </p>
-                                <a href="#">read more</a>
-                            </li>
+          <script>
+            $(document).ready(function() {
+                $('#news_slider').bjqs({
+                  'animation' : 'slide',
+                  'width' : 280,
+                  'height' : 180
+                });
+              });
+        </script>
 
-                            <li class="coin-news-item">
-                                <h4>Third: New coned clusters announced!</h4>
-                                <p>
-                                    Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. h h h h h h h h hh h
-                                </p>
-                                <a href="#">read more</a>
-                            </li>
-
-                            <li class="coin-news-item">
-                                <h4>Fourth: New coned clusters announced!</h4>
-                                <p>
-                                    Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                                </p>
-                                <a href="#">read more</a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-                <script>
-                    $(document).ready(function() {
-                        $('#news_slider').bjqs({
-                          'animation' : 'slide',
-                          'width' : 280,
-                          'height' : 180
-                        });
-                      });
-                </script>
-          </section>
-          <section id="coned-sidebar-twitter">
-            <h3>From our Twitter Feed</h3>
-             <div class="tweet">
-             	<script>
-					jQuery(function($){
-						$(".tweet").tweet({
-								join_text: "auto",
-								username: "sheridancollege",
-                                avatar_size: 0,
-								count: 3,
-								auto_join_text_default: "",
-								auto_join_text_ed: "",
-								auto_join_text_ing: "",
-								auto_join_text_reply: "",
-								auto_join_text_url: "",
-								loading_text: "loading tweets..."
-							});
-						});
-				</script>
-			</div>
-
-	    </section>
+		<?php include('twitter.php'); ?>
 
 
             <ul id="coned-sidebar-see-also">

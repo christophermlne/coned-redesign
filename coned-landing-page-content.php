@@ -1,3 +1,5 @@
+<?php include('incs.php'); ?>
+
 <link rel="stylesheet" href="../layerslider/css/layerslider.css" type="text/css">
 <link rel="stylesheet" href="common/layerslider/assets/css/style.css" type="text/css">
 <div id="big-audience-nav">
@@ -309,46 +311,38 @@
 
         </div>
     </section>
+
+
+
+
     <aside id="coned-aside">
 
+         <?php include('news.php'); ?>
+            
+          <script>
+            $(document).ready(function() {
+                $('#news_slider').bjqs({
+                  'animation' : 'slide',
+                  'width' : 200,
+                  'height' : 210
+                });
+              });
+        </script>
 
-            <ul id="coned-sidebar-see-also">
-                <li id="news-hightlight">
-                    <h3>What's New</h3>
-                    <ul>
-                        <li class="news-item">
-                            <h4>New coned clusters announced!</h4>
-                            <p>
-                                Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                            </p>
-                            <a href="#">read more</a>
-                        </li>
-                        <li class="news-item">
-                            <h4>New coned clusters announced!</h4>
-                            <p>
-                                Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                            </p>
-                            <a href="#">read more</a>
-                        </li>
-                        <li class="news-item">
-                            <h4>New coned clusters announced!</h4>
-                            <p>
-                                Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                            </p>
-                            <a href="#">read more</a>
-                        </li>
-                        
-                    </ul>
-                </li>
-                <li><a href="#">General Info</a></li>
-                <li><a href="#">Fees</a></li>
-                <li><a href="#">Important Dates</a></li>
-                <li><a href="#">Information Sessions</a></li>
-                <li><a href="#">Policies</a></li>
-                <li><a href="#">How to Register</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">A-Z Course Listing</a></li>
-            </ul>
+        <?php include('twitter.php'); ?>
+
+
+        <ul id="coned-sidebar-see-also">
+        
+            <li><a href="#">General Info</a></li>
+            <li><a href="#">Fees</a></li>
+            <li><a href="#">Important Dates</a></li>
+            <li><a href="#">Information Sessions</a></li>
+            <li><a href="#">Policies</a></li>
+            <li><a href="#">How to Register</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">A-Z Course Listing</a></li>
+        </ul>
         
     </aside>
 
