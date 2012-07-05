@@ -16,7 +16,7 @@ var sheridan={homeInit:function(){
 
         $('.coned-search-field').focusin(function(){
             
-            $(this).keydown(function(){
+            $(this).keydown(function(event){
                 $('#big-audience-nav').hide();
                 $('#coned-messaging-area').hide();
                 $('#coned-landing-content').hide();
@@ -24,12 +24,12 @@ var sheridan={homeInit:function(){
                 $('#coned-search-bar form').animate({width:400},100);
                 $('.coned-search-submit').addClass('smallSearchBtn');
                 $('#close-search').show();
-                return;
+                
             });
-
+            
         });
 
-        $('#close-search').click(function(){
+        $('#close-search').click(function(event){
             $('.coned-search-submit').removeClass('smallSearchBtn');
             $('#coned-search-bar form').animate({width:420},100);
             $('#coned-search-results').fadeOut(50).hide();
@@ -37,6 +37,7 @@ var sheridan={homeInit:function(){
             $('#coned-messaging-area').fadeIn(1250);
             $('#big-audience-nav').fadeIn(1250);
             $(this).hide();
+            return false
         });
 
         

@@ -280,7 +280,7 @@ div#content {
 		font-weight:normal;
 		display:block;
 		padding:0.5em 0;
-		border-bottom:1px solid grey;
+		border-bottom:1px solid #d4d4d4;
 		background:url('../coned_images/faceted-nav-header-noise.jpeg');
 		.border-radius(6px 6px 0 0);
 	}
@@ -293,7 +293,7 @@ div#content {
 	form {
 		background:url('../coned_images/faceted-nav-body-noise.jpeg');
 		fieldset {
-			width:50%;
+			//width:50%;
 			float:left;
 			margin-bottom:1em;
 			.rounded(6px);
@@ -305,8 +305,13 @@ div#content {
 				.disable-text-select;
 				float:left;
 			}
+			&#delMode {
+				width:100%;
+			}
 			&#days , &#campus {
-				.column(8,8);
+				//.column(8,8);
+				float:left;
+				width:45%;
 				margin-bottom:1em;
 				.clearfix;
 				label {
@@ -315,7 +320,8 @@ div#content {
 					background:#C5C5C5;
 					padding:0.25em 1em;
 					margin:0;
-					margin-left:2px;
+					margin-right:3px;
+					margin-bottom:3px;
 					.rounded(3px);
 					&.btn-selected {
 						background: #07972F;
@@ -332,9 +338,6 @@ div#content {
 						display:none;
 					}
 				}
-			}
-			&#campus {
-
 			}
 			label {
 				margin-left:.5em;
