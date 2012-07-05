@@ -667,6 +667,7 @@ div#content {
 		}
 	}
 	#coin-news{
+		border-bottom: 1px solid #f0f0f0;
 		/* Slider */
 		ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
 		li.bjqs-slide{display:none;position:absolute;}
@@ -726,7 +727,9 @@ div#content {
 			color:white;
 			//margin-top:1em;
 			padding:0.8em;
-			text-indent: 0.75em;
+			text-indent: 0.5em;
+			.adelleHeavy();
+			font-size: 1.2em;
 		}
 		li.coin-news-item {
 			padding: 1.5em 0;
@@ -766,86 +769,57 @@ div#content {
 }
 
 #coned-sidebar-twitter {
-	h3 {
-		color:#404040;
-		.adelleHeavy();
-		font-size:1.2em;
-		background:#f7f7f7;
-		padding:0.8em;
+	/* sea of clouds twitter plugin */
+	.tweet, .query {
+		color: #085258;
+		width: 280px;
+		margin: 0 auto 1em auto;
 	}
-	ul { border-top:1px solid #fff;
-		li.tweet{
-			padding:0.8em 2em 0.1em;
-			border:none;
-			border-bottom:1px solid #dfdfdf;
-			background: #fff;
-				h4 {
-					color:#333;
-					}
-					p {
-						a {
-							color:#007ac3;
-							padding:0;
-							margin:0;
-						}
-					}
-				.tweet-date {
-					color:#7a7a7a;
-					font-size: .8em;
-				}
-		}
-	}
-	.tweet {
-		border-top:1px solid #fff;
-		//margin:0;
-		//padding:0;
-		h3 {
-			color:#404040;
-			.adelleHeavy();
-			font-size:1.2em;
-			background:#f7f7f7;
-		//	margin:0;
-			//padding:0.8em;
-			//text-indent: 0.75em;
-		}
-		.tweet-item {
-			//padding:0.8em 2em;
-			border:none;
-			border-bottom:1px solid #dfdfdf;
-			background: #fff;
-			h4 {
-				color:#333;
-			}
-			p {
-				a {
-					color:#007ac3;
-					padding:0;
-					margin:0;
-				}
-			}
+	.tweet_list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow-y: hidden;
+		li {
+			overflow-y: auto;
+			overflow-x: hidden;
+			padding: 1.5em 0;
+			list-style-type: none;
+			background: none;
+			border-bottom: solid 1px #e6e6e6;
 			&:last-child {
 				border-bottom:none;
 			}
-			.tweet-date {
-				color:#7a7a7a;
-		//		padding:0em;
-				font-size: .8em;
+			a {
+				color: #0079c2;
 			}
 		}
+		li:before {
+			content: "Sheridan College  ";
+			font-weight: bold;
+			font-size: 0.9em;
+		}
+	}	
+	.tweet_list .tweet_avatar {
+		padding-right: .5em; float: left;
 	}
+	.tweet_list .tweet_avatar img {
+		vertical-align: middle;
+		margin-right: 0.5em;
+		margin-bottom: 0.5em;
+	}
+	/* end sea of clouds twitter plugin */
 	h3 {
-		
-		}
-	li { border-bottom: solid 1px #e6e6e6;
-		padding:10px 0; 
-		background: url(../coned_images/deco/aside-nav-arrow.png) no-repeat right;
-		a {
-			margin-left:1em;
-			color:#3a3a3a;
-			text-decoration:none;
-		}
+		color:#404040;
+		.adelleHeavy();
+		text-indent: 0.5em;
+		font-size:1.2em;
+		background:#f7f7f7;
+		padding:0.8em;
+		border-top: 1px solid #fff;
 	}
 }
+
 //#coned-sidebar-search { 
 //	background:#3a3a3a; display:block; padding:10px; height:30px; margin-bottom:1em;
 //	h1 {

@@ -1,8 +1,9 @@
 <link rel="stylesheet" href="../layerslider/css/layerslider.css" type="text/css">
 <link rel="stylesheet" href="common/layerslider/assets/css/style.css" type="text/css">
 
-<?php // REQUIRED SCRIPT FOR NEWS SLIDER ?>
+<?php // REQUIRED SCRIPT FOR NEWS SLIDER AND TWITTER ?>
 <script type="text/javascript" src="common/js/bjqs.js"></script>
+<script type="text/javascript" src="common/js/tweet.js"></script>
 
 <!--<div id="big-audience-nav">
    <nav>
@@ -161,30 +162,26 @@
           </section>
           <section id="coned-sidebar-twitter">
             <h3>From our Twitter Feed</h3>
-             <ul>
-                <li class="tweet">
-                    <h4>name</h4>
-                            <p>
-                                Omnis iste natus error sit <a href="#">read more</a> voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                            </p>
-                            <p class="tweet-date">18 hours ago</p>
-                        </li>
-                        <li class="tweet">
-                            <h4>name</h4>
-                            <p>
-                                Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. <a href="#">read more</a>
-                            </p>
-                            <p class="tweet-date">18 hours ago</p>
-                        </li>
-                        <li class="tweet">
-                            <h4>name</h4>
-                            <p>
-                                Omnis iste natus error sit <a href="#">read more</a> voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                            </p>
-                            <p class="tweet-date">18 hours ago</p>
-                       </li>
-            </ul>
-    </section>
+             <div class="tweet">
+             	<script>
+					jQuery(function($){
+						$(".tweet").tweet({
+								join_text: "auto",
+								username: "sheridancollege",
+                                avatar_size: 40,
+								count: 3,
+								auto_join_text_default: "",
+								auto_join_text_ed: "",
+								auto_join_text_ing: "",
+								auto_join_text_reply: "",
+								auto_join_text_url: "",
+								loading_text: "loading tweets..."
+							});
+						});
+				</script>
+			</div>
+
+	    </section>
 
 
             <ul id="coned-sidebar-see-also">

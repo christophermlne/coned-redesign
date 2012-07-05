@@ -30,7 +30,7 @@
                 // Automatically rotate through the slides
 				automatic: true,
 				// Delay in ms between auto rotation of the slides
-                rotationSpeed: 4000,
+                rotationSpeed: 5000,
 				// Pause the slider when any elements receive a hover event
                 hoverPause: true,
 				// Show the manual slider controls
