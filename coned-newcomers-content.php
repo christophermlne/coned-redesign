@@ -3,15 +3,13 @@
 
 <?php include('incs.php'); ?>
 
-<!--<div id="big-audience-nav">
+<!--div id="big-audience-nav">
    <nav>
-		<ul>
-			<li class="active-tab"><a href="#">Prospective Students</a></li>
-			<li><a href="#">Newcomers</a></li>
-			<li><a href="#">Current Students</a></li>
-		</ul>
-	</nav>
-</div>-->
+        <ul>
+            <li class="active-tab"><a href="#">Prospective Students</a></li><li><a href="coned-newcomers.php">Newcomers</a></li><li><a href="#">Current Students</a></li>
+        </ul>
+    </nav>
+</div-->
 
 <section id="coned-title">
 	<div class="crumbs">
