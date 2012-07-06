@@ -109,17 +109,17 @@ div#content {
 						color:#007ac3;
 					}
 				}
-			}
-			li:last-child {
-				a {
-					border: 0;
+				&:last-child {
+					a {
+						border: 0;
+					}
 				}
-			}
-			li.active-tab {
-				background:url('../coned_images/deco/local-global-nav-selected.png') no-repeat center bottom;
-				a {
-					background:#007ac3;
-					color:white;
+				&.active-tab {
+					background:url('../coned_images/deco/local-global-nav-selected.png') no-repeat center bottom;
+					a {
+						background:#007ac3;
+						color:white;
+					}
 				}
 			}
 		}
@@ -817,14 +817,18 @@ div#content {
 	margin-bottom: 0;
 	li { border-bottom: solid 1px #e6e6e6;
 		padding:10px 0; 
-		background: url(../coned_images/deco/aside-nav-arrow.png) no-repeat right;
 		&:last-child {
 			border-bottom: 0;
 		}
 		a {
+			display: block;
 			margin-left:1em;
 			color:#3a3a3a;
 			text-decoration:none;
+			background: url(../coned_images/deco/aside-nav-arrow.png) no-repeat right;
+			&:hover {
+				background: url(../coned_images/deco/aside-nav-arrow-blue.png) no-repeat right;
+			}
 		}
 	}
 }
