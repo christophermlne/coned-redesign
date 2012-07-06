@@ -82,16 +82,20 @@ div#content {
 #big-audience-nav {
 	nav {
 		height: 50px;
-		overflow: visible;
+		width: 960px;
+		margin: 0 auto;
 		border-bottom: 1px solid #B9B9B9;
 		border-bottom: 1px solid #B9B9B9;
 		ul {
 			.clearfix;
 			background:url('../coned_images/nav/coned-big-nav-bg.jpg') 0 0 repeat-x;
-			margin-bottom:0;
+			margin: 0;
+			padding: 0;
 			li {
 				text-align:center;
-				.column(4,12);
+				//.column(4,12);
+				display: inline-block;
+				width: 32.9%;
 				height:59px;
 				a {
 					.adelleNormal();
@@ -142,6 +146,8 @@ div#content {
 	height:70px;
 	margin-top:0.9em;
 	margin-bottom:1em;
+	position: relative;
+	z-index: 99;
 	h1 {
 		font-size:1.75em;
 		.adelleNormal();
@@ -227,23 +233,38 @@ div#content {
 	}
 	#coned-search-results-display {
 		background:#3A3A3A;
+		margin-top: 20px !important;
 		.column(12,12);
-		padding-top:1em;
+		
+		position: relative;
+		h2 {
+			color: #fff;
+			.adelleNormal();
+			font-size: 1.5em;
+			padding: 1em;
+			text-align: center;
+			span {
+				color: #feca30;
+			}
+		}
+		img.arrow {			
+			position: absolute;
+			top: -20px;
+			left: 460px; /* 960px/2 - 1/2 of width */
+		}
 		.results {
-			min-height:200px;
 			background:white;
 			margin-top: 35px;
 			header {
 				background: #0094F5;
 				width:100%;
-				padding:.5em 0;
 				h1 {
 					.adelleNormal;
 					color:white;
 					font-size:1.4em;
 					text-align:center;
 					display:block;
-					padding:0 0 0.15em 0;
+					padding: 0.5em 0;
 				}
 				p {
 					font-size: 1em;
@@ -262,8 +283,11 @@ div#content {
 			
 		}
 		.programs {
-			.column(4,12);
+			.column(4);
 			clear:left;
+			.list {
+				margin-bottom: 0;
+			}
 		}
 		.courses {
 			.column(8,12);
@@ -422,10 +446,14 @@ div#content {
 }
 #coned-landing-content {
 	.column(12);
+	margin-left: -0.1%;
+	margin-top: -1em;
+	position: relative;
+	z-index: 1;
 	#coned-clusters {
 		.wrapper {
 			width:98%;
-			margin-left:1.5%;
+			margin: 0 auto;
 		}
 		.column(9,12);
 	}
@@ -828,9 +856,9 @@ div#content {
 	/* end sea of clouds twitter plugin */
 	h3 {
 		color:#404040;
-		text-indent: 0.5em;
+		text-indent: 4.3em;
 		//font-size:1.2em;
-		background:#f7f7f7;
+		background: url(../coned_images/deco/twitter.png) 1.8em center no-repeat #f7f7f7;
 		padding:0.8em;
 		border-top: 1px solid #fff;
 	}
@@ -861,7 +889,7 @@ div#content {
 	.column(12,12);
 	h1 {
 		display:block;
-		margin:0.2em 0 1em 10px;
+		margin:0.2em 0 1em 15px;
 		font-size:2.5em;
 		.adelleHeavy();
 		color:#2f2f2f;
@@ -980,28 +1008,38 @@ section.newcomers-intro {
 	width: 95%;
 	.intro-text{
 		display:block;
-		//background:#eee;
 		float:left;
-		//padding:1em;
-		width:58%;
+		padding: 0 1em;
+		width:50%;
 	}
-	.call-out{
-		display:block;
+	.call-out {
 		background:#f0f0f0;
-		float: right;
-		width:39%;
-		//margin-left:1em;
-		.box-shadow(0px 1px 1px rgba(0, 0, 0, 0.1);
+		float:right;
+		display:block;
+		padding:0;
+		width:45%;
+		margin:0px;
+		p {
+			padding: 1.5em;
+		}
 		h3{
 			background:#0079c2;
 			color:white;
-			padding:0.5em;
+			padding: 0.6em 1em;
 			.adelleNormal();
-			font-size:1.2em;
+			font-size:1.3em;
 		}
-		p{
-			padding:1em;
-			a {color:#0082c3;}
+		.list-2{
+			li{
+				a{
+					color:#017ec0;
+					text-decoration:none;
+				}
+				&:hover {
+					text-decoration: underline;
+				}
+				.desc{color:#333;}
+			}
 		}
 	}
 }

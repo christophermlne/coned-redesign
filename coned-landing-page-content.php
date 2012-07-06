@@ -60,6 +60,8 @@
 <div id="coned-search-results">
     
     <section id="coned-search-results-display">
+        <h2>Search Results for: &ldquo;<span>query</span>&rdquo;</h2>
+        <img src="http://placehold.it/40x20" class="arrow">
         <section class="results programs">
             <header>
                 <h1>Programs</h1>

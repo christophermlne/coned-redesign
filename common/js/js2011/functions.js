@@ -42,8 +42,7 @@ var sheridan={homeInit:function(){
 
         
         $('.list > li > a').parent().append('<div class="goto-estore"><b>Go to e-store&nbsp;&rarr;<b></div>');
-
-
+        
 
         //
         //  * coned form functions *

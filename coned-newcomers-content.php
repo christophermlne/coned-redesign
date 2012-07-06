@@ -32,7 +32,10 @@
 		<div class="intro-text"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada 
 	fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p><p>Pellentesque habitant morbi tristique senectus et netus et malesuada 
 	est. Mauris placerat eleifend leo.</p></div>
+		
 		<div class="call-out"><h3>Information Sessions</h3><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br> <br><a href="#">Click here to sign up for</a></p></div>
+
+
 	</section>
 
 	  <section id="way-find">
