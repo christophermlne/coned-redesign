@@ -77,17 +77,16 @@
 
 	<?php include('search.php'); ?>
 	
-	 <div class="clearfix"></div>
-	   <ul id="coned-sidebar-see-also">
-				<li><a href="#">General Info</a></li>
-				<li><a href="#">Fees</a></li>
-				<li><a href="#">Important Dates</a></li>
-				<li><a href="#">Information Sessions</a></li>
-				<li><a href="#">Policies</a></li>
-				<li><a href="#">How to Register</a></li>
-				<li><a href="#">Contact Us</a></li>
-				<li><a href="#">A-Z Course Listing</a></li>
-			</ul>
+	<ul id="coned-sidebar-see-also">
+		<li><a href="#">General Info</a></li>
+		<li><a href="#">Fees</a></li>
+		<li><a href="#">Important Dates</a></li>
+		<li><a href="#">Information Sessions</a></li>
+		<li><a href="#">Policies</a></li>
+		<li><a href="#">How to Register</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="#">A-Z Course Listing</a></li>
+	</ul>
 
 
 </aside>

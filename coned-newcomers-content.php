@@ -71,71 +71,31 @@
 
 <aside id="coned-aside" class="not-landing">
 
-			<?php include('search.php'); ?>
-			
-			 <div class="clearfix"></div> 
-		   <!-- <ul id="coned-sidebar-see-also">
-				<li id="news-hightlight">
-					<h3>What's New</h3>
-					<ul>
-						<li class="news-item">
-							<h4>New coned clusters announced!</h4>
-							<p>
-								Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-							</p>
-							<a href="#">read more</a>
-						</li>
-						<li class="news-item">
-							<h4>New coned clusters announced!</h4>
-							<p>
-								Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-							</p>
-							<a href="#">read more</a>
-						</li>
-						<li class="news-item">
-							<h4>New coned clusters announced!</h4>
-							<p>
-								Omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-							</p>
-							<a href="#">read more</a>
-						</li>
-						
-					</ul>
-				</li>
-				<li><a href="#">General Info</a></li>
-				<li><a href="#">Fees</a></li>
-				<li><a href="#">Important Dates</a></li>
-				<li><a href="#">Information Sessions</a></li>
-				<li><a href="#">Policies</a></li>
-				<li><a href="#">How to Register</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>-->
+	<?php include('search.php'); ?>
 
-			<?php include('news.php'); ?>
+	<ul id="coned-sidebar-see-also">
+		<li><a href="#">General Info</a></li>
+		<li><a href="#">Fees</a></li>
+		<li><a href="#">Important Dates</a></li>
+		<li><a href="#">Information Sessions</a></li>
+		<li><a href="#">Policies</a></li>
+		<li><a href="#">How to Register</a></li>
+		<li><a href="#">Contact Us</a></li>
+	</ul>
 
-		  <script>
-			$(document).ready(function() {
-				$('#news_slider').bjqs({
-				  'animation' : 'slide',
-				  'width' : 280,
-				  'height' : 130
-				});
-			  });
-		</script>
+	<?php include('news.php'); ?>
 
-		<?php include('twitter.php'); ?>
+	<script>
+	$(document).ready(function() {
+		$('#news_slider').bjqs({
+			'animation' : 'slide',
+			'width' : 280,
+			'height' : 135
+		});
+	  });
+	</script>
 
-
-			<ul id="coned-sidebar-see-also">
-				<li><a href="#">General Info</a></li>
-				<li><a href="#">Fees</a></li>
-				<li><a href="#">Important Dates</a></li>
-				<li><a href="#">Information Sessions</a></li>
-				<li><a href="#">Policies</a></li>
-				<li><a href="#">How to Register</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
-
+	<?php include('twitter.php'); ?>
 
 </aside>
 
