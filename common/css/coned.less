@@ -458,8 +458,8 @@ div#content {
 	margin-top: -1em;
 	position: relative;
 	z-index: 1;
-	background:url('/common/coned_images/paper-texture-light.jpg') #f7f7f7;
 	#coned-clusters {
+		background:url('/common/coned_images/paper-texture-light.jpg') #f7f7f7;
 		.wrapper {
 			width:98%;
 			margin: 0 auto;
@@ -943,7 +943,7 @@ div#content {
 #coned-cluster-featured {
 	background:#c0c0c0;
 	min-height:200px;
-	width: 95%;
+	width: 100%;
 	float: none;
 	display: block;
 	margin: 0 auto;
@@ -1058,6 +1058,28 @@ section.newcomers-intro {
 			}
 		}
 	}
+	.call-out-2 {
+		.border-radius(0px, 20px, 20px, 20px);
+		//.box-shadow(0px 1px 1px rgba(0, 0, 0, 0.2);
+		background:url('/common/coned_images/paper-texture-lime.jpg');
+		float:right;
+		display:block;
+		padding:0;
+		width:45%;
+		margin:0px;
+		p {
+			padding: 1.5em;
+		}
+		h3{
+			color:white;
+			padding: 1em 1em .2em;
+			.adelleHeavy();
+			font-size:1.8em;
+		}
+		a {
+			color:white;
+		}
+	}
 }
 
 #way-find { .clearfix;
@@ -1084,7 +1106,7 @@ section.newcomers-intro {
 					}
 				}
 				.way-find-links {
-					background:#f0f0f0;
+					//background:#f0f0f0;
 					float:right;
 					display:block;
 					padding:1.5em 1.5em 3em 1.5em;
