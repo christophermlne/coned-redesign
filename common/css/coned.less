@@ -816,7 +816,6 @@ div#content {
 #coned-sidebar-see-also {
 	margin-bottom: 0;
 	li { border-bottom: solid 1px #e6e6e6;
-		padding:10px 0; 
 		&:last-child {
 			border-bottom: 0;
 		}
@@ -824,6 +823,7 @@ div#content {
 			display: block;
 			margin-left:1em;
 			color:#3a3a3a;
+			padding: 10px 0;
 			text-decoration:none;
 			background: url(../coned_images/deco/aside-nav-arrow.png) no-repeat right;
 			&:hover {
@@ -861,11 +861,11 @@ div#content {
 				text-decoration: none;
 				font-size: 0.9em;
 			}
-		}
-		li:before {
-			content: "Sheridan College  ";
-			font-weight: bold;
-			font-size: 0.9em;
+			&:before {
+				content: "Sheridan College  ";
+				font-weight: bold;
+				font-size: 0.9em;
+			}
 		}
 	}	
 	.tweet_list .tweet_avatar {
