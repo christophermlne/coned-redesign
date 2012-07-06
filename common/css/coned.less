@@ -146,18 +146,22 @@ div#content {
 //////////////////////////////////////////////////////
 #coned-search-bar {
 	.column(12);
-	background:#3a3a3a;
+	background:url('/common/coned_images/paper-texture-dark.jpg') #f7f7f7;
+	//background:#3a3a3a;
 	height:70px;
 	margin-top:0.9em;
 	margin-bottom:1em;
 	position: relative;
 	z-index: 99;
 	h1 {
+		background: url('/common/coned_images/search-explore-graphic.png') no-repeat center;
+		text-indent:-9999px;
 		font-size:1.75em;
 		.adelleNormal();
-		margin-top:1.25em;
-		margin-left:2em;
-		width:39%;
+		margin-top:.5em;
+		margin-left:1em;
+		width:42%;
+		height:55px;
 		float:left;
 		color:#B0B0B0;
 		span {
@@ -454,6 +458,7 @@ div#content {
 	margin-top: -1em;
 	position: relative;
 	z-index: 1;
+	background:url('/common/coned_images/paper-texture-light.jpg') #f7f7f7;
 	#coned-clusters {
 		.wrapper {
 			width:98%;
@@ -569,6 +574,13 @@ div#content {
 			#manufacturing-tech-trades {
 
 			}
+			#online-learning {
+
+			}
+			#leisure-courses {
+
+			}
+
 		}
 	}
 }
@@ -886,7 +898,7 @@ div#content {
    .column(4);
    margin-left: -0.8%;
 }
-#coned-landing-content.not-landing {
+#coned-landing-content.not-landing { background:url('/common/coned_images/paper-texture-light.jpg') #f7f7f7;
 	.column(8,12);
 }
 #coned-title {
@@ -926,7 +938,7 @@ div#content {
 	display:block; 
 	//padding:2em; 
 	margin:10px 20px 10px 20px;
-	background:white; 
+	//background:white; 
 }
 #coned-cluster-featured {
 	background:#c0c0c0;
@@ -938,7 +950,7 @@ div#content {
 }
 #coned-cluster-listing {
 	min-height:1000px;
-	background:#fff;
+	//background:#fff;
 	//padding:10px;
 	h2{
 		display:block;
