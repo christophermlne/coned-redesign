@@ -1,6 +1,12 @@
 <link rel="stylesheet" href="../layerslider/css/layerslider.css" type="text/css">
 <link rel="stylesheet" href="common/layerslider/assets/css/style.css" type="text/css">
-
+<div id="big-audience-nav">
+   <nav>
+        <ul>
+            <li><a href="/">Prospective Students</a></li><li><a href="coned-newcomers.php">Newcomers</a></li><li class="active-tab"><a href="coned-current-stu.php">Current Students</a></li>
+        </ul>
+    </nav>
+</div>
 
 <section id="coned-title">
 	<div class="crumbs">

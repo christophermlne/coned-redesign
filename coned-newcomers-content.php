@@ -2,15 +2,13 @@
 <link rel="stylesheet" href="common/layerslider/assets/css/style.css" type="text/css">
 
 <?php include('incs.php'); ?>
-
-<!--div id="big-audience-nav">
+<div id="big-audience-nav">
    <nav>
         <ul>
-            <li class="active-tab"><a href="#">Prospective Students</a></li><li><a href="coned-newcomers.php">Newcomers</a></li><li><a href="#">Current Students</a></li>
+            <li><a href="/">Prospective Students</a></li><li class="active-tab"><a href="coned-newcomers.php">Newcomers</a></li><li><a href="coned-current-stu.php">Current Students</a></li>
         </ul>
     </nav>
-</div-->
-
+</div>
 <section id="coned-title">
 	<div class="crumbs">
 		<ul>
