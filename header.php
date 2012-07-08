@@ -36,6 +36,9 @@
     <script type="text/javascript" src="common/assets/shadowbox/src/js/shadowbox.js"></script>
     <script type="text/javascript" src="http://use.typekit.com/rpk8iaz.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <!--[if lt IE 9]>
+        <script src="common/js/html5shiv.js"></script>
+    <![endif]-->
     
 </head>
 <body id="site">
