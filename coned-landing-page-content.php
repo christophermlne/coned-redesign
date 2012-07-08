@@ -15,13 +15,13 @@
 
                     <div id="layerslider">
                         
-                        <div class="ls-layer" rel="slidedelay: 3000; slidedirection: top;" style="background: url('common/layerslider/gallery/bgr2.jpg') center center">
+                        <div class="ls-layer" rel="slidedelay: 3000; slidedirection: top;" style="background: url('/common/coned_images/paper-texture-light.jpg') #F7F7F7;">
                             <img class="ls-s3" src="common/layerslider/gallery/l16.png" alt="sublayer" style="left: 50%; top: 50%">
                             <img class="ls-s5" src="common/layerslider/gallery/l17.png" alt="sublayer" style="left: 20%; top: 20%">
                             <img class="ls-s7" src="common/layerslider/gallery/l13.png" alt="sublayer" style="left: 80%; top: 80%">
                         </div>
 
-                        <div class="ls-layer" rel="slidedelay: 3000;" style="background: url('common/layerslider/gallery/bgr1.jpg') center center">
+                        <div class="ls-layer" rel="slidedelay: 3000;" style="background: url('/common/coned_images/paper-texture-light.jpg') #F7F7F7;">
                             <div class="ls-s2" style="left: 50%; top: 50%">left: 50%, top: 50%</div>
                             <div class="ls-s4" style="left: 20%; top: 20%">left: 20%, top: 20%</div>
                             <div class="ls-s6" style="left: 80%; top: 80%">left: 80%, top: 80%</div>
@@ -37,8 +37,8 @@
         <script type="text/javascript">
             $(document).ready(function(){
                 $('#layerslider').layerSlider({
-                    skinsPath : '../layerslider/skins/',
-                    globalBGColor : '#333'
+                    //skinsPath : '../layerslider/skins/',
+                    globalBGColor : '#F7F7F7'
                 });
             });
         </script>
