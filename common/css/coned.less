@@ -449,9 +449,6 @@ div#content {
 				color:#333;
 			}
 		}
-		&:last-child {
-			border-bottom:none;
-		}
 	}
 }
 #coned-landing-content {
@@ -732,11 +729,15 @@ div#content {
 	/* end slider */
 
 	h3 {
-		background:#3A3A3A;
+		//background:#3A3A3A;
+		background: #f7f7f7;
 		margin:0;
-		color:white;
+		//color:white;
+		color: #404040;
 		padding:0.8em;
 		text-indent: 0.5em;
+		//font-size: 0.9em;
+		border-top: 1px solid #fff;
 	}
 	li.coin-news-item {
 		padding: 1em 0;
@@ -754,9 +755,6 @@ div#content {
 			padding-left:10px;
 			background: url(../coned_images/deco/arrow-link-read.png) 0 5px no-repeat;
 		}
-		&:last-child {
-			border-bottom:none;
-		}
 		p, a, h4 {
 			font-size: 0.9em;
 		}
@@ -769,7 +767,8 @@ div#content {
 	li { border-bottom: solid 1px #e6e6e6; 
 		background: url(../coned_images/deco/aside-nav-arrow.png) no-repeat right;
 		&:last-child {
-			border-bottom: 0;
+			//border-bottom: 0;
+			border-bottom: 1px solid #f7f7f7;
 		}
 		a {
 			margin-left:1em;
