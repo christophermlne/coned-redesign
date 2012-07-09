@@ -95,6 +95,8 @@
                 <h1>Courses</h1>
                 <!-- <p>Showing 20 Results for &ldquo;<span>Busine</span>&rdquo;</p> -->
             </header>
+            <?php /* hiding this part
+            
             <section id="coned-faceted-nav">
                 <h4>Refine Results: </h4>
                 <div class="form-wrapper">
@@ -129,6 +131,7 @@
                     </form>
                 </div>
             </section>
+            */ ?>
             <ul class="list">
                 <li>
                     <a target="_blank" href="http://sculptor.sheridanc.on.ca/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10051&amp;storeId=10051&amp;productId=77307">
