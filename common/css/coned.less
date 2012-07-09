@@ -850,7 +850,8 @@ div#content {
    .column(4);
    margin-left: -0.8%;
 }
-#coned-landing-content.not-landing { background:url('/common/coned_images/paper-texture-light.jpg') #f7f7f7;
+#coned-landing-content.not-landing { 
+	background:url('/common/coned_images/paper-texture-light.jpg') #f7f7f7; min-height:900px;
 	.column(8,12);
 }
 #coned-title {
@@ -1027,7 +1028,135 @@ section.newcomers-intro {
 	}
 }
 
-#way-find { .clearfix;
+
+section.currentstudents-intro{
+	.clearfix;
+	margin: 2em auto 0 auto;
+	width: 95%;
+	.intro-text{
+		.clearfix;
+		display:block;
+		float:left;
+		padding: 0 1em;
+	}
+	.local-nav{
+		ul {
+			.clearfix;
+			li{
+				text-align:center;
+				a{
+				 	.adelleHeavy();
+				 	font-size:1.2em;
+				 	color:#333;
+				 	float:left;
+					display:block;
+					width:18.75%;
+					padding:1em;
+					background:white;	
+					margin:0.5em 0.3em;
+					text-decoration:none;
+					.box-shadow(0px 1px 1px rgba(0, 0, 0, 0.2);
+					&:hover{
+						background:#0081c1;
+						color:white;
+						-webkit-transition:background-color 0.75s;
+					-moz-transition:background-color 0.75s;
+					transition:background-color 0.75s;
+					background:url('/common/coned_images/deco/roll-over-cluster-arrow.png') #007ac3 bottom right no-repeat;
+					}
+				}
+						
+			}
+		}		
+	}
+	
+	.call-out-2 {
+		.border-radius(0px, 20px, 20px, 20px);
+		background:url('/common/coned_images/paper-texture-lime.jpg');
+		float:right;
+		display:block;
+		padding:0;
+		width:45%;
+		margin:0px;
+		p {
+			padding: 1.5em;
+		}
+		h3{
+			color:white;
+			padding: 1em 1em .2em;
+			.adelleHeavy();
+			font-size:1.8em;
+		}
+		a {
+			padding-left:1em;
+			background: url(../coned_images/deco/aside-nav-arrow.png) no-repeat left;
+			color:white;
+			text-decoration:none;
+			&:hover{
+				color:white;
+				text-decoration:underline;
+			}
+		}
+	}
+	.call-out-3 {
+		.border-radius(0px, 20px, 20px, 20px);
+		background:url('/common/coned_images/paper-texture-blue.jpg');
+		float:right;
+		display:block;
+		padding:0;
+		width:45%;
+		margin:1em 0;
+		p {
+			padding: 1.5em;
+		}
+		h3{
+			color:white;
+			padding: 1em 1em .2em;
+			.adelleHeavy();
+			font-size:1.8em;
+			line-height:1em;
+		}
+		a {
+			padding-left:1em;
+			background: url(../coned_images/deco/aside-nav-arrow.png) no-repeat left;
+			color:white;
+			text-decoration:none;
+			&:hover{
+				color:white;
+				text-decoration:underline;
+			}
+		}
+	}
+}
+.helpful-links {
+	float:left;
+	//display:block; 
+	min-height:220px; 
+	width:50%;
+	background:white;
+	.box-shadow(0px 1px 1px rgba(0, 0, 0, 0.3);
+	h3 {
+			color:#fff;
+			.adelleHeavy();
+			font-size:1.2em;
+			background:#0081c1;
+			padding:0.5em 1em;
+		}
+	ul {
+		padding:1em;
+		li {
+			list-style:disc;
+			list-style-position:inside;
+			a {
+				//display:block;
+				padding:0.5em 1em;
+			}
+		}
+	}
+}
+
+#way-find { 
+	.clearfix;
 	min-height:800px;	
 	padding: 1em 0;
 }
