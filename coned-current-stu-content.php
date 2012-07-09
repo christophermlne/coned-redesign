@@ -28,6 +28,7 @@
 
 
 <section class="currentstudents-intro">
+	
 		<div class="intro-text"><p>We are proud to call ourselves Leaders in Lifelong Learning. Our courses incorporate up-to-date technologies and innovative ideas. Our expanded online offerings provide additional flexibility to learn in the environment of your choice. We welcome you to take advantage of valuable opportunities to collaborate, network with peers and learn from fellow students. Continue building your success at Sheridan. Personal or professional, the possibilities are truly endless.</p>
 		</div>
 		
@@ -60,6 +61,12 @@
 		<div class="call-out-2">
 			<h3>Information Sessions</h3>
 			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. malesuada fames ac turpis egestas. malesuada fames ac turpis egestas.<br> 
+				<br><a href="#">Click here to sign up for</a>
+			</p>
+		</div>
+		<div class="call-out-3">
+			<h3>Learn More</h3>
+			<p>Sign up for more programs or classes<br> 
 				<br><a href="#">Click here to sign up for</a>
 			</p>
 		</div>
