@@ -44,9 +44,9 @@
 					<h3>Title for the links</h3>
 					<p>this is the description</p>
 				<ul class="list-2">
-					<li><a href="#">Canadian Securities<br /><span class="desc">this is the small text</span></a></li>
-					<li><a href="#">Financial Planning<br /><span class="desc">this is the small text</span></a></li>
-					<li><a href="#">Accounting and Finance - Other Related<br /><span class="desc">this is the small text</span></a></li>
+					<li><a href="#">Canadian Securities</a></li>
+					<li><a href="#">Financial Planning</a></li>
+					<li><a href="#">Accounting and Finance - Other Related</a></li>
 				 </ul></div>
 			</section>
 			<section id="way-find-item">
@@ -58,12 +58,12 @@
 					</div>
 				<div class="way-find-links">
 				<ul class="list-2">
-					<li><a href="#">Canadian Securities<br /><span class="desc">this is the small text</span></a></li>
-					<li><a href="#">Financial Planning<br /><span class="desc">this is the small text</span></a></li>
-					<li><a href="#">Accounting and Finance - Other Related<br /><span class="desc">this is the small text</span></a></li>
-					<li><a href="#">Canadian Payroll Association - Payroll Certification Programs<br /><span class="desc">this is the small text</span></a></li>
-					<li><a href="#">Tax Accounting<br /><span class="desc">this is the small text</span></a></li>
-					<li><a href="#">Accounting and Finance - Other Related<br /><span class="desc">this is the small text</span></a></li>
+					<li><a href="#">Canadian Securities</a></li>
+					<li><a href="#">Financial Planning</a></li>
+					<li><a href="#">Accounting and Finance - Other Related</a></li>
+					<li><a href="#">Canadian Payroll Association - Payroll Certification Programs</a></li>
+					<li><a href="#">Tax Accounting</a></li>
+					<li><a href="#">Accounting and Finance - Other Related</a></li>
 				</ul></div>
 			</section>
 </div>
