@@ -19,9 +19,24 @@
                             <img class="ls-s3" src="common/coned_images/slider/test-banner.png" alt="sublayer" style="left: 30px; top: 0px">
                             <img class="ls-s7" src="common/coned_images/slider/people.png" alt="sublayer" style="left: 250px; top: 90px">
                         </div>
+                        <div class="ls-layer" rel="slidedelay: 1000; slidedirection: top;" style="background: url('/common/coned_images/paper-texture-light.jpg') #F7F7F7;">
+                            <img class="ls-s3" src="common/coned_images/slider/laptop-guy.png" alt="sublayer" style="left: 0px; top: 0px">
+                            <img class="ls-s7" src="common/coned_images/slider/extended-banner-transp.png" alt="sublayer" style="left: 330px; top: -500px">
+                            <img class="ls-s0" src="common/coned_images/slider/banner-explore-now.png" alt="sublayer" style="left: 70%; top:330px;">
+                        </div>
                          <div class="ls-layer" rel="slidedelay: 1000; slidedirection: top;" style="background: url('/common/coned_images/paper-texture-light.jpg') #F7F7F7;">
                             <img class="ls-s3" src="common/coned_images/slider/laptop-guy.png" alt="sublayer" style="left: 0px; top: 0px">
                             <img class="ls-s7" src="common/coned_images/slider/extended-banner.png" alt="sublayer" style="left: 330px; top: -500px">
+                            <img class="ls-s0" src="common/coned_images/slider/banner-explore-now.png" alt="sublayer" style="left: 70%; top:330px;">
+                        </div>
+                        <div class="ls-layer" rel="slidedelay: 1000; slidedirection: top;" style="background: url('/common/coned_images/paper-texture-light.jpg') #F7F7F7;">
+                            <img class="ls-s3" src="common/coned_images/slider/laptop-guy.png" alt="sublayer" style="left: 0px; top: 0px">
+                            <img class="ls-s7" src="common/coned_images/slider/banner-test-1.png" alt="sublayer" style="left: 330px; top: -400px">
+                            <img class="ls-s0" src="common/coned_images/slider/banner-explore-now.png" alt="sublayer" style="left: 70%; top:330px;">
+                        </div>
+                        <div class="ls-layer" rel="slidedelay: 1000; slidedirection: top;" style="background: url('/common/coned_images/paper-texture-light.jpg') #F7F7F7;">
+                            <img class="ls-s3" src="common/coned_images/slider/laptop-guy.png" alt="sublayer" style="left: 0px; top: 0px">
+                            <img class="ls-s7" src="common/coned_images/slider/banner-test-2.png" alt="sublayer" style="left: 330px; top: -400px">
                             <img class="ls-s0" src="common/coned_images/slider/banner-explore-now.png" alt="sublayer" style="left: 70%; top:330px;">
                         </div>
                     </div>
