@@ -15,17 +15,26 @@
 
                     <div id="layerslider">
                         
-                        <div class="ls-layer" rel="slidedelay: 3000; slidedirection: top;" style="background: url('/common/coned_images/paper-texture-light.jpg') #F7F7F7;">
+                        <div class="ls-layer" rel="slidedelay: 1000; slidedirection: top;" style="background: url('/common/coned_images/paper-texture-light.jpg') #F7F7F7;">
+                            <img class="ls-s3" src="common/coned_images/slider/test-banner.png" alt="sublayer" style="left: 30px; top: 0px">
+                            <img class="ls-s7" src="common/coned_images/slider/people.png" alt="sublayer" style="left: 250px; top: 90px">
+                        </div>
+                        <div class="ls-layer" rel="slidedelay: 1000; slidedirection: top;" style="background: url('/common/coned_images/paper-texture-light.jpg') #F7F7F7;">
+                            <img class="ls-s3" src="common/coned_images/slider/laptop-guy.png" alt="sublayer" style="left: 0px; top: 0px">
+                            <img class="ls-s7" src="common/coned_images/slider/laptop-guy-banner.png" alt="sublayer" style="left: 330px; top: 0px">
+                        </div>
+                       <!--  <div class="ls-layer" rel="slidedelay: 1000; slidedirection: top;" style="background: url('/common/coned_images/paper-texture-light.jpg') #F7F7F7;">
                             <img class="ls-s3" src="common/layerslider/gallery/l16.png" alt="sublayer" style="left: 50%; top: 50%">
                             <img class="ls-s5" src="common/layerslider/gallery/l17.png" alt="sublayer" style="left: 20%; top: 20%">
                             <img class="ls-s7" src="common/layerslider/gallery/l13.png" alt="sublayer" style="left: 80%; top: 80%">
-                        </div>
+                            <img class="ls-s0" src="common/coned_images/slider/banner-explore-now.png" alt="sublayer" style="left: 70%; top:330px;">
+                        </div> -->
 
-                        <div class="ls-layer" rel="slidedelay: 3000;" style="background: url('/common/coned_images/paper-texture-light.jpg') #F7F7F7;">
+                        <!-- <div class="ls-layer" rel="slidedelay: 3000;" style="background: url('/common/coned_images/paper-texture-light.jpg') #F7F7F7;">
                             <div class="ls-s2" style="left: 50%; top: 50%">left: 50%, top: 50%</div>
                             <div class="ls-s4" style="left: 20%; top: 20%">left: 20%, top: 20%</div>
                             <div class="ls-s6" style="left: 80%; top: 80%">left: 80%, top: 80%</div>
-                        </div>
+                        </div> -->
 
                     </div>
                     
