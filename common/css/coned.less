@@ -1051,10 +1051,11 @@ section.currentstudents-intro{
 				 	color:#333;
 				 	float:left;
 					display:block;
-					width:18.75%;
-					padding:1em;
+					width:18.95%;
+					padding:2.1%;
 					background:white;	
-					margin:0.5em 0.3em;
+					//margin:0.5em 0.3em;
+					margin-right:1em;
 					text-decoration:none;
 					.box-shadow(0px 1px 1px rgba(0, 0, 0, 0.2);
 					&:hover{
@@ -1065,10 +1066,15 @@ section.currentstudents-intro{
 					transition:background-color 0.75s;
 					background:url('/common/coned_images/deco/roll-over-cluster-arrow.png') #007ac3 bottom right no-repeat;
 					}
-				}
-						
+				}		
 			}
-		}		
+			li:last-child {
+				a {
+					margin-right: 0;
+				}
+			}
+		}
+
 	}
 	
 	.call-out-2 {
@@ -1077,7 +1083,7 @@ section.currentstudents-intro{
 		float:right;
 		display:block;
 		padding:0;
-		width:45%;
+		width:49%;
 		margin:0px;
 		p {
 			padding: 1.5em;
@@ -1105,7 +1111,7 @@ section.currentstudents-intro{
 		float:right;
 		display:block;
 		padding:0;
-		width:45%;
+		width:49%;
 		margin:1em 0;
 		p {
 			padding: 1.5em;
@@ -1132,7 +1138,7 @@ section.currentstudents-intro{
 .helpful-links {
 	float:left;
 	min-height:220px; 
-	width:50%;
+	width:49%;
 	background:white;
 	.box-shadow(0px 1px 1px rgba(0, 0, 0, 0.3);
 	h3 {
@@ -1147,10 +1153,11 @@ section.currentstudents-intro{
 		li {
 			list-style: none;
 			display: block;
-			padding: 0.4em 0;
+			//padding: 0.4em 0;
+			padding:0.5em 0em;
 			a {
 				//display:block;
-				padding:0.5em 1em;
+				//padding:0.5em 1em;
 			}
 		}
 	}
@@ -1192,14 +1199,16 @@ section.currentstudents-intro{
 			}
 			.list-2{
 				li{
+					padding:0.5em 0em;
 					a {
 						color:#017ec0;
 						text-decoration:none;
+
 					}
 					&:hover {
 						text-decoration: underline;
 					}
-					.desc{color:#333;}
+					//.desc{color:#333;}
 				}
 			}
 		}
