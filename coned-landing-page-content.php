@@ -101,30 +101,30 @@
 			<section id="coned-faceted-nav">
 				<h4>Refine Results</h4>
 				<section class="form-wrapper">
-					<form>
-						<div class="form">
-							<nav class="toggle-nav">
-								<ul class="black-white">
-									<li><a class="av-gallery first-child selected" rel="IN-CLASS">In Class</a></li><li><a class="av-gallery last-child" rel="ONLINE">Online</a></li>
-								</ul>
-							</nav>
-							
-							<fieldset id="locations"  class="inActive">
-								<span title="Available only when In-Class delivery mode is selected!" class="toolTip" style="">
-									<div class="toolTipWrapper" style="left: -16px; top: 97.5833px; display: none;">
-										<div class="toolTipTop"></div>
-										<div class="toolTipMid">Available only when In-Class delivery mode is selected!</div>
-										<div class="toolTipBtm"></div>
-									</div>
-								</span>
-								<legend>Location</legend>
-								<label for="cbLoc_0"><input type="checkbox" name="cbLoc" title="DAVIS$(BRAM)" value="DAVIS$(BRAM)" id="cbLoc_0">DAVIS (BRAM)</label>
-								<label for="cbLoc_1"><input type="checkbox" name="cbLoc" title="STC$(OAK)" value="STC$(OAK)" id="cbLoc_1">STC (OAK)</label>
-								<label for="cbLoc_2"><input type="checkbox" name="cbLoc" title="TRAFALGAR$(OAK)" value="TRAFALGAR$(OAK)" id="cbLoc_2">TRAFALGAR (OAK)</label>
-								<label for="cbLoc_3"><input type="checkbox" name="cbLoc" title="ST.$JOSEPH" (miss)="" value="ST.$JOSEPH" id="cbLoc_3">ST. JOSEPH (MISS)</label>
-							</fieldset>
+					<nav class="toggle-nav">
+						<ul class="black-white">
+							<li><a id="showLD" class="av-gallery first-child selected" rel="IN-CLASS">In Class</a></li><li><a class="av-gallery last-child" rel="ONLINE" id="hideLD">Online</a></li>
+						</ul>
+					</nav>
 
-							<fieldset id="days"  class="inActive">
+					<form id="in-class">
+					
+						<fieldset id="locations"  class="inActive">
+							<span title="Available only when In-Class delivery mode is selected!" class="toolTip" style="">
+								<div class="toolTipWrapper" style="left: -16px; top: 97.5833px; display: none;">
+									<div class="toolTipTop"></div>
+									<div class="toolTipMid">Available only when In-Class delivery mode is selected!</div>
+									<div class="toolTipBtm"></div>
+								</div>
+							</span>
+							<legend>Location</legend>
+							<label for="cbLoc_0"><input type="checkbox" name="cbLoc" title="DAVIS$(BRAM)" value="DAVIS$(BRAM)" id="cbLoc_0">DAVIS (BRAM)</label>
+							<label for="cbLoc_1"><input type="checkbox" name="cbLoc" title="STC$(OAK)" value="STC$(OAK)" id="cbLoc_1">STC (OAK)</label>
+							<label for="cbLoc_2"><input type="checkbox" name="cbLoc" title="TRAFALGAR$(OAK)" value="TRAFALGAR$(OAK)" id="cbLoc_2">TRAFALGAR (OAK)</label>
+							<label for="cbLoc_3"><input type="checkbox" name="cbLoc" title="ST.$JOSEPH" (miss)="" value="ST.$JOSEPH" id="cbLoc_3">ST. JOSEPH (MISS)</label>
+						</fieldset>
+
+						<fieldset id="days"  class="inActive">
 							<legend>Days</legend>
 							<div class="day-group">
 								<label for="rbDays_0"><input type="checkbox" value="MON" title="MONDAY" name="rbDays" id="rbDays_0">Monday</label>
@@ -137,15 +137,15 @@
 								<label for="rbDays_5"><input type="checkbox" value="SAT" title="SATURDAY" name="rbDays" id="rbDays_5">Saturday</label>
 								<label for="rbDays_6"><input type="checkbox" value="SUN" title="SUNDAY" name="rbDays" id="rbDays_6">Sunday</label>
 							</div>
-							</fieldset>
-							</div>
-						</section>
+						</fieldset>
 						<!-- <ul><li class="itemFilter"><a id="clearFilter">CLEAR ALL</a></li><li><a href="#"></a></li><li class="itemFilter"><a id="itemId_0">IN-CLASS</a></li></ul> -->
 						<fieldset id="reset">
 							<input type="reset" value="Clear All">
-						</fieldset>
+						</fieldset><!-- reset -->
+						</section><!-- form wrapper -->
+
 					</form>
-			</section>
+				</section><!-- coned-faceted-nav -->
 
 			<ul class="list">
 				<li>

@@ -47,6 +47,19 @@ var sheridan={homeInit:function(){
 			$(this).addClass('selected');
 		});
 
+
+		// Hide "In Class" section when "Online" tab is active
+
+		$('a#hideLD').click(function() {
+			$('#in-class').hide('slow');
+		});
+
+		// Show "In Class" section when "In Class" tab is active
+
+		$('a#showLD').click(function() {
+			$('#in-class').show('slow');
+		});
+
 		
 		$('.list > li > a').parent().append('<div class="goto-estore"><b>Go to e-store&nbsp;&rarr;<b></div>');
 		
