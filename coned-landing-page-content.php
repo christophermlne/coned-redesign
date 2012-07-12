@@ -255,7 +255,7 @@
 				</li>
 				<li>
 					<a href="coned-cluster-page.php" id="business">
-						<img src="/common/coned_images/clusters/business.png" alt="Business">
+						<img src="common/coned_images/clusters/business.png" alt="Business">
 						<h3>Business</h3>
 						<p class="cluster-description">
 							Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore.
@@ -264,8 +264,8 @@
 				</li>
 				<li>
 					<a href="#" id="communication-language">
-						<img src="/common/coned_images/clusters/communication_language.png" alt="Communications and Language">
-						<h3>Communications &amp Language</h3>
+						<img src="common/coned_images/clusters/communication_language.png" alt="Communications and Language">
+						<h3>Communications &amp; Language</h3>
 						<p class="cluster-description">
 							Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore.
 						</p>
@@ -273,7 +273,7 @@
 				</li>
 				<li>
 					<a href="#" id="computer-studies">
-						<img src="/common/coned_images/clusters/computer_studies.png" alt="Computer Studies">
+						<img src="common/coned_images/clusters/computer_studies.png" alt="Computer Studies">
 						<h3>Computer Studies</h3>
 						<p class="cluster-description">
 							Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore.
@@ -282,8 +282,8 @@
 				</li>
 				<li>
 					<a href="#" id="education-liberal-studies">
-						<img src="/common/coned_images/clusters/education_liberal_studies.png" alt="Education and Liberal Studies">
-						<h3>Education &amp Liberal Studies</h3>
+						<img src="common/coned_images/clusters/education_liberal_studies.png" alt="Education and Liberal Studies">
+						<h3>Education &amp; Liberal Studies</h3>
 						<p class="cluster-description">
 							Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam.
 						</p>
@@ -291,7 +291,7 @@
 				</li>
 				<li>
 					<a href="#" id="environmental-studies">
-						<img src="/common/coned_images/clusters/environmental_studies.png" alt="Environmental Studies">
+						<img src="common/coned_images/clusters/environmental_studies.png" alt="Environmental Studies">
 						<h3>Environmental Studies</h3>
 						<p class="cluster-description">
 							Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam.
@@ -300,8 +300,8 @@
 				</li>
 				<li>
 					<a href="#" id="health-wellness">
-						<img src="/common/coned_images/clusters/health_wellness.png" alt="Health and Wellness">
-						<h3>Health &amp Wellness</h3>
+						<img src="common/coned_images/clusters/health_wellness.png" alt="Health and Wellness">
+						<h3>Health &amp; Wellness</h3>
 						<p class="cluster-description">
 							Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
 						</p>
@@ -309,7 +309,7 @@
 				</li>
 				<li>
 					<a href="#" id="justice-studies">
-						<img src="/common/coned_images/clusters/justice_studies.png" alt="Justice Studies">
+						<img src="common/coned_images/clusters/justice_studies.png" alt="Justice Studies">
 						<h3>Justice Studies</h3>
 						<p class="cluster-description">
 							Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut.
@@ -318,8 +318,8 @@
 				</li>
 				<li>
 					<a href="#" id="manufacturing-tech-trades">
-						<img src="/common/coned_images/clusters/manufacturing_tech_trades.png" alt="Manufacturing and Technical Trades">
-						<h3>Manufacturing &amp Technical Trades</h3>
+						<img src="common/coned_images/clusters/manufacturing_tech_trades.png" alt="Manufacturing and Technical Trades">
+						<h3>Manufacturing &amp; Technical Trades</h3>
 						<p class="cluster-description">
 							Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci.
 						</p>
@@ -327,7 +327,7 @@
 				</li>
 				<li>
 					<a href="#" id="online-learning">
-						<img src="/common/coned_images/clusters/online_programs.png" alt="Online Learning">
+						<img src="common/coned_images/clusters/online_programs.png" alt="Online Learning">
 						<h3>Online Learning</h3>
 						<p class="cluster-description">
 							Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci.
@@ -336,7 +336,7 @@
 				</li>
 				<li>
 					<a href="#" id="manufacturing-tech-trades">
-						<img src="/common/coned_images/clusters/motorcycle.png" alt="Motorcycle Training">
+						<img src="common/coned_images/clusters/motorcycle.png" alt="Motorcycle Training">
 						<h3>Motorcycle Training</h3>
 						<p class="cluster-description">
 							Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci.
