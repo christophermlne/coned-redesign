@@ -317,6 +317,16 @@ div#content {
 	a#filters {
 		color: #000;
 		text-decoration: none;
+		span.left {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		span.right {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
 	}
 	h4 {
 		text-align:center;
@@ -326,19 +336,22 @@ div#content {
 		padding:0.5em 0;
 		border-bottom:1px solid #d4d4d4;
 		margin-bottom: 0;
-		background:url('../coned_images/faceted-nav-header-noise.jpeg');
+		background: #ebebeb;
 		.border-radius(6px 6px 0 0);
 		.adelleNormal();
 		position: relative;
+		&:hover {
+			background: #f2f2f2;
+		}
+		&:active {
+			background: #d7d7d7;
+		}
 		span.filter-down {
 			width: 30px;
 			height: 2em;
-			background: url(../coned_images/deco/filter-down.png) left center no-repeat;
-			position: absolute;
-			top: 0;
-			right: 0;
+			background: url(../coned_images/deco/filter-down.png) center center no-repeat;
 			&.filter-up {
-				background: url(../coned_images/deco/filter-up.png) left center no-repeat;
+				background: url(../coned_images/deco/filter-up.png) center center no-repeat;
 			}
 		}
 	}

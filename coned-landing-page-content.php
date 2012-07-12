@@ -99,7 +99,7 @@
 		
 			
 			<section id="coned-faceted-nav">
-				<a id="filters"><h4>Refine Results <span class="filter-down"></span></h4></a>
+				<a id="filters"><h4><span class="filter-down left"></span> Refine Results <span class="filter-down right"></span></h4></a>
 				<section class="form-wrapper">
 					<nav class="toggle-nav">
 						<ul class="black-white">
