@@ -48,6 +48,17 @@ var sheridan={homeInit:function(){
 		});
 
 
+		// Toggle filters
+
+		$('.form-wrapper').hide();
+
+		// show/hide the form-wrapper
+
+		$('a#filters').click(function() {
+			$('.form-wrapper').toggle('slow');
+			$('span.filter-down').toggleClass('filter-up'); // change the arrow
+		});
+
 		// Hide "In Class" section when "Online" tab is active
 
 		$('a#hideLD').click(function() {

@@ -257,7 +257,7 @@ div#content {
 		}
 		img.arrow {			
 			position: absolute;
-			top: -20px;
+			top: -19px;
 			left: 460px; /* 960px/2 - 1/2 of width */
 		}
 		.results {
@@ -313,6 +313,11 @@ div#content {
 	margin:2.5%;
 	.clearfix();
 	.rounded(6px);
+	//padding-bottom: 1em;
+	a#filters {
+		color: #000;
+		text-decoration: none;
+	}
 	h4 {
 		text-align:center;
 		font-size:1.3em;
@@ -320,17 +325,31 @@ div#content {
 		display:block;
 		padding:0.5em 0;
 		border-bottom:1px solid #d4d4d4;
+		margin-bottom: 0;
 		background:url('../coned_images/faceted-nav-header-noise.jpeg');
 		.border-radius(6px 6px 0 0);
 		.adelleNormal();
+		position: relative;
+		span.filter-down {
+			width: 30px;
+			height: 2em;
+			background: url(../coned_images/deco/filter-down.png) left center no-repeat;
+			position: absolute;
+			top: 0;
+			right: 0;
+			&.filter-up {
+				background: url(../coned_images/deco/filter-up.png) left center no-repeat;
+			}
+		}
 	}
 	.form-wrapper {
 		border-top:1px solid white;
 		.clearfix();
-		height:100%;
+		padding-bottom: 1em;
 	}
 	#reset {
-		padding: 0.2em 0;
+		padding: 0.2em 0 0 0;
+		clear: both;
 		input {
 			display: block;
 			margin: 1em auto;
@@ -355,7 +374,7 @@ div#content {
 		.column(5.5);
 		.push(0.35);
 		border: 1px solid #999;
-		background: rgba(255,255,255,0.8);
+		background: rgba(255,255,255,0.5);
 		label {
 			padding: 0.5em;
 		}

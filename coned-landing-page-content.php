@@ -60,7 +60,7 @@
 <div id="coned-search-results">	
 	<section id="coned-search-results-display">
 		<h2>Search Results for: &ldquo;<span>query</span>&rdquo;</h2>
-		<img src="http://placehold.it/40x20" class="arrow">
+		<img src="common/coned_images/deco/search-arrow.gif" class="arrow">
 		<section class="results programs">
 			<header>
 				<h1>Programs</h1>
@@ -99,7 +99,7 @@
 		
 			
 			<section id="coned-faceted-nav">
-				<h4>Refine Results</h4>
+				<a id="filters"><h4>Refine Results <span class="filter-down"></span></h4></a>
 				<section class="form-wrapper">
 					<nav class="toggle-nav">
 						<ul class="black-white">
