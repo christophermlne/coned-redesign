@@ -858,36 +858,38 @@ div#content {
 #coned-title {
 	.column(12,12);
 	h1 {
-		display:block;
-		margin:0.2em 0 1em 15px;
+		//display:block;
+		margin:1em 1em 0.5em;
 		font-size:2.5em;
 		.adelleHeavy();
 		color:#2f2f2f;
 	}
-	.crumbs { 
-		margin-left:10px;
-		ul {
-			.clearfix();
-			li { 
-				float:left;
-				a {
-					font-size:.8em;
-					color:#666666;
-					text-decoration: none;
-					margin-left:.25em;
-					margin-right:.25em;
-					span {
-						color:lightgrey;
-					}
+}
+#crumbs {
+	ul{
+		.clearfix;
+		//width:96.2%;
+		margin-left:20px;
+		margin-bottom:0.5em;
+		li{		
+				a{
+					display:block;
+					//background:orange;
+					color:grey;
+					float:left;	
+					text-decoration:none;
+					background:#edeef0;
+					padding:0.5em;
+					border-right:1px solid #fff;
+
 				}
-				&:hover{ 
-					text-decoration: underline;
+				&:hover{
+					text-decoration:underline;
 				}
-				
-			}
 		}
 	}
 }
+
 #coned-intro{
 	display:block; 
 	margin:10px 20px 10px 20px;
@@ -975,6 +977,11 @@ section.newcomers-intro {
 		float:left;
 		padding: 0 1em;
 		width:50%;
+		h2{
+			.adelleNormal;
+			font-size:2em;
+			margin-bottom:0.75em;
+		}
 	}
 	.call-out {
 		background:#f0f0f0;

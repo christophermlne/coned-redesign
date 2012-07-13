@@ -10,22 +10,21 @@
     </nav>
 </div>
 <section id="coned-title">
-	<div class="crumbs">
-		<ul>
-			<li><a href="#">Home <span>/</span></a></li>
-			<li><a href="#">Programs and Courses <span>/</span> </a></li>
-			<li><a href="#">Programs </a></li>
-		</ul>
-	</div>
-	<h1>Welcome to Canada</h1>
+	<h1>Continuing & Professional Studies - Newcomers</h1>
 </section>
-
+<section id="crumbs">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Programs and Courses</a></li>
+			<li><a href="#">Programs</a></li>
+		</ul>
+</section>
 <div id="coned-landing-content" class="not-landing">
 		
 	<section id="coned-cluster-featured"><!--Imagery to come--></section>
 	
 	<section class="newcomers-intro">
-		<div class="intro-text"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada 
+		<div class="intro-text"><h2>Welcome to Canada</h2><p>Pellentesque habitant morbi tristique senectus et netus et malesuada 
 	fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p><p>Pellentesque habitant morbi tristique senectus et netus et malesuada 
 	est. Mauris placerat eleifend leo.</p></div>
 		
