@@ -256,7 +256,7 @@
             <ul>
                 <li>
                     <a href="#" id="arts-and-design">
-                        <img src="/common/coned_images/clusters/arts_design.png" alt="Arts and Design">
+                        <img src="common/coned_images/clusters/arts_design.png" alt="Arts and Design">
                         <h3>Arts &amp; Design</h3>
                         <p class="cluster-description">
                             Study at one of North America’s leading institutes of design and 
@@ -272,7 +272,7 @@ well-equipped studio facilities.
                 </li>
                 <li>
                     <a href="coned-cluster-page.php" id="business">
-                        <img src="/common/coned_images/clusters/business.png" alt="Business">
+                        <img src="common/coned_images/clusters/business.png" alt="Business">
                         <h3>Business</h3>
                         <p class="cluster-description">
                             Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore.
@@ -281,7 +281,7 @@ well-equipped studio facilities.
                 </li>
                 <li>
                     <a href="#" id="communication-language">
-                        <img src="/common/coned_images/clusters/communication_language.png" alt="Communications and Language">
+                        <img src="common/coned_images/clusters/communication_language.png" alt="Communications and Language">
                         <h3>Communications &amp Language</h3>
                         <p class="cluster-description">
                             Become a student of the world in one of our exciting communication 
@@ -293,7 +293,7 @@ as languages such as French, Italian, or Spanish.
                 </li>
                 <li>
                     <a href="#" id="computer-studies">
-                        <img src="/common/coned_images/clusters/computer_studies.png" alt="Computer Studies">
+                        <img src="common/coned_images/clusters/computer_studies.png" alt="Computer Studies">
                         <h3>Computer Studies</h3>
                         <p class="cluster-description">Explore the rapidly changing world of technologies in our Computer Studies 
 programs. Acquire new marketable skills in information systems and technology.</p>
@@ -301,7 +301,7 @@ programs. Acquire new marketable skills in information systems and technology.</
                 </li>
                 <li>
                     <a href="#" id="education-liberal-studies">
-                        <img src="/common/coned_images/clusters/education_liberal_studies.png" alt="Education and Liberal Studies">
+                        <img src="common/coned_images/clusters/education_liberal_studies.png" alt="Education and Liberal Studies">
                         <h3>Education &amp Liberal Studies</h3>
                         <p class="cluster-description">
                             Create a positive change in people's lives! Explore the field of early childhood education 
@@ -313,7 +313,7 @@ education into a career.
                 </li>
                 <li>
                     <a href="#" id="environmental-studies">
-                        <img src="/common/coned_images/clusters/environmental_studies.png" alt="Environmental Studies">
+                        <img src="common/coned_images/clusters/environmental_studies.png" alt="Environmental Studies">
                         <h3>Environmental Studies</h3>
                         <p class="cluster-description">
                             Increase your awareness of environmental issues and become part of 
@@ -326,7 +326,7 @@ Collection programs.
                 </li>
                 <li>
                     <a href="#" id="health-wellness">
-                        <img src="/common/coned_images/clusters/health_wellness.png" alt="Health and Wellness">
+                        <img src="common/coned_images/clusters/health_wellness.png" alt="Health and Wellness">
                         <h3>Health &amp Wellness</h3>
                         <p class="cluster-description">
                             Sheridan offers students the opportunity to discover a “healthy mind, 
@@ -339,7 +339,7 @@ Performance Training, Esthetics and Teaching Yoga.
                 </li>
                 <li>
                     <a href="#" id="justice-studies">
-                        <img src="/common/coned_images/clusters/justice_studies.png" alt="Justice Studies">
+                        <img src="common/coned_images/clusters/justice_studies.png" alt="Justice Studies">
                         <h3>Justice Studies</h3>
                         <p class="cluster-description">
                             Explore a career servicing the public and act as an essential part of your 
@@ -353,7 +353,7 @@ their knowledge.
                 </li>
                 <li>
                     <a href="#" id="manufacturing-tech-trades">
-                        <img src="/common/coned_images/clusters/manufacturing_tech_trades.png" alt="Manufacturing and Technical Trades">
+                        <img src="common/coned_images/clusters/manufacturing_tech_trades.png" alt="Manufacturing and Technical Trades">
                         <h3>Manufacturing &amp Technical Trades</h3>
                         <p class="cluster-description">
                             Keep pace with the rapid technological changes sweeping modern 
@@ -368,7 +368,7 @@ in-demand skills.
                 </li>
                 <li>
                     <a href="#" id="online-learning">
-                        <img src="/common/coned_images/clusters/online_programs.png" alt="Online Learning">
+                        <img src="common/coned_images/clusters/online_programs.png" alt="Online Learning">
                         <h3>Online Learning</h3>
                         <p class="cluster-description">
                             Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci.
@@ -377,7 +377,7 @@ in-demand skills.
                 </li>
                 <li>
                     <a href="#" id="manufacturing-tech-trades">
-                        <img src="/common/coned_images/clusters/motorcycle.png" alt="Motorcycle Training">
+                        <img src="common/coned_images/clusters/motorcycle.png" alt="Motorcycle Training">
                         <h3>Motorcycle Training</h3>
                         <p class="cluster-description">
                             Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci.
@@ -385,7 +385,6 @@ in-demand skills.
                     </a>
                 </li>
             </ul>
-
 		</div>
 	</section>
 
