@@ -1,17 +1,17 @@
 <link rel="stylesheet" href="../layerslider/css/layerslider.css" type="text/css">
 <link rel="stylesheet" href="common/layerslider/assets/css/style.css" type="text/css">
 
-
+<div id="big-audience-nav">
+   <nav>
+        <ul>
+            <li class="active-tab"><a href="/">Prospective Students</a></li><li><a href="coned-newcomers.php">Newcomers</a></li><li><a href="coned-current-stu.php">Current Students</a></li>
+        </ul>
+    </nav>
+</div>
 <section id="coned-title">
-	<div class="crumbs">
-		<ul>
-			<li><a href="#">Home <span>/</span></a></li>
-			<li><a href="#">Programs and Courses <span>/</span> </a></li>
-			<li><a href="#">Programs </a></li>
-		</ul>
-	</div>
 	<h1>Continuing Education - Business Programs</h1>
 </section>
+<?php include('breadcrumb.php'); ?>
 
 
 <div id="coned-landing-content" class="not-landing">

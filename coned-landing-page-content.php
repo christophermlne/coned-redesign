@@ -12,13 +12,7 @@
 <section id="coned-title">
     <h1>Continuing & Professional Studies</h1>
 </section>
-<section id="crumbs">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Programs and Courses</a></li>
-            <li><a href="#">Programs</a></li>
-        </ul>
-</section>
+<?php include('breadcrumb.php'); ?>
 <div id="coned-messaging-area">
 	<div id="coned-layerslider">
 		<div id="dim">
