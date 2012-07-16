@@ -498,7 +498,8 @@ div#content {
 				font-size: 1.5em;
 				text-align: center;
 				letter-spacing: 0.05em;
-				margin-top: 0.5em;
+				//margin-top: 0.5em;
+				line-height: 1.3em;
 			}
 			a {
 				
@@ -515,17 +516,17 @@ div#content {
 					margin-top:30%;
 				}
 				p.cluster-description {
-					-webkit-transition:top 0.25s ease-out, opacity 0.25s ease-out;
-					-moz-transition:top 0.25s ease-out, opacity 0.25s ease-out;
-					transition:top 0.25s ease-out, opacity 0.25s ease-out;
+					// -webkit-transition:top 0.25s ease-out, opacity 0.25s ease-out;
+					// -moz-transition:top 0.25s ease-out, opacity 0.25s ease-out;
+					// transition:top 0.25s ease-out, opacity 0.25s ease-out;
 					-webkit-transition-delay:0.15s;
 					-moz-transition-delay:0.15s;
 					transition-delay:0.15s;
 					visibility: hidden;
 					color:#86dff2;
-					padding:1em 10% 10% 10%;
-					position:absolute;
-					top:150px;
+					padding: 0.5em 10% 10% 10%;
+					//position:absolute;
+					//top:150px;
 					opacity:0;
 					line-height: 1.4em;
 				}
@@ -536,10 +537,10 @@ div#content {
 					background:url('/common/coned_images/deco/roll-over-cluster-arrow.png') #007ac3 bottom right no-repeat;
 					h3 {
 						color:white;
-						margin-top:1.5em;
+						margin-top:1em;
 						font-size:1.6em;
 						text-align:left;
-						padding-left:10%;
+						padding: 0 10%;
 					}
 					p.cluster-description {
 						visibility: visible;
@@ -565,7 +566,7 @@ div#content {
 	.column(12);
 	background:#3a3a3a;
 	min-height:110px;
-	margin-bottom:0.9em;
+	margin-bottom:0 !important;
 	padding:0;
 	margin-bottom:1em;
 	h1 {
@@ -768,6 +769,7 @@ div#content {
 
 
 #coned-sidebar-see-also {
+	clear: both;
 	margin-bottom: 0;
 	li { border-bottom: solid 1px #e6e6e6; 
 		background: url(../coned_images/deco/aside-nav-arrow.png) no-repeat right;
@@ -1111,65 +1113,69 @@ section.currentstudents-intro{
 		}
 
 	}
-	
-	.call-out-2 {
-		.border-radius(0px, 20px, 20px, 20px);
-		background:url('/common/coned_images/paper-texture-lime.jpg');
-		float:right;
-		display:block;
-		padding:0;
-		width:49%;
-		margin:0px;
-		p {
-			padding: 1.5em;
-		}
-		h3{
-			color:white;
-			padding: 1em 1em .2em;
-			.adelleHeavy();
-			font-size:1.8em;
-		}
-		a {
-			padding-left:1em;
-			background: url(../coned_images/deco/aside-nav-arrow.png) no-repeat left;
-			color:white;
-			text-decoration:none;
-			&:hover{
-				color:white;
-				text-decoration:underline;
-			}
-		}
+}
+
+.call-out-2, .call-out-3 {		
+	a {
+		background: url(/common/coned_images/deco/white-arrow.png) no-repeat left;
 	}
-	.call-out-3 {
-		.border-radius(0px, 20px, 20px, 20px);
-		background:url('/common/coned_images/paper-texture-blue.jpg');
-		float:right;
-		display:block;
-		padding:0;
-		width:49%;
-		margin:1em 0;
-		p {
-			padding: 1.5em;
-		}
-		h3{
+}
+.call-out-2 {
+	.border-radius(0px, 20px, 20px, 20px);
+	background:url('/common/coned_images/paper-texture-lime.jpg');
+	float:right;
+	display:block;
+	padding:0;
+	width:49%;
+	margin:0px;
+	p {
+		padding: 1.5em;
+	}
+	h3{
+		color:white;
+		padding: 1em 1em .2em;
+		.adelleHeavy();
+		font-size:1.8em;
+	}
+	a {
+		padding-left:1em;
+		color:white;
+		text-decoration:none;
+		&:hover{
 			color:white;
-			padding: 1em 1em .2em;
-			.adelleHeavy();
-			font-size:1.8em;
-			line-height:1em;
-		}
-		a {
-			padding-left:1em;
-			background: url(../coned_images/deco/white-arrow.png) no-repeat left;
-			color: #fff;
-			text-decoration:none;
-			&:hover{
-				color:white;
-				text-decoration:underline;
-			}
+			text-decoration:underline;
 		}
 	}
 }
+.call-out-3 {
+	.border-radius(0px, 20px, 20px, 20px);
+	background:url('/common/coned_images/paper-texture-cyan.jpg');
+	float:right;
+	display:block;
+	padding:0;
+	width:49%;
+	margin:1em 0;
+	p {
+		padding: 1.5em;
+	}
+	h3{
+		color:white;
+		padding: 1em 1em .2em;
+		.adelleHeavy();
+		font-size:1.8em;
+		line-height:1em;
+	}
+	a {
+		padding-left:1em;
+		color: #fff;
+		text-decoration:none;
+		&:hover{
+			color:white;
+			text-decoration:underline;
+		}
+	}
+}
+
 .helpful-links {
 	float:left;
 	min-height:220px; 
@@ -1188,11 +1194,12 @@ section.currentstudents-intro{
 		li {
 			list-style: none;
 			display: block;
-			//padding: 0.4em 0;
 			padding:0.5em 0em;
 			a {
-				//display:block;
-				//padding:0.5em 1em;
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
 			}
 		}
 	}
@@ -1243,7 +1250,6 @@ section.currentstudents-intro{
 					&:hover {
 						text-decoration: underline;
 					}
-					//.desc{color:#333;}
 				}
 			}
 		}
