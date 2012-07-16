@@ -859,33 +859,51 @@ div#content {
 	.column(12,12);
 	h1 {
 		//display:block;
-		margin:1em 1em 0.5em;
+		margin:1em 1em 0.6em 1em;
 		font-size:2.5em;
 		.adelleHeavy();
 		color:#2f2f2f;
 	}
 }
 #crumbs {
-	ul{
+	ul {
 		.clearfix;
-		//width:96.2%;
-		margin-left:20px;
-		margin-bottom:0.5em;
-		li{		
-				a{
-					display:block;
-					//background:orange;
-					color:grey;
-					float:left;	
-					text-decoration:none;
-					background:#edeef0;
-					padding:0.5em;
-					border-right:1px solid #fff;
-
-				}
+		clear: both;
+		background: #f8f8f8;
+		width: 960px;
+		margin: 2em 0 0.6em 0.5em;
+		border-top: 1px solid #bfbfbf;
+		border-bottom: 1px solid #bfbfbf;
+		li {
+			a {
+				display:block;
+				color: #878787;
+				float:left;	
+				text-decoration:none;
+				background:url(/common/coned_images/crumbs-main.png) right center no-repeat #efefef;
+				padding:0.6em 2em 0.6em 1.3em;
 				&:hover{
-					text-decoration:underline;
+					color: #000;
 				}
+			}
+			&:first-child {
+				a {
+					background: url(/common/coned_images/crumbs-first.png) right center no-repeat #cfcfcf;
+					padding: 0.6em 2.5em;
+					img {
+						width: 12px;
+						height: 12px;
+						vertical-align: middle;
+						margin-top: -2px;
+						//display: none;
+					}
+				}
+			}
+			&:last-child {
+				a {
+					background: url(/common/coned_images/crumbs-last.png) right center no-repeat #efefef;
+				}
+			}
 		}
 	}
 }

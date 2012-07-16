@@ -5,13 +5,7 @@
 <section id="coned-title">
 	<h1>Continuing Education - Business Programs</h1>
 </section>
-<section id="crumbs">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Programs and Courses</a></li>
-			<li><a href="#">Programs</a></li>
-		</ul>
-</section>
+<?php include 'crumbs.php'; ?>
 
 <div id="coned-landing-content" class="not-landing">
 	 <section id="coned-cluster-featured">
