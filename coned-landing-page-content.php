@@ -241,7 +241,7 @@
 						<h3>Arts &amp; Design</h3>
 						<p class="cluster-description">
 							<!-- One of North America's leading institutes of design and technology. --> Sheridan, a leading institute of design, offers a wide variety of 
-							creative classes including photography, painting, drawing, artisan media, digital media or interior decorating.
+							creative classes including photography, painting, drawing, artisan media, digital media or interior design.
 						</p>
 					</a>
 				</li>
@@ -250,7 +250,7 @@
 						<img src="/common/coned_images/clusters/business.png" alt="Business">
 						<h3>Business</h3>
 						<p class="cluster-description">
-							Sheridan offers a wide range of business courses including accounting, financial services, management, marketing and admintration.
+							Sheridan offers a wide range of business courses including accounting, financial services, management, marketing and administration.
 						</p>
 					</a>
 				</li>
@@ -259,7 +259,7 @@
 						<img src="/common/coned_images/clusters/communication_language.png" alt="Communications and Language">
 						<h3>Communications &amp; Language</h3>
 						<p class="cluster-description">
-							Learn a new language, or improve in one you already know. Sheridan offers courses in English, and foreign languages such as French, Italian, or Spanish.
+							Learn a new language, or improve in one you already know. Sheridan offers courses in English and foreign languages such as French, Italian, or Spanish.
 						</p>
 					</a>
 				</li>
@@ -302,7 +302,7 @@
 						<img src="/common/coned_images/clusters/justice_studies.png" alt="Justice Studies">
 						<h3>Justice Studies</h3>
 						<p class="cluster-description">
-							Explore a career in public service and become an essential part of your local community with a position in justice, safety and law enforcement.
+							Discover a career in public service and become an essential part of your local community with a position in justice, safety and law enforcement.
 						</p>
 					</a>
 				</li>
