@@ -61,11 +61,14 @@
 	<a href="#" id="close-search">Close</a>
 </div>
 
+
+<?php // Search display ?>
 <div id="coned-search-results">
 	
 	<section id="coned-search-results-display">
 		<h2>Search Results for: &ldquo;<span>query</span>&rdquo;</h2>
 		<img src="common/coned_images/deco/arrow-up.png" class="arrow">
+
 		<section class="results programs">
 			<header>
 				<h1>Programs</h1>
@@ -100,44 +103,57 @@
 			<header>
 				<h1>Courses</h1>
 				<!-- <p>Showing 20 Results for &ldquo;<span>Busine</span>&rdquo;</p> -->
-			</header>
-			<?php /* hiding this part
+			</header>		
 			
 			<section id="coned-faceted-nav">
-				<h4>Refine Results: </h4>
-				<div class="form-wrapper">
-					<form>
-				 
-						<fieldset id="delMode">
-							<!-- <legend>Method</legend> -->
-							<label for="cblDelMode_0"><input type="checkbox" name="cblDelMode$0" id="cblDelMode_0">Online</label>
-							<!-- <label for="cblDelMode_1"><input type="checkbox" name="cblDelMode$1" id="cblDelMode_1">Online (SHERIDAN)</label> -->
-							<label for="cblDelMode_2"><input type="checkbox" name="cblDelMode$2" id="cblDelMode_2">In Class</label>
+				<a id="filters"><h4><span class="filter-down left"></span> Refine Results <span class="filter-down right"></span></h4></a>
+				<section class="form-wrapper">
+					<nav class="toggle-nav">
+						<ul class="black-white">
+							<li><a id="showLD" class="av-gallery first-child selected" rel="IN-CLASS">In Class</a></li><li><a class="av-gallery last-child" rel="ONLINE" id="hideLD">Online</a></li>
+						</ul>
+					</nav>
+
+					<form id="in-class">
+					
+						<fieldset id="locations"  class="inActive">
+							<span title="Available only when In-Class delivery mode is selected!" class="toolTip" style="">
+								<div class="toolTipWrapper" style="left: -16px; top: 97.5833px; display: none;">
+									<div class="toolTipTop"></div>
+									<div class="toolTipMid">Available only when In-Class delivery mode is selected!</div>
+									<div class="toolTipBtm"></div>
+								</div>
+							</span>
+							<legend>Location</legend>
+							<label for="cbLoc_0"><input type="checkbox" name="cbLoc" title="DAVIS$(BRAM)" value="DAVIS$(BRAM)" id="cbLoc_0">DAVIS (BRAM)</label>
+							<label for="cbLoc_1"><input type="checkbox" name="cbLoc" title="STC$(OAK)" value="STC$(OAK)" id="cbLoc_1">STC (OAK)</label>
+							<label for="cbLoc_2"><input type="checkbox" name="cbLoc" title="TRAFALGAR$(OAK)" value="TRAFALGAR$(OAK)" id="cbLoc_2">TRAFALGAR (OAK)</label>
+							<label for="cbLoc_3"><input type="checkbox" name="cbLoc" title="ST.$JOSEPH" (miss)="" value="ST.$JOSEPH" id="cbLoc_3">ST. JOSEPH (MISS)</label>
 						</fieldset>
-						
-						<fieldset id="campus">
-							<legend>Campus</legend>
-							<label for=""><input type="checkbox" id="DAVIS (BRAM)"      class="clsLoc">Davis (BRAM)</label>
-							<label for=""><input type="checkbox" id="STC (OAK)"         class="clsLoc">STC (OAK)</label>
-							<label for=""><input type="checkbox" id="TRAFALGAR (OAK)"   class="clsLoc">Trafalgar Road (OAK)</label>
-							<label for=""><input type="checkbox" id="ST. JOSEPH (MISS)" class="clsLoc">St. Joseph (MISS)</label>
-						</fieldset>
-						
-						<fieldset id="days">
+
+						<fieldset id="days"  class="inActive">
 							<legend>Days</legend>
-							<label for="rbDays_0"><input type="radio" value="MON" name="rbDays" id="rbDays_0">Monday</label>
-							<label for="rbDays_1"><input type="radio" value="TUE" name="rbDays" id="rbDays_1">Tuesday</label>
-							<label for="rbDays_2"><input type="radio" value="WED" name="rbDays" id="rbDays_2">Wednesday</label>
-							<label for="rbDays_3"><input type="radio" value="THU" name="rbDays" id="rbDays_3">Thursday</label>
-							<label for="rbDays_4"><input type="radio" value="FRI" name="rbDays" id="rbDays_4">Friday</label>
-							<label for="rbDays_5"><input type="radio" value="SAT" name="rbDays" id="rbDays_5">Saturday</label>
-							<label for="rbDays_6"><input type="radio" value="SUN" name="rbDays" id="rbDays_6">Sunday</label>
+							<div class="day-group">
+								<label for="rbDays_0"><input type="checkbox" value="MON" title="MONDAY" name="rbDays" id="rbDays_0">Monday</label>
+								<label for="rbDays_1"><input type="checkbox" value="TUE" title="TUESDAY" name="rbDays" id="rbDays_1">Tuesday</label>
+								<label for="rbDays_2"><input type="checkbox" value="WED" title="WEDNESDAY" name="rbDays" id="rbDays_2">Wednesday</label>
+								<label for="rbDays_3"><input type="checkbox" value="THU" title="THURSDAY" name="rbDays" id="rbDays_3">Thursday</label>
+							</div>
+							<div class="day-group">
+								<label for="rbDays_4"><input type="checkbox" value="FRI" title="FRIDAY" name="rbDays" id="rbDays_4">Friday</label>
+								<label for="rbDays_5"><input type="checkbox" value="SAT" title="SATURDAY" name="rbDays" id="rbDays_5">Saturday</label>
+								<label for="rbDays_6"><input type="checkbox" value="SUN" title="SUNDAY" name="rbDays" id="rbDays_6">Sunday</label>
+							</div>
 						</fieldset>
-						
+						<!-- <ul><li class="itemFilter"><a id="clearFilter">CLEAR ALL</a></li><li><a href="#"></a></li><li class="itemFilter"><a id="itemId_0">IN-CLASS</a></li></ul> -->
+						<fieldset id="reset">
+							<input type="reset" value="Clear All">
+						</fieldset><!-- reset -->
+						</section><!-- form wrapper -->
+
 					</form>
-				</div>
-			</section>
-			*/ ?>
+				</section><!-- coned-faceted-nav -->
+
 			<ul class="list">
 				<li>
 					<a target="_blank" href="http://sculptor.sheridanc.on.ca/webapp/wcs/stores/servlet/ProductDisplay?catalogId=10051&amp;storeId=10051&amp;productId=77307">
@@ -240,7 +256,7 @@
 						<img src="/common/coned_images/clusters/arts_design.png" alt="Arts and Design">
 						<h3>Arts &amp; Design</h3>
 						<p class="cluster-description">
-							<!-- One of North America's leading institutes of design and technology. --> Sheridan, a leading institute of design, offers a wide variety of 
+							Sheridan, a leading institute of design, offers a wide variety of 
 							creative classes including photography, painting, drawing, artisan media, digital media or interior design.
 						</p>
 					</a>
@@ -312,6 +328,7 @@
 						<h3>Manufacturing &amp; Technical Trades</h3>
 						<p class="cluster-description">
 							Explore a career in the manufacturing, quality assurance, home inspection, building systems and engineering sectors and gain essential, in-demand skills.
+
 						</p>
 					</a>
 				</li>
@@ -321,6 +338,7 @@
 						<h3>Online Learning</h3>
 						<p class="cluster-description">
 							Learn anytime, anywhere. Sheridan offers over 200 courses online that are flexible and allow you to learn on your time, whenever you want. 
+
 						</p>
 					</a>
 				</li>
