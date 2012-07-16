@@ -244,14 +244,8 @@
                         <img src="/common/coned_images/clusters/arts_design.png" alt="Arts and Design">
                         <h3>Arts &amp; Design</h3>
                         <p class="cluster-description">
-                            Study at one of North America’s leading institutes of design and 
-technology. Sheridan’s Arts and Design programs encourage students 
-to explore and discover their individual talent and imagination.
-Challenge yourself with a wide variety of creative media including: 
-photography, painting, drawing, artisan media, digital media or 
-interior decorating.
-Courses are taught by experienced professionals and artisans in spacious, 
-well-equipped studio facilities.
+                            One of North America's leading institutes of design and technology. Sheridan offers a wide variety of 
+                            creative classes including photography, painting, drawing, artisan media, digital media or interior decorating.
                         </p>
                     </a>
                 </li>
@@ -260,7 +254,7 @@ well-equipped studio facilities.
                         <img src="/common/coned_images/clusters/business.png" alt="Business">
                         <h3>Business</h3>
                         <p class="cluster-description">
-                            Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore.
+                            Sheridan offers wide arrange of business courses ranging in accounting, financial services, management, marketing and admintration.
                         </p>
                     </a>
                 </li>
@@ -269,10 +263,7 @@ well-equipped studio facilities.
                         <img src="/common/coned_images/clusters/communication_language.png" alt="Communications and Language">
                         <h3>Communications &amp Language</h3>
                         <p class="cluster-description">
-                            Become a student of the world in one of our exciting communication 
-and language programs! Enhance existing language skills or learn a new 
-one! We offer numerous courses at a variety of levels in English as well 
-as languages such as French, Italian, or Spanish.
+                            Enhance existing language skills or learn a new one! We offer numerous courses at a variety of levels in English as well as languages such as French, Italian, or Spanish.
                         </p>
                     </a>
                 </li>
@@ -280,8 +271,7 @@ as languages such as French, Italian, or Spanish.
                     <a href="#" id="computer-studies">
                         <img src="/common/coned_images/clusters/computer_studies.png" alt="Computer Studies">
                         <h3>Computer Studies</h3>
-                        <p class="cluster-description">Explore the rapidly changing world of technologies in our Computer Studies 
-programs. Acquire new marketable skills in information systems and technology.</p>
+                        <p class="cluster-description">Explore the rapidly changing world of technologies in our Computer Studies programs. Acquire new marketable skills in information systems and technology.</p>
                     </a>
                 </li>
                 <li>
@@ -289,10 +279,7 @@ programs. Acquire new marketable skills in information systems and technology.</
                         <img src="/common/coned_images/clusters/education_liberal_studies.png" alt="Education and Liberal Studies">
                         <h3>Education &amp Liberal Studies</h3>
                         <p class="cluster-description">
-                            Create a positive change in people's lives! Explore the field of early childhood education 
-and working with the emotional and educational development of 
-children through to the field of adult education. Turn your passion for 
-education into a career.
+                            Explore the field of early childhood education and working with the emotional and educational development of children through to the field of adult education. Turn your passion for education into a career.
                         </p>
                     </a>
                 </li>
@@ -301,11 +288,8 @@ education into a career.
                         <img src="/common/coned_images/clusters/environmental_studies.png" alt="Environmental Studies">
                         <h3>Environmental Studies</h3>
                         <p class="cluster-description">
-                            Increase your awareness of environmental issues and become part of 
-the solution. Enhance the landscape through our Horticulture studies 
-program or learn more about water distribution and wastewater 
-collection through our Water Supply, Distribution and Wastewater 
-Collection programs.
+                            Increase your awareness of environmental issues and become part of the solution. Enhance the landscape through our Horticulture studies 
+                            program or learn more about water distribution and wastewater collection through our Water Supply, Distribution and Wastewater Collection programs.
                         </p>
                     </a>
                 </li>
@@ -314,11 +298,8 @@ Collection programs.
                         <img src="/common/coned_images/clusters/health_wellness.png" alt="Health and Wellness">
                         <h3>Health &amp Wellness</h3>
                         <p class="cluster-description">
-                            Sheridan offers students the opportunity to discover a “healthy mind, 
-body, and soul”. Upgrade existing skills or embark on a new career or 
-lifestyle choice. Choose from a variety of exciting health care professions 
-and services such as Personal Support Worker, Fitness Trainer, Human 
-Performance Training, Esthetics and Teaching Yoga.
+                            Choose from a variety of exciting health care professions and services such as Personal Support Worker, Fitness Trainer, 
+                            Human Performance Training, Esthetics and Teaching Yoga.
                         </p>
                     </a>
                 </li>
@@ -327,12 +308,8 @@ Performance Training, Esthetics and Teaching Yoga.
                         <img src="/common/coned_images/clusters/justice_studies.png" alt="Justice Studies">
                         <h3>Justice Studies</h3>
                         <p class="cluster-description">
-                            Explore a career servicing the public and act as an essential part of your 
-local community with a position in justice, safety, and law enforcement. 
-Sheridan's Justice Studies programs are designed for people interested 
-in pursuing a new career in justice and safety or for those currently 
-employed in the fi eld who may wish to upgrade their skills or expand 
-their knowledge.
+                            Explore a career servicing the public and act as an essential part of your local community with a position in justice, 
+                            safety, and law enforcement.
                         </p>
                     </a>
                 </li>
@@ -341,13 +318,8 @@ their knowledge.
                         <img src="/common/coned_images/clusters/manufacturing_tech_trades.png" alt="Manufacturing and Technical Trades">
                         <h3>Manufacturing &amp Technical Trades</h3>
                         <p class="cluster-description">
-                            Keep pace with the rapid technological changes sweeping modern 
-business and industry. Acquire the technical skills desired by so many 
-customers and employers in the 21st century. Sheridan’s Manufacturing 
-Technology and Trades offerings can assist those currently employed 
-or seeking careers in the manufacturing, quality assurance, home 
-inspection, building systems and engineering sectors to gain essential, 
-in-demand skills.
+                            Sheridan's Manufacturing Technology and Trades offerings can assist those currently employed or seeking careers in the manufacturing, quality assurance, home 
+                            inspection, building systems and engineering sectors to gain essential, in-demand skills.
                         </p>
                     </a>
                 </li>
@@ -356,16 +328,16 @@ in-demand skills.
                         <img src="/common/coned_images/clusters/online_programs.png" alt="Online Learning">
                         <h3>Online Learning</h3>
                         <p class="cluster-description">
-                            Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci.
+                            Learn Anytime.. Anywhere. Sheridan offers over 200 courses online that are completely flexible and allow you to learn on your time, whenever you want. 
                         </p>
                     </a>
                 </li>
                 <li>
-                    <a href="#" id="manufacturing-tech-trades">
+                    <a href="#" id="leisure">
                         <img src="/common/coned_images/clusters/motorcycle.png" alt="Motorcycle Training">
                         <h3>Motorcycle Training</h3>
                         <p class="cluster-description">
-                            Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci.
+                            Sheridan's certified, professional instructors are dedicated to teaching new and experienced riders.
                         </p>
                     </a>
                 </li>
