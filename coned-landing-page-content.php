@@ -246,7 +246,7 @@
 			<ul>
 				<li>
 					<a href="#" id="arts-and-design">
-						<img src="/common/coned_images/clusters/arts_design.png" alt="Arts and Design">
+						<img src="common/coned_images/clusters/arts_design.png" alt="Arts and Design">
 						<h3>Arts &amp; Design</h3>
 						<p class="cluster-description">
 							Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut.
