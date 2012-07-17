@@ -10,9 +10,11 @@
     </nav>
 </div>
 <section id="coned-title">
-	<h1>Continuing & Professional Studies - Newcomers</h1>
+	<h1>Continuing &amp; Professional Studies - Newcomers</h1>
 </section>
-<?php include('breadcrumb.php'); ?>
+
+<?php include 'crumbs.php'; ?>
+
 <div id="coned-landing-content" class="not-landing">
 		
 	<section id="coned-cluster-featured"><!--Imagery to come--></section>

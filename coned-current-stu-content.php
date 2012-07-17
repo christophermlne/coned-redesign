@@ -11,7 +11,7 @@
 <section id="coned-title">
 	<h1>Continuing Education - Current Students</h1>
 </section>
-<?php include('breadcrumb.php'); ?>
+<?php include 'crumbs.php'; ?>
 
 <div id="coned-landing-content" class="not-landing">
 
