@@ -254,7 +254,7 @@
 			<ul>
 				<li>
 					<a href="#" id="arts-and-design">
-						<img src="/common/coned_images/clusters/arts_design.png" alt="Arts and Design">
+						<img src="common/coned_images/clusters/arts_design.png" alt="Arts and Design">
 						<h3>Arts &amp; Design</h3>
 						<p class="cluster-description">
 							Sheridan, a leading institute of design, offers a wide variety of 
@@ -264,7 +264,7 @@
 				</li>
 				<li>
 					<a href="coned-cluster-page.php" id="business">
-						<img src="/common/coned_images/clusters/business.png" alt="Business">
+						<img src="common/coned_images/clusters/business.png" alt="Business">
 						<h3>Business</h3>
 						<p class="cluster-description">
 							Sheridan offers a wide range of business courses including accounting, financial services, management, marketing and administration.
@@ -273,7 +273,7 @@
 				</li>
 				<li>
 					<a href="#" id="communication-language">
-						<img src="/common/coned_images/clusters/communication_language.png" alt="Communications and Language">
+						<img src="common/coned_images/clusters/communication_language.png" alt="Communications and Language">
 						<h3>Communications &amp; Language</h3>
 						<p class="cluster-description">
 							Learn a new language, or improve in one you already know. Sheridan offers courses in English and foreign languages such as French, Italian, or Spanish.
@@ -282,14 +282,14 @@
 				</li>
 				<li>
 					<a href="#" id="computer-studies">
-						<img src="/common/coned_images/clusters/computer_studies.png" alt="Computer Studies">
+						<img src="common/coned_images/clusters/computer_studies.png" alt="Computer Studies">
 						<h3>Computer Studies</h3>
 						<p class="cluster-description">Explore the rapidly changing world of technology in our Computer Studies programs. Acquire new marketable skills in information systems and technology.</p>
 					</a>
 				</li>
 				<li>
 					<a href="#" id="education-liberal-studies">
-						<img src="/common/coned_images/clusters/education_liberal_studies.png" alt="Education and Liberal Studies">
+						<img src="common/coned_images/clusters/education_liberal_studies.png" alt="Education and Liberal Studies">
 						<h3>Education &amp; Liberal Studies</h3>
 						<p class="cluster-description">
 							Explore working with children through the field of Early Childhood Education, or dive into Adult Education. Turn your passion for education into a career.
@@ -298,7 +298,7 @@
 				</li>
 				<li>
 					<a href="#" id="environmental-studies">
-						<img src="/common/coned_images/clusters/environmental_studies.png" alt="Environmental Studies">
+						<img src="common/coned_images/clusters/environmental_studies.png" alt="Environmental Studies">
 						<h3>Environmental Studies</h3>
 						<p class="cluster-description">
 							Increase your awareness of environmental issues and become part of the solution. Learn about enhancing the landscape, water management and more.
@@ -307,7 +307,7 @@
 				</li>
 				<li>
 					<a href="#" id="health-wellness">
-						<img src="/common/coned_images/clusters/health_wellness.png" alt="Health and Wellness">
+						<img src="common/coned_images/clusters/health_wellness.png" alt="Health and Wellness">
 						<h3>Health &amp; Wellness</h3>
 						<p class="cluster-description">
 							Choose from a variety of exciting health care professions such as Personal Support Worker, Fitness Trainer, Human Performance Training, Esthetics and Yoga.
@@ -316,7 +316,7 @@
 				</li>
 				<li>
 					<a href="#" id="justice-studies">
-						<img src="/common/coned_images/clusters/justice_studies.png" alt="Justice Studies">
+						<img src="common/coned_images/clusters/justice_studies.png" alt="Justice Studies">
 						<h3>Justice Studies</h3>
 						<p class="cluster-description">
 							Discover a career in public service and become an essential part of your local community with a position in justice, safety and law enforcement.
@@ -325,7 +325,7 @@
 				</li>
 				<li>
 					<a href="#" id="manufacturing-tech-trades">
-						<img src="/common/coned_images/clusters/manufacturing_tech_trades.png" alt="Manufacturing and Technical Trades">
+						<img src="common/coned_images/clusters/manufacturing_tech_trades.png" alt="Manufacturing and Technical Trades">
 						<h3>Manufacturing &amp; Technical Trades</h3>
 						<p class="cluster-description">
 							Explore a career in the manufacturing, quality assurance, home inspection, building systems and engineering sectors and gain essential, in-demand skills.
@@ -335,7 +335,7 @@
 				</li>
 				<li>
 					<a href="#" id="online-learning">
-						<img src="/common/coned_images/clusters/online_programs.png" alt="Online Learning">
+						<img src="common/coned_images/clusters/online_programs.png" alt="Online Learning">
 						<h3>Online Learning</h3>
 						<p class="cluster-description">
 							Learn anytime, anywhere. Sheridan offers over 200 courses online that are flexible and allow you to learn on your time, whenever you want. 
@@ -345,7 +345,7 @@
 				</li>
 				<li>
 					<a href="#" id="leisure">
-						<img src="/common/coned_images/clusters/motorcycle.png" alt="Motorcycle Training">
+						<img src="common/coned_images/clusters/motorcycle.png" alt="Motorcycle Training">
 						<h3>Motorcycle Training</h3>
 						<p class="cluster-description">
 							Sheridan's certified, professional instructors are dedicated to teaching new and experienced motorcycle riders.
