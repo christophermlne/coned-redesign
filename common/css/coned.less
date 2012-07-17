@@ -184,11 +184,14 @@ div#content {
 	form {
 		float:left;
 		width:50%;
+		//font-size:16px;
 		margin-right:3em;
 		margin-top:1.4em;
 		fieldset {
 			.clearfix;
+			//font-size:16px;
 			input.coned-search-field {
+			//	font-size:16px;
 				width:53%;
 				border:none;
 				background:white;
@@ -240,7 +243,7 @@ div#content {
 		text-align:center;
 	}
 	#coned-search-results-display {
-		background:url('common/coned_images/paper-texture-dark.jpg') #3a3a3a;
+		background:url('../coned_images/paper-texture-dark.jpg') #3a3a3a;
 		margin-top: 15px !important;
 		padding-bottom: 1em;
 		.column(12,12);
@@ -678,6 +681,7 @@ div#content {
 				width:60%;
 				border:none;
 				background:white;
+				font-size:11px !important;
 				padding:1em 2em;
 				margin-right:.75em;
 				float:left;
@@ -687,6 +691,7 @@ div#content {
 				width:15%;
 				background: url(../coned_images/search-s.png) center center no-repeat #0087f0;
 				cursor:pointer;
+				font-size:11px !important;
 				padding:1em 2em;
 				border:none;
 				float:left;
@@ -694,6 +699,7 @@ div#content {
 			}
 			.smallSearchBtn {
 				width:9%;
+				font-size:11px !important;
 				text-indent:-9999px;
 			}
 		}
@@ -969,7 +975,7 @@ div#content {
 				color: #878787;
 				float:left;	
 				text-decoration:none;
-				background:url(/common/coned_images/crumbs-main.png) right center no-repeat #efefef;
+				background:url(../coned_images/crumbs-main.png) right center no-repeat #efefef;
 				padding:0.6em 2em 0.6em 1.3em;
 				&:hover{
 					color: #000;
@@ -996,7 +1002,7 @@ div#content {
 			//}
 			&:last-child {
 				a {
-					background: url(/common/coned_images/crumbs-last.png) right center no-repeat #efefef;
+					background: url(../coned_images/crumbs-last.png) right center no-repeat #efefef;
 				}
 			}
 		}
@@ -1174,7 +1180,7 @@ section.currentstudents-intro{
 					padding:2.1%;
 					background:white;	
 					//margin:0.5em 0.3em;
-					margin-right:1em;
+					margin-right:2.4%;
 					text-decoration:none;
 					.box-shadow(0px 1px 1px rgba(0, 0, 0, 0.2);
 					&:hover{
@@ -1186,6 +1192,9 @@ section.currentstudents-intro{
 					background:url('../coned_images/deco/roll-over-cluster-arrow.png') #007ac3 bottom right no-repeat;
 					}
 				}		
+			}
+			a.last {
+				margin-right: 0 !important;
 			}
 			li:last-child {
 				a {
@@ -1199,7 +1208,7 @@ section.currentstudents-intro{
 
 .call-out-2, .call-out-3 {		
 	a {
-		background: url(/common/coned_images/deco/white-arrow.png) no-repeat left;
+		background: url(../coned_images/deco/white-arrow.png) no-repeat left;
 	}
 	h3{
 		color:white;
@@ -1227,11 +1236,11 @@ section.currentstudents-intro{
 	.border-radius(0px, 20px, 20px, 20px);
 }
 .call-out-2 {
-	background:url('/common/coned_images/paper-texture-lime.jpg');
+	background:url('../coned_images/paper-texture-lime.jpg');
 	margin:0px;
 }
 .call-out-3 {
-	background:url('/common/coned_images/paper-texture-cyan.jpg');
+	background:url('../coned_images/paper-texture-cyan.jpg');
 	margin:1em 0;
 }
 

@@ -32,7 +32,7 @@
 				<li><a href="#">MyStudent<br /> Centre</a></li>
 				<li><a href="#">Final Exams<br /> Book Online</a></li>
 				<li><a href="#">Request<br /> Transcript</a></li>
-				<li><a href="#">Academic<br /> Policies</a></li>
+				<li><a href="#" class="last">Academic<br /> Policies</a></li>
 			</ul>
 		</div>
 		
