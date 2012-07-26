@@ -726,6 +726,28 @@ div#content {
 #coned-aside {
    .column(3,12); 
    margin:0px;
+   #contact-info-newcomers {
+   	h3 {
+		background: #f7f7f7;
+		margin:0;
+		color: #404040;
+		padding:0.8em;
+		margin-bottom:1em;
+		text-indent: 0.5em;
+		border-top: 1px solid #fff;
+	}
+   	h4 {
+   		padding:0 1.8em;
+   		color:#000000;
+   	}
+   	p{
+   		padding:1em 2em;
+   		font-size: 0.9em;
+   		a{
+   			color:blue;
+   		}
+   	}
+   }
    #news-hightlight {
 		border:1px solid #dfdfdf;
 		margin:0;
@@ -1305,15 +1327,20 @@ section.currentstudents-intro{
 			h3{
 				color:#333;
 				.adelleHeavy();
-				font-size:1.2em;	
+				font-size:1.2em;
+				margin-bottom:0px;
 			}
 			.list-2{
 				li{
-					padding:0.5em 0em;
+					padding:0.1em 0em;
 					a {
 						color:#017ec0;
 						text-decoration:none;
-
+						//display:inline-block;
+						padding:0;
+						margin:0;
+						padding-left:10px;
+						background: url(../coned_images/deco/arrow-link-read.png) 0 5px no-repeat;
 					}
 					&:hover {
 						text-decoration: underline;

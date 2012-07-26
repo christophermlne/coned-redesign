@@ -20,45 +20,50 @@
 	<section id="coned-cluster-featured"><!--Imagery to come--></section>
 	
 	<section class="newcomers-intro">
-		<div class="intro-text"><h2>Welcome to Canada</h2><p>Pellentesque habitant morbi tristique senectus et netus et malesuada 
-	fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p><p>Pellentesque habitant morbi tristique senectus et netus et malesuada 
-	est. Mauris placerat eleifend leo.</p></div>
+		<div class="intro-text"><h2>Welcome to Canada</h2><p>Welcome to Sheridan Institute of Technology and Advanced Learning. As an immigrant to Canada, you may need some help in getting established here. Integrating into the workforce is usually the most important goal for most Canadian newcomers. We can help!
+
+Sheridan offers a variety of <strong>FREE programs and resources</strong> specific to immigrant education and job placement through Sheridan Centre for Internationally Trained Individuals (SCITI). </p></div>
 		
-		<div class="call-out-2"><h3>Information Sessions</h3><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br> <br><a href="#">Click here to sign up for</a></p></div>
+		<div class="call-out-2"><h3>Information Sessions</h3><p> We encourage you to find out what is available by attending one of our Information Sessions.<br> <br><a href="#">Click here to sign up for</a></p></div>
 
 
 	</section>
 
 	  <section id="way-find">
 			<section id="way-find-item">
-				<h2>Job Preperation</h2>
+				<h2>Workplace Communication Skills and Job Preperation</h2>
 				<div class="way-find-desc">
-					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+					<p>Whatever your plans are here in Canada, improving your English may be one of the most important things you can do if English is your second language.</p>
 				 </div>
 				<div class="way-find-links">
-					<h3>Title for the links</h3>
-					<p>this is the description</p>
+					<h3>OSLT (Occupation Specific Language Training)</h3>
+					<p>Part-Time Programs</p>
 				<ul class="list-2">
-					<li><a href="#">Canadian Securities</a></li>
-					<li><a href="#">Financial Planning</a></li>
-					<li><a href="#">Accounting and Finance - Other Related</a></li>
-				 </ul></div>
+					<li><a href="#">Learn More About</a></li>
+					<li><a href="#">Attend Information Session</a></li>
+					<li><a href="#">Apply Now</a></li>
+				 </ul>
+					<h3>ELT  (Enhanced Language Training)</h3>
+					<p>Full-Time Program</p>
+				<ul class="list-2">
+					<li><a href="#">Learn More About</a></li>
+					<li><a href="#">Attend Information Session</a></li>
+					<li><a href="#">Apply Now</a></li>
+				 </ul>
+				</div>
 			</section>
 			<section id="way-find-item">
 				<h2>Language Training</h2>
 				<div class="way-find-desc">
-					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-					<p>Pellenstas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
-					<p>Pellenstas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
-					</div>
+					<p>Partner with Sheridan to fast track to the job that you want.</p>
+				</div>
 				<div class="way-find-links">
+					<h3>LINC (Language Instruction for Newcomers to Canada)</h3>
+					<p>Full-time Day Programs</p>
 				<ul class="list-2">
-					<li><a href="#">Canadian Securities</a></li>
-					<li><a href="#">Financial Planning</a></li>
-					<li><a href="#">Accounting and Finance - Other Related</a></li>
-					<li><a href="#">Canadian Payroll Association - Payroll Certification Programs</a></li>
-					<li><a href="#">Tax Accounting</a></li>
-					<li><a href="#">Accounting and Finance - Other Related</a></li>
+					<li><a href="#">Learn More About</a></li>
+					<li><a href="#">Attend Information Session</a></li>
+					<li><a href="#">Apply Now</a></li>
 				</ul></div>
 			</section>
 </div>
@@ -77,8 +82,21 @@
 		<li><a href="#">How to Register</a></li>
 		<li><a href="#">Contact Us</a></li>
 	</ul>
+	<div id="contact-info-newcomers">
+		<h3>Contact Info</h3>
+		<p><strong>Email:</strong> <a href="mailto:sciti@sheridaninstitute.ca">sciti@sheridaninstitute.ca</a>
+		</p>
+		<h4>Brampton (Davis Campus)</h4>
+		<p>7899 McLaughlin Road</br>	(Welcome Counter)</br> Brampton, ON L6Y 5H9 </br>(905) 459 - 7533 Ext 8101</p>
+		<h4>Oakville (STC Campus)</h4>
+		<p>7407 Iroquois Shore Road</br> (Room A23)</br> Oakville, ON L6H 1M3 </br>(905) 845 - 9430 Ext. 8101</p>
+		<h4>Mississauga (HMC Campus)</h4>
+		<p>4180 Duke of York Blvd. </br>(Welcome Desk) </br>Mississauga, ON L5B 0G5 </br>(905) 845 - 9430 Ext. 8101</p>
+
+	</div>
 
 	<?php include('news.php'); ?>
+
 
 	<script>
 	$(document).ready(function() {
