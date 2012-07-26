@@ -24,7 +24,7 @@
 
 Sheridan offers a variety of <strong>FREE programs and resources</strong> specific to immigrant education and job placement through Sheridan Centre for Internationally Trained Individuals (SCITI). </p></div>
 		
-		<div class="call-out-2"><h3>Information Sessions</h3><p> We encourage you to find out what is available by attending one of our Information Sessions.<br> <br><a href="#">Click here to sign up for</a></p></div>
+		<div class="call-out-2"><h3>Information Sessions</h3><p> We encourage you to find out what is available by attending one of our Information Sessions.<br> <br><a href="#">Click here to sign up</a></p></div>
 
 
 	</section>
