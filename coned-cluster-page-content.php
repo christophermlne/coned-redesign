@@ -87,6 +87,57 @@
 		<li><a href="#">A-Z Course Listing</a></li>
 	</ul>
 
+	<section id="online-learning">
+		<h3>Online Learning at Sheridan</h3>
+		<ul class="links">
+			<li><a href="http://www.ontariolearn.com/index.php/en/?page=areyouready" target="_blank">Online Learning Assessment</a></li>
+			<li><a href="http://www.ontariolearn.com/eportal/FAQ-Login.htm" target="_blank">Ontario Learn FAQ Section</a></li>
+			<li><a href="">Current Online Programs</a></li>
+		</ul>
+	</section>
+
+	<section id="registered">
+		<h3>Info for Registered Online Learners</h3>
+		<ul class="links">
+			<li><a href="">Get Your Textbook</a></li>
+			<li><a href="">Login to your OntarioLearn Course</a></li>
+			<li><a href="">Login to your SLATE Course</a></li>
+			<li><a href="">Online Learning FAQs</a></li>
+			<li><a href="">Book Your Final Exam</a></li>
+			<li><a href="">Withdrawal and Refund Policies</a></li>
+		</ul>
+	</section>
+
+	<section id="online-contact">
+		<h3>Contact Us</h3>
+		<ul>
+			<li>
+				<h4>OntarioLearn Course Login Help</h4>
+				<p>Call: 1 (800) 695-5008</p>
+				<p>Before calling, please have your UserID, password and OntarioLearn course code handy.</p>
+				<hr>
+			</li>
+			<li>
+				<h4>SLATE Course Login Help</h4>
+				<p>Email: <a href="mailto:helpdesk@sheridanc.on.ca">helpdesk@sheridanc.on.ca</a></p>
+				<p>Call: 905-459-7533 ext 2961</p>
+				<hr>
+			</li>
+			<li>
+				<h4>General Online Inquiries</h4>
+				<p>For non-technical assistance</p>
+				<p>Email: <a href="mailto:ce.online@sheridanc.on.ca">ce.online@sheridanc.on.ca</a></p>
+				<p>Call: 905-459-7533: Jennifer at ext 5181 or Gwen at ext 5223</p>
+			</li>
+			<li>
+				<div class="important">
+					<h4>Important Note</h4>
+					<p>Due to the volume of inquiries all support for online courses at Sheridan are preferred via email. By using email students will receive a quicker response.</p>
+				</div>
+			</li>
+		</ul>
+	</section>
+
 
 </aside>
 
