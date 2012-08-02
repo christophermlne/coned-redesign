@@ -87,6 +87,8 @@
 		<li><a href="#">A-Z Course Listing</a></li>
 	</ul>
 
+	<!-- online learning cluster section start -->
+
 	<section id="online-learning">
 		<h3>Online Learning at Sheridan</h3>
 		<ul class="links">
@@ -137,6 +139,8 @@
 			</li>
 		</ul>
 	</section>
+
+	<!-- online learning cluster section end -->
 
 
 </aside>
