@@ -17,26 +17,16 @@
 <?php include 'crumbs.php'; ?>
 
 <div id="coned-messaging-area">
-	
-		<!-- Slider -->
-		<div id="slider_container">
-			<div id="landing_slider">
-				<ul class="bjqs">
-					<li><img src="common/coned_images/slider/01.jpg" alt="Part-time learning, full-time success"></li>
-					<li><img src="common/coned_images/slider/02.jpg" alt="Motorcycle training"></li>
-					<li><img src="common/coned_images/slider/03.jpg" alt="Online learning"></li>
-				</ul>
-			</div>
+	<!-- Slider -->
+	<div id="slider_container">
+		<div id="landing_slider">
+			<ul class="bjqs">
+				<li><img src="common/coned_images/slider/01.jpg" alt="Part-time learning, full-time success"></li>
+				<li><a href="http://www.sheridancollege.ca/Programs%20and%20Courses/Continuing%20Education/conedprograms.aspx?id=0"><img src="common/coned_images/slider/02.jpg" alt="Motorcycle training"></a></li>
+				<li><a href="http://www.sheridancollege.ca/Admissions/Apply/Continuing%20Education/Motorcycle%20Training.aspx"><img src="common/coned_images/slider/03.jpg" alt="Online learning"></a></li>
+			</ul>
 		</div>
-
-		<script>
-		// $(document).ready(function() {
-		// 	$('#landing_slider').bjqs({
-		// 		'width' : 960,
-		// 		'height' : 300
-		// 	});
-		//   });
-		</script>
+	</div>
 </div>
 
 <div id="coned-search-bar">
