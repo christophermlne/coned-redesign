@@ -2,6 +2,14 @@ var sheridan={homeInit:function(){
 	
 	$(document).ready(function(){
 
+		// Landing slider
+
+		$('#landing_slider').bjqs({
+			'width' : 960,
+			'height' : 300,
+			'rotationSpeed' : 4000
+		});
+
 		$('#coned-search-results').hide();
 		$('#close-search').hide();
 		

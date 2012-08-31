@@ -17,37 +17,25 @@
 <?php include 'crumbs.php'; ?>
 
 <div id="coned-messaging-area">
-	<div id="coned-layerslider">
-		<div id="dim">
-
-					<div id="layerslider">
-						
-						<div class="ls-layer" rel="slidedelay: 3000; slidedirection: top;" style="background: url('/common/coned_images/paper-texture-light.jpg') #F7F7F7;">
-							<img class="ls-s3" src="common/coned_images/slider/test-banner.png" alt="sublayer" style="left: 30px; top: 0px">
-							<img class="ls-s7" src="common/coned_images/slider/people.png" alt="sublayer" style="left: 250px; top: 90px">
-							<p class="ls-s0" alt="sublayer" style="left: 400px, top: 0px;color:red;font-weight:bold;">test</p>
-						</div>
-						<div class="ls-layer" rel="slidedelay: 3000; slidedirection: top;" style="background: url('/common/coned_images/paper-texture-light.jpg') #F7F7F7;">
-							<img class="ls-s3" src="common/coned_images/slider/laptop-guy.png" alt="sublayer" style="left: 0px; top: 0px">
-							<img class="ls-s7" src="common/coned_images/slider/extended-banner-transp.png" alt="sublayer" style="left: 330px; top: -500px">
-							<img class="ls-s0" src="common/coned_images/slider/banner-explore-now.png" alt="sublayer" style="left: 70%; top:330px;">
-							<p class="ls-s0" alt="sublayer" style="left: 400px, top: 0px;color:red;font-weight:bold;">test</p>
-						</div>
-				
-					</div>
-					
-				</div>
+	
+		<!-- Slider -->
+		<div id="slider_container">
+			<div id="landing_slider">
+				<ul class="bjqs">
+					<li><img src="common/coned_images/slider/01.jpg" alt="Part-time learning, full-time success"></li>
+					<li><img src="common/coned_images/slider/02.jpg" alt="Motorcycle training"></li>
+					<li><img src="common/coned_images/slider/03.jpg" alt="Online learning"></li>
+				</ul>
+			</div>
 		</div>
-		<!-- <script src="../layerslider/jQuery/jquery-1.6.2.min.js" type="text/javascript"></script> -->
-		<script src="common/layerslider/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
-		<script src="common/layerslider/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$('#layerslider').layerSlider({
-					//skinsPath : '../layerslider/skins/',
-					globalBGColor : '#F7F7F7'
-				});
-			});
+
+		<script>
+		// $(document).ready(function() {
+		// 	$('#landing_slider').bjqs({
+		// 		'width' : 960,
+		// 		'height' : 300
+		// 	});
+		//   });
 		</script>
 </div>
 
